@@ -1,0 +1,13 @@
+{
+	"data":[
+		{
+			"date": "2016-01-12", 
+			"badge": false, 
+			"classname": "championnat",
+			"modal": true,
+			"title": "Hey", 
+			"body": "Body" , 
+			"footer": "footer"
+		}
+	]
+}

@@ -1,0 +1,209 @@
+html{
+	width:100%;
+	height: 100%;
+}
+
+body{
+	
+	width:100%;
+}
+
+body.welcome{
+	height: 100%;
+}
+
+body a,
+body a:hover,
+body a:visited,
+body a:link,
+body a:active{
+	text-decoration: none;
+	color:#FFF;
+}
+
+.page {
+	margin-top: 55px
+}
+
+.main-header{
+	width:100%;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+	height: 60px;
+	
+	background-color: #222;
+	z-index: 2;
+}
+
+.main-header.main{
+	background-color: initial;
+}
+
+.main-header > div{
+	height: 100%;
+	padding: 10px;
+}
+
+.main-header .header-title{
+	
+	position: absolute;
+	top:0;
+	left:0;
+	
+	width:400px;
+	
+	font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+	font-size: 2em;
+}
+
+.main-header .header-title a{
+	color: #fed136;
+}
+
+
+.main-header .main-menu{
+	box-sizing: border-box;
+	width:100%;
+	padding-left:400px;
+}
+
+
+.main-menu ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-align: right;
+}
+
+.main-menu ul li{
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+.main-menu ul li a{
+	text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.main-menu ul li a:hover{
+	
+	outline: 0;
+    color: #fed136;
+}
+
+.main-menu ul li.active{
+	color: #fff;
+    background-color: #fec503;
+}
+
+.main-footer {
+	margin-top: 6em;
+}
+.main-footer img{
+	margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+	height: 88px;
+}
+
+
+.content{
+	margin-top:1em;
+	margin-bottom: 1em;
+	
+	font-size: 1.25em;
+}
+
+.welcome{
+	height:100%;
+	width:100%;
+	background-image: url('../img/karateguy-black.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.welcome .container{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+	
+	color: #FFF;
+}
+
+
+.welcome .intro-text .intro-lead-in {
+	margin-bottom: 25px;
+	font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 40px;
+	font-style: italic;
+	line-height: 40px;
+}
+
+.welcome .intro-text .intro-heading {
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 75px;
+	font-weight: 700;
+	line-height: 75px;
+}
+
+.club .carousel{
+	margin-bottom: 2em;
+}
+
+.club .row:nth-child(2n) {
+	margin-bottom: 4em;
+}
+.club .arts img{
+	width: 140px;
+}
+
+.club a[target='_blank'] span i+i{
+	transition-duration: 1s;
+    transition-property: transform;
+}
+.club a[target='_blank'] span i+i:hover{
+	transform: rotateZ(360deg);	
+}
+
+
+
+.team .schedule table{
+	width:100%;
+	table-layout: fixed;
+	text-align: center;
+}
+
+
+.team .schedule table td[colspan]{
+	font-weight: bold;
+	text-align: center;
+	
+	height: 2.5em;
+    vertical-align: middle;
+}
+
+.calendar .formation{
+	background-color: #fed136; 
+}
+
+.calendar .championnat {
+	background-color: blueviolet; 
+	color: #FFF;
+}
+
+.calendar .coupe {
+	background-color: #fed136; 
+}
+
+.calendar .coupe {
+	background-color: #fed136; 
+}
