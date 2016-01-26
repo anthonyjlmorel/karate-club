@@ -17,6 +17,7 @@
 	
 	.main-menu ul{
 		position: absolute;
+		z-index: 2000;
 		right:0;
 		top: 60px;
 		width:100%;
@@ -64,5 +65,13 @@
 	.calendar .calendar-container div.zabuto_calendar div.legend span{
 		font-size: 15px;
 		padding-left: 5px;
+	}
+	
+	.welcome .intro-text .intro-heading {
+		font-size: 55px;
+	}
+	
+	.calendar .event-detail h3 {
+		padding-top: 1em;
 	}
 }
