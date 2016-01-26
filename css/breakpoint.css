@@ -1,0 +1,68 @@
+
+.main-menu .toggle{
+	display: none;
+	font-size: 2em;
+	text-align: right;
+	padding-top: 10px;
+}
+
+.main-menu .toggle.expanded{
+	color:#fed136;
+}
+
+@media  screen and  (max-width: 1050px)  {
+	.main-menu .toggle{
+		display: block;
+	}
+	
+	.main-menu ul{
+		position: absolute;
+		right:0;
+		top: 60px;
+		width:100%;
+	}
+	
+	.main-menu li{
+		background-color:#222;
+		display: block;
+	}
+}
+
+@media  screen and  (max-width: 785px)  {
+	
+	.main-header .header-title{
+		font-size:1.5em;
+		width: 270px;
+	}
+	
+	.main-header .main-menu{
+		padding-left: 270px;
+	}
+	
+	.calendar .calendar-container{
+		position: relative;
+		width: auto;
+	}
+	
+	.calendar .event-detail{
+		padding-left: 0;
+	}
+	
+	.calendar .calendar-container .legend {
+		text-align: initial;
+	}
+	
+	.calendar .calendar-container .legend .legend-block{
+		display: inline-block;
+	}
+	
+	.calendar .calendar-container div.zabuto_calendar ul.legend li{
+		width:15px;
+		height:15px;
+	}
+	
+	.calendar .calendar-container div.zabuto_calendar div.legend span{
+		font-size: 15px;
+		padding-left: 5px;
+	}
+}

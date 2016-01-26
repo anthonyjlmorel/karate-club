@@ -1,6 +1,7 @@
 <?php
 	
-$imgNames = array("slide1.jpg",
+$imgNames = array("events/stage-herve-delage.jpg",
+				"slide1.jpg",
 				"slide2.jpg",
 				"slide3.jpg");
 
@@ -34,10 +35,18 @@ $imgNames = array("slide1.jpg",
 		 <div class="item">
 		 <?php
 		 }
+		 	
+		 	if(strrpos($imgName, 'events/') != -1){
+				 echo "<a target='_blank' href='".SITE_WEB_ADDR.'/pages/'.$imgName."'>";
+			 }
 		 ?>
+		 
 		  <img alt="Slide" src="<?php echo SITE_WEB_ADDR; ?>/img/carousel/<?php echo $imgName; ?>">
 		</div>
 		<?php
+			if(strrpos($imgName, 'events/') != -1){
+				 echo "</a>";
+			 }
 		}
 		?>
 	  </div>

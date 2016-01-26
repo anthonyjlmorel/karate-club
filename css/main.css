@@ -77,7 +77,7 @@ body a:active{
 	text-align: right;
 }
 
-.main-menu ul li{
+.main-menu li{
 	display: inline-block;
 	padding: 10px 15px;
 }
@@ -191,12 +191,60 @@ body a:active{
     vertical-align: middle;
 }
 
+.calendar{
+	position: relative;
+}
+
+.calendar .calendar-container{
+	width: 20em;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.calendar .event-detail{
+	width:100%;
+	padding-left: 20em;
+	box-sizing: border-box;
+	text-align: center;
+	
+	min-height: 20em;
+}
+
+.calendar .event-detail img{
+	max-width: 100%;
+}
+
+.calendar .event-detail h3{
+	padding-top: 5em;
+}
+
+
+.calendar .calendar-container .legend {
+	text-align: left;
+}
+
+.calendar .calendar-container .legend .legend-block{
+	display: block;
+}
+
+.calendar .calendar-container div.zabuto_calendar ul.legend li{
+	width:20px;
+	height:20px;
+}
+
+.calendar .calendar-container div.zabuto_calendar div.legend span{
+	font-size: 20px;
+	padding-left: 5px;
+}
+
 .calendar .formation{
-	background-color: #fed136; 
+	background-color: coral;
+	color: white; 
 }
 
 .calendar .championnat {
-	background-color: blueviolet; 
+	background-color: green; 
 	color: #FFF;
 }
 
@@ -204,6 +252,13 @@ body a:active{
 	background-color: #fed136; 
 }
 
-.calendar .coupe {
-	background-color: #fed136; 
+.calendar .stage {
+	background-color: blue;
+	color:white; 
+}
+
+.results{
+	min-height: 10em;
+	text-align: center;
+	padding-top:5em;
 }

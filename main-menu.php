@@ -1,5 +1,9 @@
 <!-- Navigation -->
 <div class="main-menu">
+	<div class="toggle fa fa-align-justify collapsed">
+		
+	</div>
+	
 	<ul>
 		<?php
 			foreach($GLOBALS['menu'] as $key=>$inner){
@@ -15,7 +19,7 @@
 		</li>
 		
 		<?php
-			} 
+			}
 		?>
 	</ul>
 </div>

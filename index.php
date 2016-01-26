@@ -5,7 +5,8 @@
 		"js/jquery.js",
 		"js/bootstrap.js",
 		"js/knockout-3.4.0.js",
-		"js/zabuto_calendar.min.js"
+		"js/zabuto_calendar.min.js",
+		"js/p-scripts/main-menu.js"
 	);
 	
 	$links = array(
@@ -14,6 +15,7 @@
 		"css/theme.css",
 		"font-awesome/css/font-awesome.css",
 		"css/zabuto_calendar.css",
+		"css/breakpoint.css",
 		"http://fonts.googleapis.com/css?family=Montserrat:400,700",
 		"http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700",
 		"http://fonts.googleapis.com/css?family=Kaushan+Script",
@@ -33,9 +35,9 @@
 		'results' => array(
 			'title' => "R&eacute;sultats"
 		),
-		'karate' => array(
+		/*'karate' => array(
 			'title' => "Le Karat&eacute;"
-		),
+		),*/
 		'contact' => array(
 			'title' => "Contact"
 		)
