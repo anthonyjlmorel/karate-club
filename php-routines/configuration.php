@@ -4,9 +4,9 @@
 	error_reporting(E_ALL);
 	
 	if(isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == 'localhost'){
-		// Either at home or chris' home
+		// home
 		
-		define( 'WEB_SITE_FOLDER', 'karate-club' );
+		define( 'WEB_SITE_FOLDER', 'karate-club-dist' );
 		define( 'SITE_WEB_ADDR', 'http://localhost/'.WEB_SITE_FOLDER);
 		
 		// antho's dev conf

@@ -2,11 +2,24 @@
 	include './php-routines/configuration.php';
 	
 	$scripts = array(
-		{{ &jsFiles }}
+		"js/jquery.js",
+		"js/bootstrap.js",
+		"js/knockout-3.4.0.js",
+		"js/zabuto_calendar.min.js",
+		"js/p-scripts/main-menu.js"
 	);
 	
 	$links = array(
-		{{ &cssFiles }}
+		"css/bootstrap.css",
+		"css/main.css",
+		"css/theme.css",
+		"font-awesome/css/font-awesome.css",
+		"css/zabuto_calendar.css",
+		"css/breakpoint.css",
+		"http://fonts.googleapis.com/css?family=Montserrat:400,700",
+		"http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700",
+		"http://fonts.googleapis.com/css?family=Kaushan+Script",
+		'http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic'
 	);
 	
 	$GLOBALS['menu'] = array(
@@ -108,13 +121,6 @@
 	<script type="text/javascript" src="<?php echo $src; ?>"></script>
 	<?php
 	}
-	
-	<script type="text/javascript">
-		var pageIndex = window.location.search.indexOf('p=');
-		if(pageIndex>-1){
-			$(document).ready(window.location.search.substring(pageIndex));
-		}
-	</script>
 	
 	if(MODE == 'prod'){
 		// Insert Google Analytics

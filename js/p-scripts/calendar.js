@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+var calendarReady = function(){
 	
 	var calendarData,
 		viewModel = {
@@ -88,4 +88,4 @@ $(document).ready(function(){
 		
 		ko.applyBindings(viewModel);
 	});
-});
+};

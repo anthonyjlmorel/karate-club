@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+var teamReady = function(){
 	
 	$.ajax({
 		url:'pages/team-descriptor.json',
@@ -10,4 +10,4 @@ $(document).ready(function(){
 		ko.applyBindings(result);
 	});
 	
-});
+};

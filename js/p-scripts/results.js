@@ -1,3 +1,3 @@
-$(document).ready(function(){
+var resultsReady = function(){
 	ko.applyBindings({}});
-});
+};

@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+var mainMenuFunc = function(){
 	var toggle = function(){
 		
 		$('.main-menu ul').slideToggle({
@@ -31,4 +31,6 @@ $(document).ready(function(){
 			}
 		}, 200);
 	});
-});
+};
+
+$(document).ready(mainMenuFunc);

@@ -1,0 +1,27 @@
+{
+  "name": "karate-club",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyjlmorel/karate-club.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonyjlmorel/karate-club/issues"
+  },
+  "homepage": "https://github.com/anthonyjlmorel/karate-club#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify": "0.0.5",
+    "gulp-mustache": "^2.2.0",
+    "gulp-sequence": "^0.4.4",
+    "rimraf": "^2.5.1"
+  }
+}
