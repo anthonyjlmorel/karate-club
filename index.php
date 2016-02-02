@@ -108,14 +108,19 @@
 	<script type="text/javascript" src="<?php echo $src; ?>"></script>
 	<?php
 	}
+	?>
 	
 	<script type="text/javascript">
-		var pageIndex = window.location.search.indexOf('p=');
+		var pattern = "p=",
+			pageIndex = window.location.search.indexOf(pattern),
+			funcName;
 		if(pageIndex>-1){
-			$(document).ready(window.location.search.substring(pageIndex));
+			funcName = window.location.search.substring(pageIndex + pattern.length);
+			$(document).ready(window[funcName + "Ready"]);
 		}
 	</script>
 	
+	<?php
 	if(MODE == 'prod'){
 		// Insert Google Analytics
 	?>

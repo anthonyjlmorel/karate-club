@@ -1,9 +1,11 @@
 var gulp = require("gulp"),
 	gulpConcat = require("gulp-concat"),
 	gulpMinify = require("gulp-minify"),
+	gulpMinifyCss = require("gulp-minify-css"),
 	mst = require('gulp-mustache'),
 	rimraf = require('rimraf'),
-	sequence = require('gulp-sequence');
+	sequence = require('gulp-sequence'),
+	mergeStream = require('merge-stream');
 
 var mode = 'debug';
 
@@ -13,10 +15,10 @@ var cssFiles = ["css/bootstrap.css",
 		"font-awesome/css/font-awesome.css",
 		"css/zabuto_calendar.css",
 		"css/breakpoint.css",
-		"http://fonts.googleapis.com/css?family=Montserrat:400,700",
-		"http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700",
-		"http://fonts.googleapis.com/css?family=Kaushan+Script",
-		'http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic'];
+		"css/montserrat-font.css",
+		"css/roboto-slab-font.css",
+		"css/kaushan-font.css",
+		"css/droid-font.css"];
 		
 var jsFiles = ["js/jquery.js",
 		"js/bootstrap.js",
@@ -28,35 +30,62 @@ var jsFiles = ["js/jquery.js",
 		"js/p-scripts/team.js"
 		];
 		
-var dist = '../karate-club-dist';
+var dist = '../karate-club-dist',
+	buildTimestamp;
 	
 gulp.task('clean', function(cb){
-	rimraf('./dist', cb);
+	rimraf(dist, cb);
 });
 
 gulp.task('copy-php', function(){
 	
-	return gulp.src(['./**/*.php', 
+	var a = gulp.src(['./**/*.php',
 					'!index.php'])
 				.pipe(gulp.dest(dist));
+				
+	var b = gulp.src(['./pages/**/*'])
+				.pipe(gulp.dest(dist + '/pages'));
+				
+	return mergeStream(a,b);
 });
 
 gulp.task('copy-css', function(){
-	return gulp.src(['./css/**/*.css'])
+	if(mode == "debug"){
+		return gulp.src(['./css/**/*.css'])
+					.pipe(gulp.dest(dist + '/css'));	
+	}
+	
+	return gulp.src(cssFiles)
+				.pipe(gulpConcat('build-' + buildTimestamp + '.min.css'))
+				.pipe(gulpMinifyCss())
 				.pipe(gulp.dest(dist + '/css'));
+});
+
+
+gulp.task('copy-js', function(){
+	if(mode == 'debug'){
+		return gulp.src(['./js/**/*.js'])
+				.pipe(gulp.dest(dist + '/js'));
+	}
+	
+	return gulp.src(jsFiles)
+				.pipe(gulpConcat('build-' + buildTimestamp + '.min.js'))
+				.pipe(gulpMinify())
+				.pipe(gulp.dest(dist + '/js'));
+});
+
+gulp.task('copy-font', function(){
+	var font = gulp.src(['./fonts/**/*'])
+				.pipe(gulp.dest(dist + '/fonts'));
+	var fontAwesome = gulp.src(['./font-awesome/fonts/*'])
+				.pipe(gulp.dest(dist + '/fonts'));
+				
+	return mergeStream(font, fontAwesome);
 });
 
 gulp.task('copy-img', function(){
 	return gulp.src(['./img/**/*'])
 				.pipe(gulp.dest(dist + '/img'));
-});
-
-gulp.task('copy-js', function(){
-	if(mode == 'debug'){
-		return gulp.src(
-		['./js/**/*.js']
-		).pipe(gulp.dest(dist + '/js'));
-	}
 });
 
 gulp.task('generate-index', function(){
@@ -66,22 +95,42 @@ gulp.task('generate-index', function(){
 		
 		lst.forEach(function(item){
 			result.push( "\"" + item + "\"" );
-		});
-
+		});	
 		return result;
 	};
 	
+	if(mode == "debug"){
+		return gulp.src("./index.php")
+					.pipe(mst({
+						cssFiles: transformList(cssFiles),
+						jsFiles: transformList(jsFiles)
+					}))
+					.pipe(gulp.dest(dist));	
+	}
+	
 	return gulp.src("./index.php")
 				.pipe(mst({
-					cssFiles: transformList(cssFiles),
-					jsFiles: transformList(jsFiles)
+					cssFiles: '\"css/build-'+buildTimestamp+'.min.css\"',
+					jsFiles: '\"js/build-'+buildTimestamp+'.min-min.js\"'
 				}))
 				.pipe(gulp.dest(dist));
 	
 });
 
 gulp.task('build', function(cb){
-	var seq = ['clean', ['generate-index', 'copy-img', 'copy-css', 'copy-js', 'copy-php'], cb];
+	
+	var seq = ['clean', ['generate-index', 'copy-img', 'copy-font', 'copy-css', 'copy-js', 'copy-php'], cb];
 	
 	sequence.apply(sequence, seq);
+});
+
+gulp.task('build-release', function(cb){
+	mode = "release";
+	buildTimestamp = new Date().getTime();
+	var seq = ['clean', ['generate-index', 'copy-img', 'copy-font', 'copy-css', 'copy-js', 'copy-php'], cb];
+	sequence.apply(sequence, seq);
+});
+
+gulp.task('watch', function(){
+	gulp.watch('./**/*', ['build']);
 });
