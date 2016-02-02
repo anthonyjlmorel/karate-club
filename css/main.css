@@ -34,7 +34,7 @@ body a:active{
 	height: 60px;
 	
 	background-color: #222;
-	z-index: 2;
+	z-index: 9999;
 }
 
 .main-header.main{
@@ -226,6 +226,10 @@ body a:active{
 
 .calendar .calendar-container .legend .legend-block{
 	display: block;
+}
+
+.calendar .calendar-container .legend .legend-text {
+    margin-left: 5px;
 }
 
 .calendar .calendar-container div.zabuto_calendar ul.legend li{

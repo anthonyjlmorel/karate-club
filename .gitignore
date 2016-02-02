@@ -48,6 +48,10 @@ Temporary Items
 
 # Personals Images ...
 img/**
+image-hub
 
 # Excel files
 *.xlsx
+
+# node modules
+node_modules

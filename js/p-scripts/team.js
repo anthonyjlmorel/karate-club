@@ -1,11 +1,10 @@
 
-
-
 $(document).ready(function(){
 	
 	$.ajax({
 		url:'pages/team-descriptor.json',
-		dataType: 'json'
+		dataType: 'json',
+		cache: false
 	}).then(function(result){
 		
 		ko.applyBindings(result);

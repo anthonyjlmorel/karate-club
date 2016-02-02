@@ -60,8 +60,6 @@
 	
 	$GLOBALS['currentPage'] = $currentPage;
 	$bodyClass = $currentPage == "w" ? 'welcome' : '';
-	
-	
 ?>
 <!DOCTYPE html>
 <html lang="fr">

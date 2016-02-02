@@ -1,46 +1,59 @@
 {
 	"team": [
 		{
-			"name": "Darmeschin Ghoerghe",
-			"photo": "ghoerghe.jpg",
-			"desc": "3ème Dan FFKDA"
-		}, {
-			"name": "Knoll Jacquy",
-			"photo": "knolljacky.jpg",
-			"desc": "3ème Dan FFKDA instructeur fédéral, juge, arbitre de ligue Kata et Kumite, Directeur Technique CDK67, Juge des Grades"
-		},
+			"name": "Jacquy KNOLL",
+			"photo": "IMG_4560.JPG",
+			"desc": "4eme dan, responsable technique et administratif du club, instructeur fédéral."
+		}, 
 		{
-			"name": "Diebold Christine",
-			"photo": "christine.jpg",
-			"desc": "1ère Dan FFKDA, AFA"
+			"name": "Emmanuel HOEN",
+			"photo": "unknown.jpg",
+			"desc": "5eme dan, instructeur fédéral"
 		},
 
 		{
-			"name": "Ferraro Antoine",
-			"photo": "antoine.jpg",
-			"desc": "2ème Dan FFKDA, instructeur fédéral"
+			"name": "Ulysse CHALKIADAKIS",
+			"photo": "IMG_4574.JPG",
+			"desc": "2eme dan J.K.A. instructeur fédéral, entraîneur adultes"
+		},
+		
+		{
+			"name": "Christine DIEBOLD",
+			"photo": "IMG_4552.JPG",
+			"desc": "1er dan, assistant (afa)  entraîneur  école de karaté"
 		},
 
 		{
-			"name": "Jean-Christophe Wieber",
-			"photo": "jeanchristophe.jpg",
-			"desc": "2ème Dan FFKDA, AFA"
-
+			"name": "Jean Louis JUNG",
+			"photo": "IMG_4550.JPG",
+			"desc": "2eme dan, instructeur fédéral entraineur baby karaté"
 		},
-
-
 		{
-			"name": "Olivier Caspar",
-			"photo": "olivier.jpg",
-			"desc": "1er Dan FFKDA, AFA"
-
+			"name": "Kelly DA COSTA",
+			"photo": "IMG_4567.JPG",
+			"desc": "3eme dan (master staps) entraineur enfants"
 		},
 
 
 		{
-			"name": "Jean-Louis Jung",
-			"photo": "jeanlouis.jpg",
-			"desc": "1er Dan FFKDA, Arbitre de Ligue Kata, Juge de Ligue Kumite, DAF Assistant Commission Sportive"
+			"name": "Yannick HMAE",
+			"photo": "IMG_4573.JPG",
+			"desc": "2eme dan,  assistant (afa) entraîneur enfants"
+
+		},
+
+
+		{
+			"name": "Anthony MOREL",
+			"photo": "IMG_4568.JPG",
+			"desc": "2eme dan,  assistant (afa)"
+		},
+
+
+		{
+			"name": "Vivien GROSS",
+			"photo": "IMG_4575.JPG",
+			"desc": "1er dan assistant"
 		}
 	]
 

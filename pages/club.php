@@ -12,19 +12,13 @@
 		</div>
 		
 		<div class="row text-center arts">
-			<div class="col-md-4">
-				<span class="fa-stack fa-4x">
-					<img src="<?php echo IMGS_ADDR ?>/club/tai-chi.png" />
-				</span>
-				<h4 class="service-heading">Tai Chi</h4>
-			</div>
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<span class="fa-stack fa-4x">
 					<img src="<?php echo IMGS_ADDR ?>/club/karate.png" />
 				</span>
 				<h4 class="service-heading">Karaté</h4>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<span class="fa-stack fa-4x">
 					<img src="<?php echo IMGS_ADDR ?>/club/krav-maga.png" />
 				</span>
@@ -55,7 +49,7 @@
 					<i class="fa fa-users fa-stack-1x fa-inverse"></i>
 				</span>
 				<h4 class="service-heading">Expérimenté</h4>
-				<p class="text-muted">Avec plus 20 ans d'existence et plus de 160 membres, le club bénéficie d'une équipe qualifiée et rompue aux techniques d'entrainement</p>
+				<p class="text-muted">Avec plus de 35 ans d'existence et plus de 190 membres, le club bénéficie d'une équipe qualifiée et rompue aux techniques d'entrainement</p>
 			</div>
 			<div class="col-md-4">
 				<span class="fa-stack fa-4x">

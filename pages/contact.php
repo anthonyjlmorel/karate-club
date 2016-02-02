@@ -10,7 +10,10 @@
 	
 	<div class="row text-center">
 		<h4 class="service-heading">
-			Les inscriptions se font le Mercredi pendant les horaires de cours
+			Les inscriptions se font les Mercredi/Vendredi pendant les horaires de cours. 
+		</h4>
+		<h4 class="service-heading">
+			Sinon pour tout autre renseignement vous pouvez nous contacter par les moyens suivants:
 		</h4>
 	
 		<div class="col-md-4">
