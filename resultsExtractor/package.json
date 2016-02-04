@@ -1,0 +1,14 @@
+{
+  "name": "excel-to-json",
+  "version": "1.0.0",
+  "description": "convert karate results into exploitable json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "xlsx": "^0.8.0"
+  },
+  "author": "ATM",
+  "license": "ISC"
+}

@@ -12,7 +12,7 @@ var mode = 'debug';
 var cssFiles = ["css/bootstrap.css",
 		"css/main.css",
 		"css/theme.css",
-		"font-awesome/css/font-awesome.css",
+		"css/font-awesome.css",
 		"css/zabuto_calendar.css",
 		"css/breakpoint.css",
 		"css/montserrat-font.css",
@@ -75,12 +75,8 @@ gulp.task('copy-js', function(){
 });
 
 gulp.task('copy-font', function(){
-	var font = gulp.src(['./fonts/**/*'])
+	return gulp.src(['./fonts/**/*'])
 				.pipe(gulp.dest(dist + '/fonts'));
-	var fontAwesome = gulp.src(['./font-awesome/fonts/*'])
-				.pipe(gulp.dest(dist + '/fonts'));
-				
-	return mergeStream(font, fontAwesome);
 });
 
 gulp.task('copy-img', function(){
