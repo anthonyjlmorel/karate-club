@@ -1,0 +1,137 @@
+{
+    "nbr": 15,
+    "results": {
+        "BENJAMINES": [
+            {
+                "licenceNumber": "105 49 173",
+                "result": 1,
+                "firstName": "HERRBRECHT",
+                "lastName": "LAETITIA",
+                "category": "BENJAMINES",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            },
+            {
+                "licenceNumber": "105 49 167",
+                "result": 3,
+                "firstName": "BEZIOU",
+                "lastName": "EMILIE",
+                "category": "BENJAMINES",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            },
+            {
+                "licenceNumber": "108 34 073",
+                "result": 5,
+                "firstName": "JERJIR",
+                "lastName": "TAKWA",
+                "category": "BENJAMINES",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            },
+            {
+                "licenceNumber": "107 22 487",
+                "result": 7,
+                "firstName": "KHOUATRA",
+                "lastName": "SORAYA",
+                "category": "BENJAMINES",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            }
+        ],
+        "PUPILLES MASCULIN": [
+            {
+                "licenceNumber": "105 68 258",
+                "result": 3,
+                "firstName": "CELIK",
+                "lastName": "ARIF",
+                "category": "PUPILLES MASCULIN",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            },
+            {
+                "licenceNumber": "107 51 505",
+                "result": 5,
+                "firstName": "MEUNIER",
+                "lastName": "VICTOR",
+                "category": "PUPILLES MASCULIN",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            },
+            {
+                "licenceNumber": "107 04 465",
+                "result": 5,
+                "firstName": "MEKROUD",
+                "lastName": "SID ALI",
+                "category": "PUPILLES MASCULIN",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            },
+            {
+                "licenceNumber": "107 31 669",
+                "result": 7,
+                "firstName": "YAKBAH",
+                "lastName": "ISMAEL",
+                "category": "PUPILLES MASCULIN",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            }
+        ],
+        "POUSSINS": [
+            {
+                "licenceNumber": "107 31 654",
+                "result": 3,
+                "firstName": "DSIURDSI",
+                "lastName": "ROMAIN",
+                "category": "POUSSINS",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            },
+            {
+                "licenceNumber": "107 22 479",
+                "result": 3,
+                "firstName": "EL ALLALI",
+                "lastName": "RAYAN",
+                "category": "POUSSINS",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            },
+            {
+                "licenceNumber": "108 66 558",
+                "result": 7,
+                "firstName": "DEMMOUCHE",
+                "lastName": "ABDELLAH",
+                "category": "POUSSINS",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            }
+        ],
+        "POUSSINES": [
+            {
+                "licenceNumber": "108 66 555",
+                "result": 3,
+                "firstName": "BENACHIR",
+                "lastName": "KHIRA",
+                "category": "POUSSINES",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            },
+            {
+                "licenceNumber": "108 06 760",
+                "result": 5,
+                "firstName": "EL HAOUARI",
+                "lastName": "DINA",
+                "category": "POUSSINES",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            }
+        ],
+        "BENJAMINS": [
+            {
+                "licenceNumber": "106 14 574",
+                "result": 5,
+                "firstName": "MEHDI",
+                "lastName": "IMRAM",
+                "category": "BENJAMINS",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            }
+        ],
+        "PUPILLES FEMINIMES": [
+            {
+                "licenceNumber": "107 22 477",
+                "result": 7,
+                "firstName": "BAYAZIT",
+                "lastName": "GIZEM",
+                "category": "PUPILLES FEMINIMES",
+                "contest": "OPEN KATA DU BAS-RHIN"
+            }
+        ]
+    }
+}

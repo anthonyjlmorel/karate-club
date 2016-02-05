@@ -262,7 +262,51 @@ body a:active{
 }
 
 .results{
-	min-height: 10em;
-	text-align: center;
-	padding-top:5em;
+	position: relative;
+}
+
+.results .years-selection{
+	width: 10em;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.results .selected-results{
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 12em;
+}
+
+.results .years-selection ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+.results .years-selection li{
+	padding-left:10px;
+}
+
+.results .years-selection li:hover{
+	cursor: pointer;
+}
+
+.results .years-selection li.active{
+	background-color: blue;
+	color: white;
+}
+
+.results .fighters{
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.results .fighters > div{
+	display: table-row;
+}
+
+.results .fighters > div span{
+	display: table-cell;
 }

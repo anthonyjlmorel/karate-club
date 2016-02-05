@@ -128,5 +128,5 @@ gulp.task('build-release', function(cb){
 });
 
 gulp.task('watch', function(){
-	gulp.watch('./**/*', ['build']);
+	gulp.watch(['./**/*', '!./node_modules/**'], ['build']);
 });

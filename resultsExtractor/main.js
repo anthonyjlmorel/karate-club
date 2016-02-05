@@ -2,46 +2,70 @@
 var XLSX = require("xlsx"),
 	fs = require("fs");
 
-var workbook = XLSX.readFile('./001 resultats open kata du 14 novembre 2015 a bouxwiller.xlsx'),
-	first_sheet_name = workbook.SheetNames[0],
-	worksheet = workbook.Sheets[first_sheet_name];
-
-var errorCount = 0;
-
-var resultMap = {
-	nbr: 0,
-	results:{}
-};
-
-for (z in worksheet) {
-	/* all keys that do not begin with "!" correspond to cell addresses */
-	if(z[0] === '!') continue;
-	
-	// Found Line with Leo Lagrange in it
-	if(isLeoLagrange(z)){
-		
-		try{
-			var fighter = extractFighterResult(z);
-			
-			if(!resultMap.results[fighter.category]){
-				resultMap.results[fighter.category] = [];
-			}
-			
-			resultMap.results[fighter.category].push(fighter);
-			resultMap.nbr++;
-			
-		}catch(e){
-			// The method usually fails
-			// because there is no result for the guy (rank > 7)
-			errorCount++;
-		}
+var paramsMap = {};
+process.argv.forEach(function (val, index, array) {
+	if (val.indexOf("--") > -1 && process.argv.length > index + 1) {
+		paramsMap[val.substring(2)] = process.argv[index + 1].toLowerCase();
 	}
+});
+
+if(paramsMap['file'] && paramsMap['out']){
+	extractResult(paramsMap['file'], paramsMap['out']);	
 }
 
-fs.writeFileSync('./output.json', JSON.stringify(resultMap, null, 4));
+
+	
+function extractResult(fileName, outputfile){
+	var workbook = XLSX.readFile(fileName),
+		first_sheet_name = workbook.SheetNames[0],
+		worksheet = workbook.Sheets[first_sheet_name],
+		errorCount = 0,
+		resultMap = {
+			contestName: null,
+			nbr: 0,
+			results:{}
+		};
+	
+	for (z in worksheet) {
+		/* all keys that do not begin with "!" correspond to cell addresses */
+		if(z[0] === '!') continue;
+		
+		// Found Line with Leo Lagrange in it
+		if(isLeoLagrange(z, worksheet)){
+			
+			try{
+				var fighter = extractFighterResult(z, worksheet);
+				
+				if(!resultMap.results[fighter.category]){
+					resultMap.results[fighter.category] = [];
+				}
+				
+				resultMap.results[fighter.category].push(fighter);
+				resultMap.nbr++;
+				
+				if(!resultMap.contestName){
+					resultMap.contestName = fighter.contest;
+				}
+				
+			}catch(e){
+				// The method usually fails
+				// because there is no result for the guy (rank > 7)
+				errorCount++;
+			}
+		}
+	}
+
+	var spaces = null;
+	if(paramsMap['b']){
+		spaces = 4;
+	}
+	fs.writeFileSync(outputfile, JSON.stringify(resultMap, null, spaces));
+}
+
+
 
 // => { firstName, lastName, contest, category, result }
-function extractFighterResult(z){
+function extractFighterResult(z, worksheet){
 	var cell = XLSX.utils.decode_cell(z),
 		fighter = {};
 		
@@ -51,9 +75,9 @@ function extractFighterResult(z){
 	// Extract line information
 	
 	fighter.licenceNumber = worksheet[XLSX.utils.encode_cell({c: cell.c , r: cell.r})].v;
-	fighter.result = worksheet[XLSX.utils.encode_cell({c: cell.c + 1 , r: cell.r})].v;
-	fighter.firstName = worksheet[XLSX.utils.encode_cell({c: cell.c + 2 , r: cell.r})].v;
-	fighter.lastName = worksheet[XLSX.utils.encode_cell({c: cell.c + 3 , r: cell.r})].v
+	fighter.rank = worksheet[XLSX.utils.encode_cell({c: cell.c + 1 , r: cell.r})].v;
+	fighter.lastName = worksheet[XLSX.utils.encode_cell({c: cell.c + 2 , r: cell.r})].v;
+	fighter.firstName = worksheet[XLSX.utils.encode_cell({c: cell.c + 3 , r: cell.r})].v
 	
 	// Find Table header to get category
 	var c = cell.c,
@@ -84,29 +108,9 @@ function extractFighterResult(z){
 	return fighter;
 }
 
-function isLeoLagrange(cell){
+function isLeoLagrange(cell, worksheet){
 	var regexp = /leo\s+lagrange/gi,
 		value = worksheet[cell].v;
 	
 	return typeof value == "string" && value.match(regexp) != null;
-}
-
-// From 'ABE36' => {col: 'ABE', row: 36}
-function getColAndRow(cr){
-	var i = 0;
-	
-	while(i<cr.length && isNaN(parseInt(cr.charAt(i), 10))){
-		i++;
-	}
-	
-	if(i == 0){
-		return {
-			col: cr.charAt(0),
-			row: parseInt(cr.substring(1), 10)
-		};
-	}
-	return {
-		col: cr.substring(0, i),
-		row: parseInt(cr.substring(i), 10)
-	};
 }

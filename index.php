@@ -115,8 +115,14 @@
 			pageIndex = window.location.search.indexOf(pattern),
 			funcName;
 		if(pageIndex>-1){
-			funcName = window.location.search.substring(pageIndex + pattern.length);
-			$(document).ready(window[funcName + "Ready"]);
+			funcName = window.location
+							.search
+							.substring(pageIndex + pattern.length) + "Ready";
+			
+			if(window[funcName]){
+				$(document).ready(window[funcName]);	
+			}
+			
 		}
 	</script>
 	

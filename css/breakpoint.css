@@ -74,4 +74,20 @@
 	.calendar .event-detail h3 {
 		padding-top: 1em;
 	}
+	
+	.results .years-selection{
+		position: static;
+		width: 100%;
+	}
+	
+	.results .years-selection li{
+		display: inline-block;
+		padding-right: 10px;
+		margin-top: 5px;
+	}
+	
+	.results .selected-results{
+		width: 100%;
+		padding-left: 0;
+	}
 }
