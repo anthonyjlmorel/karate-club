@@ -52,6 +52,7 @@ image-hub
 
 # Excel files
 *.xlsx
+resultsExtractor/excels
 
 # node modules
 node_modules

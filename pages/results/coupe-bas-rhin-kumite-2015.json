@@ -1,0 +1,130 @@
+{
+    "contestName": "COUPE DU BAS-RHIN KUMITE",
+    "nbr": 15,
+    "individualResults": {
+        "MINIMES MASCULIN -35Kg": [
+            {
+                "rank": 2,
+                "lastName": "ILIC",
+                "firstName": "DARKO",
+                "category": "MINIMES MASCULIN -35Kg",
+                "contest": "COUPE DU BAS-RHIN"
+            }
+        ],
+        "MINIMES MASCULIN-40Kg": [
+            {
+                "rank": 2,
+                "lastName": "HERRBRECHT",
+                "firstName": "YANIS",
+                "category": "MINIMES MASCULIN-40Kg"
+            }
+        ],
+        "JUNIORS FEMINIME -53Kg": [
+            {
+                "rank": 2,
+                "lastName": "JEANNEROD",
+                "firstName": "LAURA",
+                "category": "JUNIORS FEMINIME -53Kg"
+            }
+        ],
+        "MINIMES FEMINIME -40Kg": [
+            {
+                "rank": 3,
+                "lastName": "LIENHARD",
+                "firstName": "SARAH",
+                "category": "MINIMES FEMINIME -40Kg"
+            },
+            {
+                "rank": 3,
+                "lastName": "MESBAH",
+                "firstName": "MONA",
+                "category": "MINIMES FEMINIME -40Kg"
+            }
+        ],
+        "CADETTES -54Kg": [
+            {
+                "rank": 3,
+                "lastName": "CELIK",
+                "firstName": "ESRA",
+                "category": "CADETTES -54Kg"
+            }
+        ],
+        "SENIOR MASCULIN -67Kg": [
+            {
+                "rank": 3,
+                "lastName": "NADLER",
+                "firstName": "WILLIAM",
+                "category": "SENIOR MASCULIN -67Kg"
+            }
+        ],
+        "CADETS -63Kg": [
+            {
+                "rank": 2,
+                "lastName": "DULAIT",
+                "firstName": "ARA",
+                "category": "CADETS -63Kg",
+                "contest": "COUPE DU BAS-RHIN"
+            }
+        ],
+        "SENIOR MASCULIN -75Kg": [
+            {
+                "rank": 2,
+                "lastName": "MOREL",
+                "firstName": "ANTHONY",
+                "category": "SENIOR MASCULIN -75Kg",
+                "contest": "COUPE DU BAS-RHIN"
+            }
+        ],
+        "JUNIORS FEMINIME +59Kg": [
+            {
+                "rank": 2,
+                "lastName": "THIRION",
+                "firstName": "LAURIE",
+                "category": "JUNIORS FEMINIME +59Kg"
+            }
+        ],
+        "MINIMES FEMINIME -50Kg": [
+            {
+                "rank": 3,
+                "lastName": "MELINE",
+                "firstName": "LUCILLE",
+                "category": "MINIMES FEMINIME -50Kg"
+            }
+        ],
+        "CADETS +70Kg": [
+            {
+                "rank": 3,
+                "lastName": "ISAEV",
+                "firstName": "IBRAHIM",
+                "category": "CADETS +70Kg",
+                "contest": "COUPE DU BAS-RHIN"
+            }
+        ],
+        "MINIMES FEMINIME -55Kg": [
+            {
+                "rank": 3,
+                "lastName": "HMAE",
+                "firstName": "MARIE",
+                "category": "MINIMES FEMINIME -55Kg",
+                "contest": "COUPE DU BAS-RHIN"
+            }
+        ],
+        "MINIMES MASCULIN -65Kg": [
+            {
+                "rank": 2,
+                "lastName": "BAYAZIT",
+                "firstName": "YACUP",
+                "category": "MINIMES MASCULIN -65Kg",
+                "contest": "MINIMES-CADETS-JUNIORS-SENIORS"
+            },
+            {
+                "rank": 3,
+                "lastName": "FRITSCH",
+                "firstName": "THEO",
+                "category": "MINIMES MASCULIN -65Kg",
+                "contest": "MINIMES-CADETS-JUNIORS-SENIORS"
+            }
+        ]
+    },
+    "teamResults": {}
+}

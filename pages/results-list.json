@@ -1,8 +1,14 @@
 {
 	"list":{	
 		"2015":{
-			"11-14": "open-kata-bas-rhin-2015.json",
-			"11-15": "open-kumite-bas-rhin-2015.json"
+			"1": "open-kata-bas-rhin-2015.json",
+			"2": "open-kumite-bas-rhin-2015.json",
+			
+			"3": "coupe-bas-rhin-kumite-2015.json",
+			"4": "coupe-bas-rhin-kata-2015.json",
+			
+			"5": "championnat-bas-rhin-kumite-2015.json",
+			"6": "championnat-bas-rhin-kata-2015.json"
 		}
 	}
 }

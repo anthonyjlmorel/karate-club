@@ -1,0 +1,161 @@
+{
+    "contestName": "OPEN KUMITE DU BAS-RHIN",
+    "nbr": 19,
+    "individualResults": {
+        "PUPILLES FEMINIME -25Kg": [
+            {
+                "rank": 2,
+                "lastName": "POH",
+                "firstName": "LEA",
+                "category": "PUPILLES FEMINIME -25Kg",
+                "contest": "OPEN KUMITE DU BAS-RHIN"
+            }
+        ],
+        "PUPILLES MASCULIN -25Kg": [
+            {
+                "rank": 2,
+                "lastName": "MEUNIER",
+                "firstName": "VICTOR",
+                "category": "PUPILLES MASCULIN -25Kg",
+                "contest": "OPEN KUMITE DU BAS-RHIN"
+            }
+        ],
+        "BENJAMINS -35Kg": [
+            {
+                "rank": 2,
+                "lastName": "MEHDI",
+                "firstName": "IMRAM",
+                "category": "BENJAMINS -35Kg"
+            },
+            {
+                "rank": 3,
+                "lastName": "CELIK",
+                "firstName": "FATIH",
+                "category": "BENJAMINS -35Kg"
+            }
+        ],
+        "BENJAMINES -30Kg": [
+            {
+                "rank": 3,
+                "lastName": "HERRBRECHT",
+                "firstName": "LAETITIA",
+                "category": "BENJAMINES -30Kg"
+            }
+        ],
+        "POUSSINES -25Kg": [
+            {
+                "rank": 3,
+                "lastName": "BENACHIR",
+                "firstName": "KHIRA",
+                "category": "POUSSINES -25Kg"
+            }
+        ],
+        "PUPILLES MASCULIN -30Kg": [
+            {
+                "rank": 7,
+                "lastName": "OTT",
+                "firstName": "ILYES",
+                "category": "PUPILLES MASCULIN -30Kg"
+            }
+        ],
+        "POUSSINES -30Kg": [
+            {
+                "rank": 1,
+                "lastName": "EL HAOUARI",
+                "firstName": "DINA",
+                "category": "POUSSINES -30Kg",
+                "contest": "OPEN KUMITE DU BAS-RHIN"
+            }
+        ],
+        "POUSSINS -30Kg": [
+            {
+                "rank": 3,
+                "lastName": "EL ALLALI",
+                "firstName": "RAYAN",
+                "category": "POUSSINS -30Kg",
+                "contest": "OPEN KUMITE DU BAS-RHIN"
+            }
+        ],
+        "BENJAMINES -40Kg": [
+            {
+                "rank": 1,
+                "lastName": "BEZIOU",
+                "firstName": "EMILIE",
+                "category": "BENJAMINES -40Kg"
+            }
+        ],
+        "PUPILLES MASCULIN -40Kg": [
+            {
+                "rank": 3,
+                "lastName": "GUT",
+                "firstName": "VALENTIN",
+                "category": "PUPILLES MASCULIN -40Kg"
+            }
+        ],
+        "BENJAMINS -45Kg": [
+            {
+                "rank": 5,
+                "lastName": "BAYAZIT",
+                "firstName": "TUFAN",
+                "category": "BENJAMINS -45Kg"
+            },
+            {
+                "rank": 5,
+                "lastName": "GULMEZ",
+                "firstName": "AHMET",
+                "category": "BENJAMINS -45Kg"
+            },
+            {
+                "rank": 7,
+                "lastName": "MECKES",
+                "firstName": "MEHDI",
+                "category": "BENJAMINS -45Kg"
+            }
+        ],
+        "BENJAMINES -45Kg": [
+            {
+                "rank": 2,
+                "lastName": "NAVARETTE",
+                "firstName": "MANON",
+                "category": "BENJAMINES -45Kg",
+                "contest": "OPEN KUMITE DU BAS-RHIN"
+            }
+        ],
+        "PUPILLES FEMINIME -45Kg": [
+            {
+                "rank": 2,
+                "lastName": "BEZIOU",
+                "firstName": "ANAIS",
+                "category": "PUPILLES FEMINIME -45Kg",
+                "contest": "OPEN KUMITE DU BAS-RHIN"
+            }
+        ],
+        "BENJAMINS -50Kg": [
+            {
+                "rank": 3,
+                "lastName": "DSIURDSI",
+                "firstName": "HUGO",
+                "category": "BENJAMINS -50Kg",
+                "contest": "OPEN KUMITE DU BAS-RHIN"
+            }
+        ],
+        "BENJAMINES -50Kg": [
+            {
+                "rank": 1,
+                "lastName": "OTT",
+                "firstName": "INES",
+                "category": "BENJAMINES -50Kg"
+            }
+        ],
+        "PUPILLES MASCULIN +50Kg": [
+            {
+                "rank": 1,
+                "lastName": "WECKER",
+                "firstName": "VIKESCH",
+                "category": "PUPILLES MASCULIN +50Kg",
+                "contest": "OPEN KUMITE DU BAS-RHIN"
+            }
+        ]
+    },
+    "teamResults": {}
+}

@@ -13,8 +13,9 @@
 		<!-- ko foreach: displayedResults -->
 		
 		<h2 data-bind="text: name"></h2>
-		<div data-bind="foreach: categories">
-			<h3 data-bind="text: name"></h3>
+		<h2>En Individuel</h2>
+		<div data-bind="foreach: individuals">
+			<h4 data-bind="text: name"></h4>
 			<div class="fighters" data-bind="foreach: fighters">
 				<div>
 					<span data-bind="text: firstName"></span>
@@ -24,7 +25,7 @@
 						
 						switch(rank){
 							case 1:
-								return "1 er";
+								return "1 er/ère";
 							default:
 								return rank + " ieme";
 						}
@@ -36,6 +37,34 @@
 				
 			</div>
 		</div>
+		
+		<!-- ko if: teams && teams.length > 0 -->
+		<h2>Par Equipes</h2>
+		<div data-bind="foreach: teams">
+			<h4 data-bind="text: name"></h4>
+			<div class="fighters" data-bind="foreach: fighters">
+				<div>
+					<!-- ko foreach: fighters -->
+					<span data-bind="text: firstName + ' ' + lastName"></span>
+					<!-- /ko -->
+					
+					<!-- ko with: (function(){
+						
+						switch(rank){
+							case 1:
+								return "1 er/ère";
+							default:
+								return rank + " ieme";
+						}
+						
+						})() -->
+					<span data-bind="text: $data"></span>
+					<!-- /ko -->
+				</div>
+				
+			</div>
+		</div>
+		<!-- /ko -->
 		<hr/>
 		
 		<!-- /ko -->

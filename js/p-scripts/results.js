@@ -26,16 +26,32 @@ var resultsReady = function(){
 		for(var i in resultsLst){
 			var contest = {
 				name: resultsLst[i].contestName,
-				categories: []
+				individuals: [],
+				teams: []
 			};
 			
-			for(var j in resultsLst[i].results){
+			
+			
+			for(var j in resultsLst[i].results.individualResults){
 				var cat = {
 					name : j,
-					fighters: resultsLst[i].results[j]
+					fighters: resultsLst[i].results.individualResults[j]
 				};
 				
-				contest.categories.push(cat);
+				contest.individuals.push(cat);
+				
+				cat.fighters.sort(function(a, b){
+					return a.rank - b.rank;
+				});
+			}
+			
+			for(var j in resultsLst[i].results.teamResults){
+				var cat = {
+					name : j,
+					fighters: resultsLst[i].results.teamResults[j]
+				};
+				
+				contest.teams.push(cat);
 				
 				cat.fighters.sort(function(a, b){
 					return a.rank - b.rank;
@@ -61,7 +77,7 @@ var resultsReady = function(){
 							dataType: 'json',
 							cache: false
 						}).then(function(fileData){
-							resultsLst[i].results = fileData.results;
+							resultsLst[i].results = fileData;
 							resultsLst[i].contestName = fileData.contestName;
 						});
 			};

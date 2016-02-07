@@ -1,0 +1,64 @@
+{
+    "contestName": "COUPE DU BAS-RHIN KATA",
+    "nbr": 7,
+    "individualResults": {
+        "MINIMES FEMINIMES": [
+            {
+                "rank": 1,
+                "lastName": "HMAE",
+                "firstName": "MARIE",
+                "category": "MINIMES FEMINIMES",
+                "contest": "COUPE DU BAS-RHIN"
+            },
+            {
+                "rank": 3,
+                "lastName": "MELINE",
+                "firstName": "LUCILLE",
+                "category": "MINIMES FEMINIMES",
+                "contest": "COUPE DU BAS-RHIN"
+            }
+        ],
+        "MINIMES MASCULINS": [
+            {
+                "rank": 1,
+                "lastName": "HERRBRECHT",
+                "firstName": "YANIS",
+                "category": "MINIMES MASCULINS",
+                "contest": "COUPE DU BAS-RHIN"
+            },
+            {
+                "rank": 3,
+                "lastName": "AVANYAN",
+                "firstName": "YOURI",
+                "category": "MINIMES MASCULINS",
+                "contest": "COUPE DU BAS-RHIN"
+            }
+        ],
+        "SENIORS FEMINIMES": [
+            {
+                "rank": 1,
+                "lastName": "DA COSTA",
+                "firstName": "KELLY",
+                "category": "SENIORS FEMINIMES",
+                "contest": "COUPE DU BAS-RHIN"
+            }
+        ],
+        "JUNIORS FEMINIMES": [
+            {
+                "rank": 3,
+                "lastName": "JEANNEROD",
+                "firstName": "LAURA",
+                "category": "JUNIORS FEMINIMES",
+                "contest": "COUPE DU BAS-RHIN"
+            },
+            {
+                "rank": 3,
+                "lastName": "THIRION",
+                "firstName": "LAURIE",
+                "category": "JUNIORS FEMINIMES",
+                "contest": "COUPE DU BAS-RHIN"
+            }
+        ]
+    },
+    "teamResults": {}
+}

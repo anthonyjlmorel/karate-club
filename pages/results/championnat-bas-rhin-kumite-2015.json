@@ -1,0 +1,144 @@
+{
+    "contestName": "CHAMPIONNAT DU BAS-RHIN KUMITE",
+    "nbr": 18,
+    "individualResults": {
+        "MINIMES MASCULIN -35Kg": [
+            {
+                "rank": 2,
+                "lastName": "ILIC",
+                "firstName": "DARKO",
+                "category": "MINIMES MASCULIN -35Kg",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KUMITE"
+            }
+        ],
+        "MINIMES FEMINIME -40Kg": [
+            {
+                "rank": 2,
+                "lastName": "BALTAZAR",
+                "firstName": "CLAUDIA",
+                "category": "MINIMES FEMINIME -40Kg"
+            },
+            {
+                "rank": 3,
+                "lastName": "LIENHARD",
+                "firstName": "SARAH",
+                "category": "MINIMES FEMINIME -40Kg"
+            },
+            {
+                "rank": 5,
+                "lastName": "MESBAH",
+                "firstName": "MONA",
+                "category": "MINIMES FEMINIME -40Kg"
+            }
+        ],
+        "MINIMES MASCULIN-40Kg": [
+            {
+                "rank": 3,
+                "lastName": "HERRBRECHT",
+                "firstName": "YANIS",
+                "category": "MINIMES MASCULIN-40Kg"
+            }
+        ],
+        "JUNIORS FEMINIME -53Kg": [
+            {
+                "rank": 3,
+                "lastName": "JEANNEROD",
+                "firstName": "LAURA",
+                "category": "JUNIORS FEMINIME -53Kg"
+            }
+        ],
+        "SENIOR MASCULIN -67Kg": [
+            {
+                "rank": 5,
+                "lastName": "NADLER",
+                "firstName": "WILLIAM",
+                "category": "SENIOR MASCULIN -67Kg"
+            }
+        ],
+        "MINIMES FEMINIME -45Kg": [
+            {
+                "rank": 5,
+                "lastName": "BILGER",
+                "firstName": "FLORA",
+                "category": "MINIMES FEMINIME -45Kg",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KUMITE"
+            },
+            {
+                "rank": 5,
+                "lastName": "KHENIFAR",
+                "firstName": "SAFIA",
+                "category": "MINIMES FEMINIME -45Kg",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KUMITE"
+            }
+        ],
+        "SENIOR MASCULIN -75Kg": [
+            {
+                "rank": 5,
+                "lastName": "BALTAZAR",
+                "firstName": "PAULO",
+                "category": "SENIOR MASCULIN -75Kg",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KUMITE"
+            },
+            {
+                "rank": 7,
+                "lastName": "NUSSBAUM",
+                "firstName": "DIDIER",
+                "category": "SENIOR MASCULIN -75Kg",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KUMITE"
+            }
+        ],
+        "JUNIORS FEMINIME +59Kg": [
+            {
+                "rank": 2,
+                "lastName": "THIRION",
+                "firstName": "LAURIE",
+                "category": "JUNIORS FEMINIME +59Kg"
+            }
+        ],
+        "MINIMES FEMINIME -50Kg": [
+            {
+                "rank": 3,
+                "lastName": "MELINE",
+                "firstName": "LUCILLE",
+                "category": "MINIMES FEMINIME -50Kg"
+            },
+            {
+                "rank": 5,
+                "lastName": "OTT",
+                "firstName": "SARAH",
+                "category": "MINIMES FEMINIME -50Kg"
+            }
+        ],
+        "MINIMES FEMINIME -55Kg": [
+            {
+                "rank": 5,
+                "lastName": "ANTOINE",
+                "firstName": "MARIE",
+                "category": "MINIMES FEMINIME -55Kg",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KUMITE"
+            },
+            {
+                "rank": 5,
+                "lastName": "HMAE",
+                "firstName": "MARIE",
+                "category": "MINIMES FEMINIME -55Kg",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KUMITE"
+            }
+        ],
+        "MINIMES MASCULIN+65Kg": [
+            {
+                "rank": 2,
+                "lastName": "BAYAZIT",
+                "firstName": "YACUP",
+                "category": "MINIMES MASCULIN+65Kg"
+            },
+            {
+                "rank": 3,
+                "lastName": "FRITSCH",
+                "firstName": "THEO",
+                "category": "MINIMES MASCULIN+65Kg"
+            }
+        ]
+    },
+    "teamResults": {}
+}
