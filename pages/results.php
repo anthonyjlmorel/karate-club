@@ -18,8 +18,8 @@
 			<h4 data-bind="text: name"></h4>
 			<div class="fighters" data-bind="foreach: fighters">
 				<div>
-					<span data-bind="text: firstName"></span>
-					<span data-bind="text: lastName"></span>
+					<div data-bind="text: firstName"></div>
+					<div data-bind="text: lastName"></div>
 					
 					<!-- ko with: (function(){
 						
@@ -31,7 +31,7 @@
 						}
 						
 						})() -->
-					<span data-bind="text: $data"></span>
+					<div data-bind="text: $data"></div>
 					<!-- /ko -->
 				</div>
 				
@@ -44,9 +44,10 @@
 			<h4 data-bind="text: name"></h4>
 			<div class="fighters" data-bind="foreach: fighters">
 				<div>
-					<!-- ko foreach: fighters -->
-					<span data-bind="text: firstName + ' ' + lastName"></span>
-					<!-- /ko -->
+					<div data-bind="foreach: fighters">
+						<div data-bind="text: firstName + ' ' + lastName"></div>
+					</div>
+					
 					
 					<!-- ko with: (function(){
 						
@@ -58,7 +59,7 @@
 						}
 						
 						})() -->
-					<span data-bind="text: $data"></span>
+					<div data-bind="text: $data"></div>
 					<!-- /ko -->
 				</div>
 				

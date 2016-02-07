@@ -307,6 +307,12 @@ body a:active{
 	display: table-row;
 }
 
-.results .fighters > div span{
+.results .fighters > div > div{
 	display: table-cell;
+	overflow: hidden;
+    word-wrap: break-word;
+	vertical-align: middle;
+	
+	padding-right: 10px;
+    padding-bottom: 10px;
 }
