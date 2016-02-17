@@ -45,6 +45,13 @@ var calendarReady = function(){
 		return result;
 	}
 	
+	function sortEvents(data){
+		data.sort(function(a,b){
+			return new Date(a.date).getTime() - new Date(b).getTime();
+		});
+		return data;
+	}
+	
 	// {date: yyyy-mm-dd, badge: boolean, title: string, body: string: footer: string, classname: string}
 	$.ajax({
 		url:'pages/calendar-events.json',
@@ -53,8 +60,23 @@ var calendarReady = function(){
 	}).then(function(result){
 		
 		calendarData = result.data;
+		var events = sortEvents(detectMultipleEvents(result.data)),
+			today = new Date(),
+			current = 0,
+			date = new Date(events[current].date);
+		
+		while(current < events.length && date.getTime() < today.getTime()){
+			current++;
+			date = new Date(events[current].date);
+		}
+		
+		if(current >= events.lenth){
+			date = today;
+		}
 		
 		$(".calendar-container").zabuto_calendar({
+			year: date.getFullYear(),
+			month: date.getMonth()+1,
 			language: "fr",
 			show_previous: false,
 			action: function() { myDateFunction(this.id); } ,
@@ -83,7 +105,7 @@ var calendarReady = function(){
 					label: 'Multiple événements',
 					badge: '5'
 				}],
-			data: detectMultipleEvents(result.data)
+			data: events
 		});
 		
 		ko.applyBindings(viewModel);

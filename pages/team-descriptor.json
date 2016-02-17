@@ -3,12 +3,12 @@
 		{
 			"name": "Jacquy KNOLL",
 			"photo": "IMG_4560.JPG",
-			"desc": "4eme dan, responsable technique et administratif du club, instructeur fédéral."
+			"desc": "4eme dan, responsable technique et administratif du club, instructeur fédéral, entraîneur enfants et adultes"
 		}, 
 		{
 			"name": "Emmanuel HOEN",
 			"photo": "unknown.jpg",
-			"desc": "5eme dan, instructeur fédéral"
+			"desc": "5eme dan, instructeur fédéral, entraîneur enfants et adultes"
 		},
 
 		{
@@ -16,17 +16,26 @@
 			"photo": "IMG_4574.JPG",
 			"desc": "2eme dan J.K.A. instructeur fédéral, entraîneur adultes"
 		},
-		
+		{
+			"name": "Jean-Christophe Wieber",
+			"photo": "unknown.jpg",
+			"desc": "2eme dan, assistant (afa), entraîneur Krav Maga"
+		},
+		{
+			"name": "Antoine Ferraro",
+			"photo": "unknown.jpg",
+			"desc": "2eme dan, instructeur fédéral, entraîneur Krav Maga"
+		},
 		{
 			"name": "Christine DIEBOLD",
 			"photo": "IMG_4552.JPG",
-			"desc": "1er dan, assistant (afa)  entraîneur  école de karaté"
+			"desc": "1er dan, assistant (afa)  entraîneur  école de karaté enfants et adultes"
 		},
 
 		{
 			"name": "Jean Louis JUNG",
 			"photo": "IMG_4550.JPG",
-			"desc": "2eme dan, instructeur fédéral entraineur baby karaté"
+			"desc": "2eme dan, instructeur fédéral, entraineur baby karaté, enfants et adultes"
 		},
 		{
 			"name": "Kelly DA COSTA",
@@ -46,14 +55,24 @@
 		{
 			"name": "Anthony MOREL",
 			"photo": "IMG_4568.JPG",
-			"desc": "2eme dan,  assistant (afa)"
+			"desc": "2eme dan,  assistant (afa), entraîneur enfants compétition"
 		},
-
-
 		{
 			"name": "Vivien GROSS",
 			"photo": "IMG_4575.JPG",
 			"desc": "1er dan assistant"
+		},{
+			"name": "Nesrin CAN",
+			"photo": "unknown.jpg",
+			"desc": "1er Dan, assistant baby karaté"
+		},{
+			"name": "Abdel HAYANI",
+			"photo": "unknown.jpg",
+			"desc": "2eme dan, assistant adultes"
+		},{
+			"name": "Frédéric BOCQUEL",
+			"photo": "unknown.jpg",
+			"desc": "2eme dan, assistant enfants"
 		}
 	]
 

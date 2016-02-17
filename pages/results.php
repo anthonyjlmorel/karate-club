@@ -21,18 +21,22 @@
 					<div data-bind="text: firstName"></div>
 					<div data-bind="text: lastName"></div>
 					
+					<div>
+					<!-- ko text: rank -->
+					<!-- /ko -->
 					<!-- ko with: (function(){
 						
 						switch(rank){
 							case 1:
-								return "1 er/ère";
+								return "er";
 							default:
-								return rank + " ieme";
+								return "e";
 						}
 						
 						})() -->
-					<div data-bind="text: $data"></div>
-					<!-- /ko -->
+						<sup data-bind="text: $data"></sup>
+					<!-- /ko -->	
+					</div>
 				</div>
 				
 			</div>
@@ -48,19 +52,23 @@
 						<div data-bind="text: firstName + ' ' + lastName"></div>
 					</div>
 					
-					
+					<div>
+					<!-- ko text: rank -->
+					<!-- /ko -->
 					<!-- ko with: (function(){
 						
 						switch(rank){
 							case 1:
-								return "1 er/ère";
+								return "er";
 							default:
-								return rank + " ieme";
+								return "e";
 						}
 						
 						})() -->
-					<div data-bind="text: $data"></div>
-					<!-- /ko -->
+						<sup data-bind="text: $data"></sup>
+					<!-- /ko -->	
+					</div>
+					
 				</div>
 				
 			</div>

@@ -12,7 +12,10 @@
 	
 	<div class="col-xs-12 col-sm-5"  style="text-align:center;">
 	
-	  <img width="140" data-bind="attr:{src: '<?php echo IMGS_ADDR.'/team/'; ?>/'+ photo}" class="img-thumbnail" />
+	<div class="img-container">
+	<img data-bind="attr:{src: '<?php echo IMGS_ADDR.'/team/'; ?>/'+ photo}"  />	
+	</div>
+	  
 	  <p>
 		<h4 data-bind="text: name"></h4>
 	  <small data-bind="text: desc">

@@ -1,10 +1,107 @@
 {
 	"data":[
 		{
+			"date": "2016-02-20", 
+			"badge": false, 
+			"classname": "championnat",
+			"title": "Coupe du Bas-Rhin Kata-Kumité",
+			"description": "Vétérans, Herrlisheim"
+		},{
+			"date": "2016-02-28", 
+			"badge": false, 
+			"classname": "formation",
+			"title": "Passage de Grade 1er Dan",
+			"description": "Strasbourg"
+		},
+		{
 			"date": "2016-03-05", 
 			"badge": false, 
 			"classname": "stage",
 			"image":"pages/events/stage-herve-delage.jpg"
+		},{
+			"date": "2016-03-05", 
+			"badge": false, 
+			"classname": "coupe",
+			"title": "Open Inter Région Kumité",
+			"description": "Pupille à Benjamin, Pont à Mousson"
+		},{
+			"date": "2016-03-06", 
+			"badge": false, 
+			"classname": "championnat",
+			"title": "Championnat Inter Région Kumité",
+			"description": "Minimes à Séniors, Pont à Mousson"
+		},{
+			"date": "2016-03-13", 
+			"badge": false, 
+			"classname": "coupe",
+			"title": "Open Inter Région Kata",
+			"description": "Pupille à Benjamin, Pont à Mousson"
+		},{
+			"date": "2016-03-13", 
+			"badge": false, 
+			"classname": "championnat",
+			"title": "Championnat Inter Région Kata",
+			"description": "Minimes à Séniors, Pont à Mousson"
+		},{
+			"date": "2016-03-25", 
+			"badge": false, 
+			"classname": "formation",
+			"title": "AFA",
+			"description": "Habsheim"
+		},{
+			"date": "2016-03-25", 
+			"badge": false, 
+			"classname": "formation",
+			"title": "AFA",
+			"description": "Plobsheim"
+		},{
+			"date": "2016-04-02", 
+			"badge": false, 
+			"classname": "championnat",
+			"title": "Challenge Berger",
+			"description": "Poussin à Minime, Plobsheim"
+		},{
+			"date": "2016-04-10", 
+			"badge": false, 
+			"classname": "championnat",
+			"title": "Championnat d'Alsace Vétérant",
+			"description": "Lieu à communiquer"
+		},{
+			"date": "2016-04-10", 
+			"badge": false, 
+			"classname": "championnat",
+			"title": "Championnat d'Alsace Body Karaté",
+			"description": "Lieu à communiquer"
+		},{
+			"date": "2016-04-24", 
+			"badge": false, 
+			"classname": "formation",
+			"title": "Passage de Grade Club Léo Lagrange",
+			"description": "Hall Leclerc, Schiltigheim"
+		},{
+			"date": "2016-05-22", 
+			"badge": false, 
+			"classname": "formation",
+			"title": "Passage de Grade 1er et 2eme Dan",
+			"description": "Cronenbourg"
+		},{
+			"date": "2016-05-04", 
+			"badge": false, 
+			"classname": "formation",
+			"title": "Passage de Grade 3eme Dan",
+			"description": "Burnhaupt"
+		},{
+			"date": "2016-05-05", 
+			"badge": false, 
+			"classname": "coupe",
+			"title": "Open Départemental Kumité",
+			"description": "Poussin à Benjamin, Bouxwiller"
+		},{
+			"date": "2016-05-18", 
+			"badge": false, 
+			"classname": "formation",
+			"title": "Passage de Grade 4eme Dan",
+			"description": "Burnhaupt"
 		}
 	]
 }
