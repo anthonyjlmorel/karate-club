@@ -22,7 +22,7 @@
 				<i class="fa fa-at fa-stack-1x fa-inverse"></i>
 			</span>
 			<h4 class="service-heading">Par E-Mail</h4>
-			<p class="text-muted">jacquyk at free.fr</p>
+			<p class="text-muted"><a href="mailto:jacquyk@free.fr">jacquyk at free.fr</a></p>
 		</div>
 		<div class="col-md-4">
 			<a target="_blank" href="<?php echo CLUB_ADDR; ?>">

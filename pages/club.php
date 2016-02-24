@@ -41,7 +41,7 @@
 					<i class="fa fa-heart fa-stack-1x fa-inverse"></i>
 				</span>
 				<h4 class="service-heading">Une École de Vie</h4>
-				<p class="text-muted">Avant tout, le club forme des combatants respectueux d'une certaine éthique et d'un code moral facilitant le savoir vivre en société</p>
+				<p class="text-muted">Avant tout, le club forme des combattants respectueux d'une certaine éthique et d'un code moral facilitant le savoir vivre en société</p>
 			</div>
 			<div class="col-md-4">
 				<span class="fa-stack fa-4x">

@@ -45,28 +45,16 @@
 		width: auto;
 	}
 	
-	.calendar .event-detail{
-		padding-left: 0;
+	.calendar .links li{
+		margin-left: 0;
+		margin-right: 0;
 	}
 	
-	.calendar .calendar-container .legend {
-		text-align: initial;
+	.calendar .links.legend li span{
+		transform: translate(0, 100%) rotateZ(-45deg);
+		font-size: 0.8em;
 	}
-	
-	.calendar .calendar-container .legend .legend-block{
-		display: inline-block;
-	}
-	
-	.calendar .calendar-container div.zabuto_calendar ul.legend li{
-		width:15px;
-		height:15px;
-	}
-	
-	.calendar .calendar-container div.zabuto_calendar div.legend span{
-		font-size: 15px;
-		padding-left: 5px;
-	}
-	
+			
 	.welcome .intro-text .intro-heading {
 		font-size: 55px;
 	}

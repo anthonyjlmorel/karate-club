@@ -1,26 +1,49 @@
 <section class="calendar">
+<h1 data-bind="text: 'Saison ' + season() + '-' + (season()+1)"></h1>
+<div class="calendar-container">
 
-<div class="calendar-container"></div>
-<div class="event-detail">
-	<!-- ko if: selectedEvents() !== null && selectedEvents().length > 0 -->
-	<!-- ko foreach: selectedEvents() -->
 
-	<!-- ko if: $data.image -->
-	<img data-bind="attr:{'src': $data.image }"/>
+<div class="events-container">
+<div>
+	<div class="day"></div>
+	<div class="title"></div>
+	<div class="links legend">
+		<ul>
+			<li><span>Affiche</span></li>
+			<li><span>Photos</span></li>
+			<li><span>Inscription</span></li>
+		</ul>
+	</div>
+</div>	
+</div>
+
+
+<!-- ko foreach: calendarData() -->
+<div>
+	<h2 data-bind="text: $parent.monthNames[month-1]"></h2>
+</div>
+<div class="events-container">
+	<!-- ko foreach: events -->
+	<div>
+		<div class="day" data-bind="text: date"></div>
+		<div class="title">
+			<h4 class="service-heading" data-bind="text: title"></h4>
+			<p class="text-muted" data-bind="text: location"></p>
+		</div>
+		<div class="links clickable">
+			<ul data-bind="foreach: Object.keys(links)">
+				<li>
+					<!-- ko if: $parent.links[$data] -->
+					<a target="_blank" data-bind="attr:{'href': $parent.links[$data]}"></a>
+					<!-- /ko -->
+				</li>
+			</ul>
+		</div>
+	</div>
 	<!-- /ko -->
-	
-	<!-- ko if: $data.description -->
-	<h2 data-bind="text:$data.title"></h2>
-	<p data-bind="text: $data.description"></p>
-	<!-- /ko -->
-	
-	<hr/>
-	<!-- /ko -->
-	<!-- /ko -->
-	
-	<!-- ko if: selectedEvents() == null || selectedEvents().length == 0 -->
-	<h3>Selectionner un évènement</h3>
-	<!-- /ko -->
+</div>
+<!-- /ko -->
+
 	
 </div>
 
