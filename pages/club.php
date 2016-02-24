@@ -14,13 +14,13 @@
 		<div class="row text-center arts">
 			<div class="col-md-6">
 				<span class="fa-stack fa-4x">
-					<img src="<?php echo IMGS_ADDR ?>/club/karate.png" />
+					<img src="<?php echo IMGS_ADDR ?>/club/karate.jpg" />
 				</span>
 				<h4 class="service-heading">Karaté</h4>
 			</div>
 			<div class="col-md-6">
 				<span class="fa-stack fa-4x">
-					<img src="<?php echo IMGS_ADDR ?>/club/krav-maga.png" />
+					<img src="<?php echo IMGS_ADDR ?>/club/krav-maga.jpg" />
 				</span>
 				<h4 class="service-heading">Krav Maga</h4>
 			</div>
