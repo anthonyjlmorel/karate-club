@@ -1,0 +1,93 @@
+{
+    "contestName": "OPEN DE LIGUE COMBINE KUMITE",
+    "nbr": 0,
+    "individualResults": {
+        "MINIMES FEMININES -45Kg": [
+            {
+                "rank": 1,
+                "lastName": "KHENIFAR",
+                "firstName": "SAFIA",
+                "category": "MINIMES FEMININES -45Kg",
+                "contest": "OPEN DE LIGUE COMBINE KUMITE"
+            }
+        ],
+        "MINIMES FEMININES -50Kg": [
+            {
+                "rank": 2,
+                "lastName": "OTT",
+                "firstName": "SARAH",
+                "category": "MINIMES FEMINIME -50Kg"
+            },
+            {
+                "rank": 3,
+                "lastName": "ANTOINE",
+                "firstName": "MARIE THERESA",
+                "category": "MINIMES FEMINIME -50Kg"
+            }
+        ],
+        "BENJAMINS MASCULINS -45Kg": [
+            {
+                "rank": 4,
+                "lastName": "GULMEZ",
+                "firstName": "AHMET",
+                "category": "BENJAMINS MASCULIN -45Kg"
+            }
+        ],
+        "BENJAMINS FEMININES -45Kg": [
+            {
+                "rank": 3,
+                "lastName": "OTT",
+                "firstName": "INES",
+                "category": "BENJAMINS FEMININES -45Kg"
+            }
+        ],
+        "PUPILLES MASCULINS -30Kg": [
+            {
+                "rank": 2,
+                "lastName": "OTT",
+                "firstName": "ILYES"
+            },
+			{
+                "rank": 4,
+                "lastName": "BOUSBIA-LAHROUR",
+                "firstName": "ISAM"
+            }
+        ],
+        "PUPILLES MASCULINS -40Kg": [
+            {
+                "rank": 4,
+                "lastName": "GUT",
+                "firstName": "VALENTIN"
+            }
+        ],
+        "PUPILLES MASCULINS -50Kg": [
+            {
+                "rank": 2,
+                "lastName": "WECKER",
+                "firstName": "VIKESH"
+            }
+        ],
+        "PUPILLES FEMININES -30Kg": [
+            {
+                "rank": 3,
+                "lastName": "DEMMOUCHE",
+                "firstName": "FATNA"
+            }
+        ],
+        "POUSSINS MASCULINS -25Kg": [
+            {
+                "rank": 2,
+                "lastName": "DEMMOUCHE",
+                "firstName": "ABDELLAH"
+            }
+        ],
+        "POUSSINS FEMININES -30Kg": [
+            {
+                "rank": 1,
+                "lastName": "EL HAOUARI",
+                "firstName": "DINA"
+            }
+        ]
+    },
+    "teamResults": {}
+}

@@ -6,22 +6,19 @@
 	</div>
 	
 	<div class="row">
-	
-	
+		
 	<!-- ko foreach: team -->
 	
 	<div class="col-xs-12 col-sm-5"  style="text-align:center;">
 	
 	<div class="img-container">
-	<img data-bind="attr:{src: '<?php echo IMGS_ADDR.'/team/'; ?>/'+ photo}"  />	
+		<img data-bind="attr:{src: '<?php echo IMGS_ADDR.'/team/'; ?>/'+ photo}"  />	
 	</div>
-	  
-	  <p>
+	<p>  
 		<h4 data-bind="text: name"></h4>
-	  <small data-bind="text: desc">
-	  
-	  </small>
-	  </p>
+		<small data-bind="text: desc">
+		</small>
+	</p>
 	</div>
 	<!-- /ko -->
 	

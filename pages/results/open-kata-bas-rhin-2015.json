@@ -139,7 +139,8 @@
                         "firstName": "SHAIMA"
                     }
                 ],
-                "category": "BENJAMINES-MINIMES"
+                "category": "BENJAMINES-MINIMES",
+                "contest": "OPEN KATA DU BAS-RHIN"
             },
             {
                 "isTeam": true,
@@ -158,7 +159,8 @@
                         "firstName": "EMILIE"
                     }
                 ],
-                "category": "BENJAMINES-MINIMES"
+                "category": "BENJAMINES-MINIMES",
+                "contest": "OPEN KATA DU BAS-RHIN"
             }
         ],
         "BENJAMINS-MINIMES ": [
@@ -179,7 +181,8 @@
                         "firstName": "AHMET"
                     }
                 ],
-                "category": "BENJAMINS-MINIMES "
+                "category": "BENJAMINS-MINIMES ",
+                "contest": "OPEN KATA DU BAS-RHIN"
             },
             {
                 "isTeam": true,
@@ -198,7 +201,8 @@
                         "firstName": "HUGO"
                     }
                 ],
-                "category": "BENJAMINS-MINIMES "
+                "category": "BENJAMINS-MINIMES ",
+                "contest": "OPEN KATA DU BAS-RHIN"
             }
         ],
         "POUSSINS-PUPILLES MIXTE": [
@@ -219,7 +223,8 @@
                         "firstName": "GIZEM"
                     }
                 ],
-                "category": "POUSSINS-PUPILLES MIXTE"
+                "category": "POUSSINS-PUPILLES MIXTE",
+                "contest": "OPEN KATA DU BAS-RHIN"
             },
             {
                 "isTeam": true,
@@ -238,7 +243,8 @@
                         "firstName": "RAYAN"
                     }
                 ],
-                "category": "POUSSINS-PUPILLES MIXTE"
+                "category": "POUSSINS-PUPILLES MIXTE",
+                "contest": "OPEN KATA DU BAS-RHIN"
             },
             {
                 "isTeam": true,

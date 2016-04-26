@@ -9,7 +9,13 @@
 	<div class="selected-results">
 		<h1 data-bind="text: 'Saison ' + selectedYear() + '-' + (selectedYear() + 1)"></h1>
 		
-		<!-- ko if: displayedResults && displayedResults().length > 0 -->
+		<div class="sort-selectors">
+			<h3 class="sort-selector" data-bind="click: function(){displayBy('by-contest');}, css:{'active': displayMode() == 'by-contest'}">Par évènement</h3>
+			<h3 class="sort-selector" data-bind="click: function(){displayBy('by-fighter');}, css:{'active': displayMode() == 'by-fighter'}">Par élève</h3>
+		</div>
+		
+				
+		<!-- ko if: displayedResults && displayedResults().length > 0  && displayMode() == "by-contest"-->
 		<!-- ko foreach: displayedResults -->
 		
 		<h2 data-bind="text: name"></h2>
@@ -50,6 +56,7 @@
 				<div>
 					<div data-bind="foreach: fighters">
 						<div data-bind="text: firstName + ' ' + lastName"></div>
+
 					</div>
 					
 					<div>
@@ -75,6 +82,46 @@
 		</div>
 		<!-- /ko -->
 		<hr/>
+		
+		<!-- /ko -->
+		<!-- /ko -->
+		
+		
+		
+		<!-- ko if: displayedResults && displayedResults().length > 0  && displayMode() == "by-fighter"-->
+		<!-- ko foreach: displayedResults -->
+		
+		<h3 data-bind="text: lastName + ' '  + firstName"></h3>
+		
+		<div class="fighters" data-bind="foreach: contests">
+		<div>
+			<!-- ko ifnot: isTeam -->
+			<div data-bind="text: name"></div>
+			<!-- /ko -->
+			<!-- ko if: isTeam -->
+			<div data-bind="text: name + ' (Par équipe)'"></div>
+			<!-- /ko -->
+			
+			<div data-bind="text: category"></div>
+			<div>
+			<span data-bind="text: rank"></span>
+			<!-- ko with: (function(){
+						
+				switch(rank){
+					case 1:
+						return "er";
+					default:
+						return "e";
+				}
+				
+				})() -->
+				<sup data-bind="text: $data"></sup>
+			<!-- /ko -->
+			</div>
+			
+		</div>
+		</div>
+		<!-- /ko -->	
 		
 		<!-- /ko -->
 		<!-- /ko -->

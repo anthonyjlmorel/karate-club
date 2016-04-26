@@ -1,0 +1,32 @@
+{
+    "contestName": "COUPE DE LIGUE HONNEUR KATA",
+    "nbr": 3,
+    "individualResults": {
+        "PUPILLES FEMINIMES": [
+            {
+                "rank": 3,
+                "lastName": "BEZIOU",
+                "firstName": "ANAIS",
+                "category": "PUPILLES FEMINIMES",
+                "contest": "COUPE DE LIGUE HONNEUR KATA"
+            }
+        ],
+        "BENJAMINS FEMININES": [
+            {
+                "rank": 3,
+                "lastName": "HERRBRECHT",
+                "firstName": "LAETITIA",
+                "category": "BENJAMINS FEMININES",
+                "contest": "COUPE DE LIGUE HONNEUR KATA"
+            },
+			{
+                "rank": 3,
+                "lastName": "JERJIR",
+                "firstName": "TAKWA",
+                "category": "BENJAMINS FEMININES",
+                "contest": "COUPE DE LIGUE HONNEUR KATA"
+            }
+        ]
+    },
+    "teamResults": {}
+}

@@ -6,9 +6,11 @@
 			
 			"3": "coupe-bas-rhin-kumite-2015.json",
 			"4": "coupe-bas-rhin-kata-2015.json",
-			
-			"5": "championnat-bas-rhin-kumite-2015.json",
-			"6": "championnat-bas-rhin-kata-2015.json"
+			"5": "open-ligue-combine-2015.json",
+			"6": "championnat-bas-rhin-kumite-2015.json",
+			"7": "championnat-bas-rhin-kata-2015.json",
+			"8": "coupe-ligue-honneur-kata-2016.json",
+			"9": "coupe-ligue-honneur-kumite-2016.json"
 		}
-	}
+	} 
 }
