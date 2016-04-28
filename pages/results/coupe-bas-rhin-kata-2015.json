@@ -58,6 +58,15 @@
                 "category": "JUNIORS FEMINIMES",
                 "contest": "COUPE DU BAS-RHIN"
             }
+        ],
+        "VETERANS MASCULINS": [
+            {
+                "rank": 1,
+                "lastName": "JUNG",
+                "firstName": "JEAN LOUIS",
+                "category": "VETERANS MASCULINS",
+                "contest": "COUPE DU BAS-RHIN"
+            }
         ]
     },
     "teamResults": {}

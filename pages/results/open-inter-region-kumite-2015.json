@@ -1,0 +1,42 @@
+{
+    "contestName": "Open Inter Region Kumite",
+    "individualResults": {
+        "BENJAMINS MASCULINS -40Kg": [
+            {
+                "rank": 3,
+                "lastName": "MEHDI",
+                "firstName": "IMRAM",
+                "category": "BENJAMINS MASCULINS -40Kg",
+                "contest": "Open Inter Region Kumite "
+            }
+        ],
+		"BENJAMINS FEMININES -45Kg": [
+            {
+                "rank": 5,
+                "lastName": "NAVARETTE",
+                "firstName": "MANON",
+                "category": "BENJAMINS FEMININES -45Kg",
+                "contest": "Open Inter Region Kumite "
+            }
+        ],
+		"MINIMES MASCULINS +65Kg": [
+            {
+                "rank": 5,
+                "lastName": "FRITSCH",
+                "firstName": "THEO",
+                "category": "MINIMES MASCULINS +65Kg",
+                "contest": "Open Inter Region Kumite "
+            }
+        ],
+		"MINIMES FEMININS -40Kg": [
+            {
+                "rank": 3,
+                "lastName": "BALTAZAR",
+                "firstName": "CLAUDIA",
+                "category": "MINIMES FEMININS -40Kg",
+                "contest": "Open Inter Region Kumite "
+            }
+        ]
+    },
+    "teamResults": {}
+}

@@ -115,14 +115,32 @@
                 "lastName": "BAYAZIT",
                 "firstName": "YACUP",
                 "category": "MINIMES MASCULIN -65Kg",
-                "contest": "MINIMES-CADETS-JUNIORS-SENIORS"
+                "contest": "COUPE DU BAS-RHIN"
             },
             {
                 "rank": 3,
                 "lastName": "FRITSCH",
                 "firstName": "THEO",
                 "category": "MINIMES MASCULIN -65Kg",
-                "contest": "MINIMES-CADETS-JUNIORS-SENIORS"
+                "contest": "COUPE DU BAS-RHIN"
+            }
+        ],
+        "VETERANS MASCULINS +84Kg": [
+            {
+                "rank": 1,
+                "lastName": "HMAE",
+                "firstName": "YANNICK",
+                "category": "VETERANS MASCULINS +84Kg",
+                "contest": "COUPE DU BAS-RHIN"
+            }
+        ],
+        "VETERANS II MASCULINS -75Kg": [
+            {
+                "rank": 1,
+                "lastName": "NUSSBAUM",
+                "firstName": "DIDIER",
+                "category": "VETERANS II MASCULINS -75Kg",
+                "contest": "COUPE DU BAS-RHIN"
             }
         ]
     },

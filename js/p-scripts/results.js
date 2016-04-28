@@ -80,7 +80,7 @@ var resultsReady = function(){
 			for(var j in resultsLst[i].results.individualResults){
 				
 				resultsLst[i].results.individualResults[j].forEach(function(fighter){
-					var key = fighter.lastName + "_" + fighter.lastName;
+					var key = fighter.lastName + "_" + fighter.firstName;
 					if(!fighterMap[key]){
 						fighterMap[key] = {
 							firstName: fighter.firstName,
@@ -105,7 +105,7 @@ var resultsReady = function(){
 				resultsLst[i].results.teamResults[j].forEach(function(re){
 					
 					re.fighters.forEach(function(f){
-						var key = f.lastName + "_" + f.lastName;
+						var key = f.lastName + "_" + f.firstName;
 						if(!fighterMap[key]){
 							fighterMap[key] = {
 								firstName: f.firstName,

@@ -1,7 +1,6 @@
 <?php
 	
-$imgNames = array("events/stage-herve-delage.jpg",
-				"slide1.jpg",
+$imgNames = array("slide1.jpg",
 				"slide2.jpg",
 				"slide3.jpg");
 

@@ -1,0 +1,57 @@
+{
+    "contestName": "CHAMPIONNAT ALSACE KUMITE",
+    "individualResults": {
+        "MINIMES FEMININES -40Kg": [
+            {
+                "rank": 2,
+                "lastName": "BALTAZAR",
+                "firstName": "CLAUDIA",
+                "category": "MINIMES FEMININES -40Kg",
+                "contest": "CHAMPIONNAT ALSACE KUMITE"
+            },{
+                "rank": 3,
+                "lastName": "MESBAH",
+                "firstName": "MONA",
+                "category": "MINIMES FEMININES -40Kg",
+                "contest": "CHAMPIONNAT ALSACE KUMITE"
+            }
+        ],
+		"MINIMES FEMININES -45Kg": [
+            {
+                "rank": 5,
+                "lastName": "KHENIFAR",
+                "firstName": "SAFIA",
+                "category": "MINIMES FEMININES -45Kg",
+                "contest": "CHAMPIONNAT ALSACE KUMITE"
+            }
+        ],
+		"MINIMES FEMININES -55Kg": [
+            {
+                "rank": 5,
+                "lastName": "HMAE",
+                "firstName": "MARIE",
+                "category": "MINIMES FEMININES -55Kg",
+                "contest": "CHAMPIONNAT ALSACE KUMITE"
+            }
+        ],
+		"MINIMES MASCULINS -35Kg": [
+            {
+                "rank": 1,
+                "lastName": "ILIC",
+                "firstName": "DARKO",
+                "category": "MINIMES MASCULINS -35Kg",
+                "contest": "CHAMPIONNAT ALSACE KUMITE"
+            }
+        ],
+		"MINIMES MASCULINS +65Kg": [
+            {
+                "rank": 2,
+                "lastName": "FRITSCH",
+                "firstName": "THEO",
+                "category": "MINIMES MASCULINS +65Kg",
+                "contest": "CHAMPIONNAT ALSACE KUMITE"
+            }
+        ]
+    },
+    "teamResults": {}
+}
