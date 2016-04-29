@@ -2,7 +2,7 @@
 var teamReady = function(){
 	
 	$.ajax({
-		url:'pages/team-descriptor.json',
+		url:'cfg/team-descriptor.json',
 		dataType: 'json',
 		cache: false
 	}).then(function(result){

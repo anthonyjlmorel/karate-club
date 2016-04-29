@@ -6,7 +6,8 @@ var gulp = require("gulp"),
 	mst = require('gulp-mustache'),
 	rimraf = require('rimraf'),
 	sequence = require('gulp-sequence'),
-	mergeStream = require('merge-stream');
+	mergeStream = require('merge-stream'),
+    jsonminify = require('gulp-jsonminify');
 
 var mode = 'debug';
 
@@ -58,6 +59,17 @@ gulp.task('copy-css', function(){
 				.pipe(gulpConcat('build-' + buildTimestamp + '.min.css'))
 				.pipe(gulpMinifyCss())
 				.pipe(gulp.dest(dist + '/css'));
+});
+
+gulp.task('copy-cfg', function(){
+	if(mode == "debug"){
+		return gulp.src(['./cfg/**/*.json'])
+					.pipe(gulp.dest(dist + '/cfg'));	
+	}
+
+	return gulp.src(['./cfg/**/*.json'])
+				.pipe(jsonminify())
+				.pipe(gulp.dest(dist + '/cfg'));
 });
 
 
@@ -114,7 +126,7 @@ gulp.task('generate-index', function(){
 
 gulp.task('build', function(cb){
 	
-	var seq = ['clean', ['generate-index', 'copy-img', 'copy-font', 'copy-css', 'copy-js', 'copy-php'], cb];
+	var seq = ['clean', ['generate-index', 'copy-img', 'copy-font', 'copy-css', 'copy-js', 'copy-php','copy-cfg'], cb];
 	
 	sequence.apply(sequence, seq);
 });
@@ -122,7 +134,7 @@ gulp.task('build', function(cb){
 gulp.task('build-release', function(cb){
 	mode = "release";
 	buildTimestamp = new Date().getTime();
-	var seq = ['clean', ['generate-index', 'copy-img', 'copy-font', 'copy-css', 'copy-js', 'copy-php'], cb];
+	var seq = ['clean', ['generate-index', 'copy-img', 'copy-font', 'copy-css', 'copy-js', 'copy-php','copy-cfg'], cb];
 	sequence.apply(sequence, seq);
 });
 

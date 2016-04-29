@@ -49,7 +49,7 @@ var calendarReady = function(){
 	
 	// {date: yyyy-mm-dd, badge: boolean, title: string, body: string: footer: string, classname: string}
 	$.ajax({
-		url:'pages/calendar-events.json',
+		url:'cfg/calendar-events.json',
 		dataType: 'json',
 		cache: false
 	}).then(function(result){

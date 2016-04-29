@@ -150,7 +150,7 @@ var resultsReady = function(){
 		var promises = [],
 			requestFile = function(i){
 				return $.ajax({
-							url:'pages/results/' + resultsLst[i].file,
+							url:'cfg/results/' + resultsLst[i].file,
 							dataType: 'json',
 							cache: false
 						}).then(function(fileData){
@@ -171,7 +171,7 @@ var resultsReady = function(){
 	};
 	
 	$.ajax({
-		url:'pages/results-list.json',
+		url:'cfg/results-list.json',
 		dataType: 'json',
 		cache: false
 	}).then(function(list){
