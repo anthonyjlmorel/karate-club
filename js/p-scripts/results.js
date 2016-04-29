@@ -1,7 +1,7 @@
 var resultsReady = function(){
 	
 	var resultsMap,
-		years = [],
+		years = ko.observableArray([]),
 		displayMode = ko.observable("by-contest"),
 		currentYear = new Date().getFullYear(),
 		selectedYear = ko.observable(null),
@@ -134,11 +134,13 @@ var resultsReady = function(){
 		displayedResults(results);
 	},
 	displayResults = function(year){
+		
 		if(displayMode() == "by-contest"){
 			displayResultsByContest(year);
 		}else{
 			displayResultsByContendant(year);
 		}
+		
 	},
 	loadYear = function(){
 		
@@ -146,6 +148,8 @@ var resultsReady = function(){
 		if(year == null){ return ; }
 		var resultsLst = resultsMap[year.toString()];
 		if(!resultsLst){return;}
+		
+		displayedResults([]); 
 		
 		var promises = [],
 			requestFile = function(i){
@@ -169,6 +173,20 @@ var resultsReady = function(){
 			});
 		
 	};
+	
+	ko.applyBindings({
+		years: years,
+		currentYear: currentYear,
+		selectedYear: selectedYear,
+		displayedResults: displayedResults,
+		selectYear: selectYear,
+		displayMode: displayMode,
+		displayBy: function(mode){
+			displayedResults([]); 
+			displayMode(mode);
+			displayResults(selectedYear());
+		}
+	});
 	
 	$.ajax({
 		url:'cfg/results-list.json',
@@ -199,22 +217,7 @@ var resultsReady = function(){
 		years.sort().reverse();
 		
 		if(selectedYear() != null){
-			selectYear(selectedYear())
-			.then(function(){
-				ko.applyBindings({
-					years: years,
-					currentYear: currentYear,
-					selectedYear: selectedYear,
-					displayedResults: displayedResults,
-					selectYear: selectYear,
-					displayMode: displayMode,
-					displayBy: function(mode){
-						displayedResults([]); 
-						displayMode(mode);
-						selectYear(selectedYear());
-					}
-				});
-			});
+			selectYear(selectedYear());;
 		}
 	});
 	

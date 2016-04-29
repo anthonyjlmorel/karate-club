@@ -14,7 +14,10 @@
 			<h3 class="sort-selector" data-bind="click: function(){displayBy('by-fighter');}, css:{'active': displayMode() == 'by-fighter'}">Par élève</h3>
 		</div>
 		
-				
+		<!-- ko if: displayedResults().length == 0 -->
+		<h3>Chargement</h3>
+		<!-- /ko -->
+		
 		<!-- ko if: displayedResults && displayedResults().length > 0  && displayMode() == "by-contest"-->
 		<!-- ko foreach: displayedResults -->
 		
