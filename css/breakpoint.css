@@ -78,4 +78,17 @@
 		width: 100%;
 		padding-left: 0;
 	}
+	
+	
+	.results .sort-selectors > div{
+		display:block;
+	}
+
+	.results .sort-selectors > div:nth-child(1){
+		margin-right:0;
+	}
+
+	.results .sort-selectors > div:nth-child(2){
+		margin-left:0;
+	}
 }

@@ -303,24 +303,29 @@ body a:active{
 .results .sort-selectors{
 	text-align:center;
 }
-.results .sort-selector{
-	display:inline-block;
+
+.results .sort-selectors h3{
 	cursor: pointer;
+	display:inline-block;
 }
-.results .sort-selectors > h3:nth-child(1){
-	
+
+.results .sort-selectors > div{
+	display:inline-block;
+}
+
+.results .sort-selectors > div:nth-child(1){
 	margin-right:1em;
 }
 
-.results .sort-selectors > h3:nth-child(2){
+.results .sort-selectors > div:nth-child(2){
 	margin-left:1em;
 }
 
-.results .sort-selector.active{
+.results .sort-selectors .active h3{
 	border-bottom: 5px;
     border-bottom-style: solid;
     border-bottom-color: #fec503;
-}
+} 
 
 .results .years-selection{
 	width: 10em;

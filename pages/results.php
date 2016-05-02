@@ -10,8 +10,12 @@
 		<h1 data-bind="text: 'Saison ' + selectedYear() + '-' + (selectedYear() + 1)"></h1>
 		
 		<div class="sort-selectors">
-			<h3 class="sort-selector" data-bind="click: function(){displayBy('by-contest');}, css:{'active': displayMode() == 'by-contest'}">Par évènement</h3>
-			<h3 class="sort-selector" data-bind="click: function(){displayBy('by-fighter');}, css:{'active': displayMode() == 'by-fighter'}">Par élève</h3>
+			<div data-bind="css:{'active': displayMode() == 'by-contest'}">
+				<h3 class="sort-selector" data-bind="click: function(){displayBy('by-contest');}">Par évènement</h3>
+			</div>
+			<div data-bind="css:{'active': displayMode() == 'by-fighter'}">
+				<h3 class="sort-selector" data-bind="click: function(){displayBy('by-fighter');}">Par élève</h3>
+			</div>
 		</div>
 		
 		<!-- ko if: displayedResults().length == 0 -->
