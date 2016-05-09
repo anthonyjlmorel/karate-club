@@ -11,17 +11,26 @@
 			"6": "2015/championnat-bas-rhin-kumite-2015.json",
 			"7": "2015/championnat-bas-rhin-kata-2015.json",
 			
-			"8": "2015/coupe-ligue-honneur-kata-2015.json",
-			"9": "2015/coupe-ligue-honneur-kumite-2015.json",
+			"8": "2015/open-alsace-honneur-kata-2015.json",
+			"9": "2015/open-alsace-honneur-kumite-2015.json",
 			
 			"10": "2015/coupe-alsace-kumite-cadets-seniors-2015.json",
 			"11": "2015/coupe-alsace-kata-cadets-seniors-2015.json",
-			
+			 
 			"12": "2015/open-inter-region-kumite-2015.json",
 			"13": "2015/open-inter-region-kata-2015.json",
 			
 			"14": "2015/open-kumite-elite-alsace-2015.json",
-			"15": "2015/championnat-alsace-kumite-2015.json"		
+			"15": "2015/open-alsace-elite-kata-2015.json",
+			"16": "2015/championnat-alsace-kumite-2015.json",
+			"16": "2015/championnat-alsace-kata-2015.json",
+			"17": "2015/championnat-alsace-universitaire-kata-2015.json",
+			
+			"18": "2015/coupe-alsace-veterans-kata-2015.json",
+			"19": "2015/coupe-alsace-veterans-kumite-2015.json",
+			
+			"20": "2015/open-bale-kata-2015.json",
+			"21": "2015/championnat-france-kata-2015.json"
 		}
 	} 
 }

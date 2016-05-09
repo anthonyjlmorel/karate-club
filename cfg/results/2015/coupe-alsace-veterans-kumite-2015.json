@@ -1,0 +1,25 @@
+{
+    "contestName": "COUPE D'ALSACE VETERANS KUMITE",
+    "individualResults": {
+        "SENIORS MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "MOREL",
+                "firstName": "ANTHONY",
+                "category": "SENIORS MASCULINS",
+                "contest": "COUPE D'ALSACE VETERANS KUMITE"
+            }
+		],
+		"VETERANS I MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "HMAE",
+                "firstName": "YANNICK",
+                "category": "VETERANS I MASCULINS",
+                "contest": "COUPE D'ALSACE VETERANS KUMITE"
+            }
+		]
+    },
+    "teamResults": {
+	} 
+}

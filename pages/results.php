@@ -26,6 +26,7 @@
 		<!-- ko foreach: displayedResults -->
 		
 		<h2 data-bind="text: name"></h2>
+		<!-- ko if: individuals && individuals.length > 0 -->
 		<h2>En Individuel</h2>
 		<div data-bind="foreach: individuals">
 			<h4 data-bind="text: name"></h4>
@@ -54,6 +55,7 @@
 				
 			</div>
 		</div>
+		<!-- /ko -->
 		
 		<!-- ko if: teams && teams.length > 0 -->
 		<h2>Par Equipes</h2>

@@ -1,0 +1,28 @@
+{
+    "contestName": "CHAMPIONNAT DE FRANCE KATA",
+    "individualResults": {
+       
+    },
+    "teamResults": {
+		"SENIORS FEMININES":[
+			{
+				"rank": 3,
+				"isTeam": true,
+				"category": "SENIORS FEMININES",
+				"contest": "CHAMPIONNAT DE FRANCE KATA",
+				"fighters":[
+					{
+						"firstName": "KELLY",
+						"lastName": "DA COSTA"
+					},{
+						"firstName": "LAURA",
+						"lastName": "SAULDOIS"
+					},{
+						"firstName": "DANIELA",
+						"lastName": "CAROLINA"
+					}
+				]
+			}
+		]
+	}
+}

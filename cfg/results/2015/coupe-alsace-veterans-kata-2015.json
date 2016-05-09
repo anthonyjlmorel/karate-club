@@ -1,0 +1,25 @@
+{
+    "contestName": "COUPE D'ALSACE VETERANS KATA",
+    "individualResults": {
+        "VETERANS II MASCULINS": [
+            {
+                "rank": 2,
+                "lastName": "JUNG",
+                "firstName": "JEAN-LOUIS",
+                "category": "VETERANS II MASCULINS",
+                "contest": "COUPE D'ALSACE VETERANS KATA"
+            }
+		],
+		"VETERANS I MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "HMAE",
+                "firstName": "YANNICK",
+                "category": "VETERANS I MASCULINS",
+                "contest": "COUPE D'ALSACE VETERANS KATA"
+            }
+		]
+    },
+    "teamResults": {
+	}
+}

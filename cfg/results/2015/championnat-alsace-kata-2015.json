@@ -1,0 +1,51 @@
+{
+    "contestName": "CHAMPIONNAT D'ALSACE KATA",
+    "individualResults": {
+        "MINIMES FEMININES": [
+            {
+                "rank": 1,
+                "lastName": "BALTAZAR",
+                "firstName": "CLAUDIA",
+                "category": "MINIMES FEMININES",
+                "contest": "CHAMPIONNAT D'ALSACE KATA"
+            },{
+                "rank": 2,
+                "lastName": "HMAE",
+                "firstName": "MARIE",
+                "category": "MINIMES FEMININES",
+                "contest": "CHAMPIONNAT D'ALSACE KATA"
+            }
+        ],
+		"SENIORS FEMININES": [
+            {
+                "rank": 3,
+                "lastName": "DA COSTA",
+                "firstName": "KELLY",
+                "category": "SENIORS FEMININES",
+                "contest": "CHAMPIONNAT D'ALSACE KATA"
+            }
+        ]
+    },
+    "teamResults": {
+		"SENIORS FEMININES":[
+			{
+				"rank": 1,
+				"isTeam": true,
+				"category": "SENIORS FEMININES",
+				"contest": "CHAMPIONNAT D'ALSACE KATA",
+				"fighters":[
+					{
+						"firstName": "KELLY",
+						"lastName": "DA COSTA"
+					},{
+						"firstName": "LAURA",
+						"lastName": "SAULDOIS"
+					},{
+						"firstName": "DANIELA",
+						"lastName": "CAROLINA"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,68 @@
+{
+    "contestName": "OPEN D'ALSACE ELITE KATA",
+    "nbr": 4,
+    "individualResults": {
+    },
+    "teamResults": {
+		"EQUIPE":[{
+			"isTeam": true,
+			"rank": 3,
+			"fighters": [
+                    {
+                        "lastName": "DEMMOUCHE",
+                        "firstName": "ABDELLAH"
+                    },
+                    {
+                        "lastName": "DEMMOUCHE",
+                        "firstName": "FATNA"
+                    },
+                    {
+                        "lastName": "BOUSBIA-LAHROUR",
+                        "firstName": "ISAM"
+                    }
+                ],
+                "category": "EQUIPE",
+                "contest": "OPEN D'ALSACE ELITE KATA"
+		}],
+		"EQUIPE BENJAMINS FEMININES":[{
+			"isTeam": true,
+			"rank": 3,
+			"fighters": [
+                    {
+                        "lastName": "BEZIOU",
+                        "firstName": "EMILIE"
+                    },
+                    {
+                        "lastName": "HERRBRECHT",
+                        "firstName": "LAETITIA"
+                    },
+                    {
+                        "lastName": "BILGER",
+                        "firstName": "FLORA"
+                    }
+                ],
+                "category": "EQUIPE BENJAMINS FEMININES",
+                "contest": "OPEN D'ALSACE ELITE KATA"
+		}],
+		"EQUIPE BENJAMINS MASCULINS":[{
+			"isTeam": true,
+			"rank": 2,
+			"fighters": [
+                    {
+                        "lastName": "CELIK",
+                        "firstName": "FATIH"
+                    },
+                    {
+                        "lastName": "GULMEZ",
+                        "firstName": "AHMET"
+                    },
+                    {
+                        "lastName": "DARKO",
+                        "firstName": "ILIC"
+                    }
+                ],
+                "category": "EQUIPE BENJAMINS MASCULINS",
+                "contest": "OPEN D'ALSACE ELITE KATA"
+		}]
+	}
+}
