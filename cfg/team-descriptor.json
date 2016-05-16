@@ -18,14 +18,14 @@
 		},
 		{
 			"name": "Jean-Christophe Wieber",
-			"photo": "unknown.jpg",
+			"photo": "DSC08706.JPG",
 			"desc": "2eme dan, assistant (afa), entraîneur Krav Maga"
 		},
 		{
 			"name": "Antoine Ferraro",
-			"photo": "unknown.jpg",
+			"photo": "DSC08704.JPG",
 			"desc": "2eme dan, instructeur fédéral, entraîneur Krav Maga"
-		},
+		}, 
 		{
 			"name": "Christine DIEBOLD",
 			"photo": "IMG_4552.JPG",
@@ -49,12 +49,6 @@
 
 		},
 		{
-			"name": "Laura SAULDOIS",
-			"photo": "unknown.jpg",
-			"desc": "2eme dan,  juge national B, arbitre inter région"
-
-		},
-		{
 			"name": "Anthony MOREL",
 			"photo": "IMG_4568.JPG",
 			"desc": "2eme dan,  assistant (afa), entraîneur enfants compétition"
@@ -63,23 +57,10 @@
 			"name": "Vivien GROSS",
 			"photo": "IMG_4575.JPG",
 			"desc": "1er dan assistant"
-		},
-		{
-			"name": "Daniela CAROLINA",
-			"photo": "DSC08693.JPG",
-			"desc": "2eme dan, arbitre inter région, juge de ligue"
-		},{
-			"name": "Nesrin CAN",
-			"photo": "IMG_4562.JPG",
-			"desc": "1er Dan, assistante"
 		},{
 			"name": "Abdel HAYANI",
 			"photo": "DSC08688.JPG",
 			"desc": "2eme dan, assistant entraîneur adultes débutants"
-		},{
-			"name": "Frédéric BOCQUEL",
-			"photo": "unknown.jpg",
-			"desc": "2eme dan, assistant enfants"
 		}
 	]
 

@@ -159,6 +159,11 @@ body a:active{
 	margin-bottom: 2em;
 }
 
+.club .carousel-inner > .item > a > img{
+	margin-left: auto;
+    margin-right: auto;
+}
+
 .club .row:nth-child(2n) {
 	margin-bottom: 4em;
 }
@@ -356,7 +361,18 @@ body a:active{
 
 .results .years-selection li.active{
 	background-color: blue;
-	color: white;
+	color: #FFF;
+}
+
+.results .years-selection li,
+.results .years-selection li a {
+	color: #222;
+}
+
+.results .years-selection li:last-child{
+	font-style: italic;
+	font-size: 80%;
+	margin-top: 3em;
 }
 
 .results .fighters{

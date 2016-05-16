@@ -1,12 +1,13 @@
 <?php
 	
-$imgNames = array("slide1.jpg",
+$imgNames = array("events/FlyerKrav.jpg",
+				"slide1.jpg",
 				"slide2.jpg",
 				"slide3.jpg");
 
 ?>
   <!-- Wrapper for slides -->
-<div id="mainCarousel" class="carousel slide auto" data-ride="carousel" data-interval="2000">
+<div id="mainCarousel" class="carousel slide auto" data-ride="carousel" data-interval="4000">
 	  <ol class="carousel-indicators">
 		<?php
 			foreach($imgNames as $n=>$imgName){
@@ -35,7 +36,7 @@ $imgNames = array("slide1.jpg",
 		 <?php
 		 }
 		 	
-		 	if(strrpos($imgName, 'events/') != -1){
+		 	if(strpos($imgName, 'events/') !== false  ){
 				 echo "<a target='_blank' href='".SITE_WEB_ADDR.'/pages/'.$imgName."'>";
 			 }
 		 ?>
@@ -43,7 +44,7 @@ $imgNames = array("slide1.jpg",
 		  <img alt="Slide" src="<?php echo SITE_WEB_ADDR; ?>/img/carousel/<?php echo $imgName; ?>">
 		</div>
 		<?php
-			if(strrpos($imgName, 'events/') != -1){
+			if(strpos($imgName, 'events/') !== false ){
 				 echo "</a>";
 			 }
 		}

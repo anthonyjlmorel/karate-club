@@ -1,12 +1,16 @@
 <section class="results">
 	<div class="years-selection">
-		<ul data-bind="foreach: years">
+		<ul>
+		<!-- ko foreach: years -->
 			<li data-bind="text: $data + '-' + ($data+1), 
 						click: function(){$parent.selectYear($data);},
 						css:{'active' : $parent.selectedYear() == $data}"></li>
+		<!-- /ko -->
+			<li><a href="pages/results-archive/karresindex.htm" target="__blank">(Archives)</a></li>
 		</ul>	
 	</div>
 	<div class="selected-results">
+	
 		<h1 data-bind="text: 'Saison ' + selectedYear() + '-' + (selectedYear() + 1)"></h1>
 		
 		<div class="sort-selectors">

@@ -5,10 +5,25 @@
 		</div>
 	</div>
 	
-	<div class="row">
+	<!-- ko with: (function(team){
 		
-	<!-- ko foreach: team -->
+		var rows = [];
+		for(var i=0;i<team.length-1;i+=2){
+			rows.push([
+				team[i],
+				team[i+1]
+			]);
+		}
+		if(team.length % 2 != 0){
+			rows.push([team[team.length-1]]);
+		}
+		return rows;
+	})(team) -->
 	
+		
+	<!-- ko foreach: $data -->
+	<div class="row">
+	<!-- ko foreach: $data -->
 	<div class="col-xs-12 col-sm-5"  style="text-align:center;">
 	
 	<div class="img-container">
@@ -21,8 +36,11 @@
 	</p>
 	</div>
 	<!-- /ko -->
-	
 	</div>
+	
+	<!-- /ko -->
+	
+	<!-- /ko -->
 	
 	<div class="row">
 		<div class="col-lg-12 text-center">

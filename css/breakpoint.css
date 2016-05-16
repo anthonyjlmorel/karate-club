@@ -74,6 +74,10 @@
 		margin-top: 5px;
 	}
 	
+	.results .years-selection li:last-child{
+		margin-top: 0;
+	}
+	
 	.results .selected-results{
 		width: 100%;
 		padding-left: 0;
