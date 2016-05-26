@@ -25,6 +25,7 @@ var jsFiles = ["js/jquery.js",
 		"js/bootstrap.js",
 		"js/knockout-3.4.0.js",
 		"js/p-scripts/main-menu.js",
+		"js/p-scripts/club.js",
 		"js/p-scripts/calendar.js",
 		"js/p-scripts/results.js",
 		"js/p-scripts/team.js"
