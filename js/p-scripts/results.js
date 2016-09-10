@@ -216,9 +216,11 @@ var resultsReady = function(){
 		
 		years.sort().reverse();
 		
-		if(selectedYear() != null){
-			selectYear(selectedYear());;
+		if(selectedYear() == null){
+			selectedYear( years()[0] );
 		}
+		
+		selectYear(selectedYear());
 	});
 	
 };

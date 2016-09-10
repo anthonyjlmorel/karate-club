@@ -1,5 +1,16 @@
 <table border="1" cellpadding="4" cellspacing="1">
 	<tbody>
+		<tr>
+			<td colspan="2">
+				Lundi
+			</td>
+		</tr>
+		<tr>
+			<td>
+				20h15 à 21h45
+			</td>
+			<td>Ceintures Marrons-Noires</td>
+		</tr>
 		
 		<tr>
 			<td colspan="2">
