@@ -1,4 +1,5 @@
 <!-- Wrapper for slides -->
+<!-- ko if:images().length > 0 -->
 <div id="mainCarousel" class="carousel slide auto" data-ride="carousel" data-interval="4000">
 	  <ol class="carousel-indicators" data-bind="foreach: images">
 		<li data-target="#mainCarousel" data-bind="attr:{
@@ -30,3 +31,4 @@
 		<span class="glyphicon glyphicon-chevron-right"></span>
 	  </a>
 </div>
+<!-- /ko -->

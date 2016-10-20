@@ -14,7 +14,18 @@ var calendarReady = function(){
 	
 	function sortEvents(data){
 		data.sort(function(a,b){
-			return a.month - b.month;
+			if((a.month <= 7 && b.month <= 7) || (a.month > 7 && b.month > 7)){
+				return a.month - b.month;	
+			}
+			
+			if(a.month <= 7 && b.month > 7){
+				return 1;
+			} else if(a.month > 7 && b.month <= 7){
+				return -1;
+			}
+
+			return 1;
+			
 		});
 		
 		data.forEach(function(a){

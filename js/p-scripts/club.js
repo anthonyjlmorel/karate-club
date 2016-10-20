@@ -10,6 +10,10 @@ var clubReady = function(){
 	}).then(function(result){
 		
 		images(result['images']);
+		
+		//$("#mainCarousel").carousel();
+	}, function(e){
+		console.log(e);
 	});
 	
 	ko.applyBindings({images: images});

@@ -1,0 +1,24 @@
+{
+    "contestName": "Coupe Alsace Kumite",
+    "individualResults": {
+        "JUNIORS FEMININES +76kg": [
+            {
+                "rank": 1,
+                "lastName": "Reginald",
+                "firstName": "Jeyaray Daniel",
+                "category": "JUNIORS FEMININES +76kg",
+                "contest": "Coupe Alsace Kumite"
+            }
+        ],
+		"SENIORS FEMININES -55Kg": [
+            {
+                "rank": 3,
+                "lastName": "Jeannerod",
+                "firstName": "Laura",
+                "category": "SENIORS FEMININES –55kg",
+                "contest": "Coupe Alsace Kumite"
+            }
+        ]
+    },
+    "teamResults": {}
+}
