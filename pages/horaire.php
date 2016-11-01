@@ -32,12 +32,12 @@
 		<tr>
 			<td> 17H00 à 18H00</td>
 			<td> 
-				Baby Karaté
+				Baby Karaté 5-6 ans
 			</td>
 		</tr>
 		<tr>
 			<td> 18H00 à 19H00</td>
-			<td> 
+			<td>
 				Groupe enfants 6-8 ans
 			</td>
 		</tr>

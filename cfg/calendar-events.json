@@ -86,7 +86,12 @@
                     "date": 20,
                     "classname": "coupe",
                     "title": "Coupe du Bas-Rhin Kata/Kumité",
-                    "location": "Minime à Sénior, Obernai"
+                    "location": "Minime à Sénior, Obernai",
+					"links":{
+						"leaflet": "pages/events/coupe-bas-rhin-20-novembre-2016.doc",
+						"photos": "",
+						"register": ""
+					}
                 },
                 {
                     "date": 26,

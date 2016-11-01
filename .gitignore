@@ -54,6 +54,9 @@ image-hub
 *.xlsx
 resultsExtractor/excels
 
+# Doc files
+*.doc
+
 # node modules
 node_modules
 
