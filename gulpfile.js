@@ -14,6 +14,7 @@ var mode = 'debug';
 var cssFiles = ["css/bootstrap.css",
 		"css/main.css",
 		"css/theme.css",
+		"css/admin.css",
 		"css/font-awesome.css",
 		"css/breakpoint.css",
 		"css/montserrat-font.css",

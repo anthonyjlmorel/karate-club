@@ -27,11 +27,34 @@
 		)
 	);
 	
+	$GLOBALS["admin"] = array(
+		'admin/login' => array(
+			'title' => "login"
+		),
+		'admin/dashboard' => array(
+			'title' => "Dashboard"
+		),
+		'admin/team' => array(
+			'title' => "Equipe"
+		),
+		'admin/calendar' => array(
+			'title' => "Calendrier"
+		),
+		'admin/results' => array(
+			'title' => "Résultats"
+		),
+		'admin/carousel' => array(
+			'title' => "Carousel"
+		)
+	);
+	
 	$currentPage = 'w';
 	if(isset($_GET) && isset($_GET['p'])){
-		if( array_key_exists($_GET['p'], $GLOBALS['menu'])){
+		if( array_key_exists($_GET['p'], $GLOBALS['menu'])
+			|| array_key_exists($_GET['p'], $GLOBALS['admin'])){
+		
 			$currentPage = $_GET['p'];
-		}
+		} 
 	}
 	
 	if(!file_exists(SITE_ROOT_PATH.'/pages/'.$currentPage.'.php')){

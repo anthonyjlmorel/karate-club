@@ -1,0 +1,36 @@
+
+.quit a,
+.quit a:hover,
+.quit a:visited,
+.quit a:link,
+.quit a:active{
+	text-decoration: none;
+	color: #222;
+}
+
+.quit form, .quit div.username{
+	display: inline-block;
+}
+
+.dashboard .cartouches{
+	text-align: center;	
+}
+
+.dashboard .cartouche{
+	text-align: center;
+	display: inline-block;
+	
+	padding: 20px;
+	border-radius: 10px;
+	background-color:#222;
+	
+	width: 200px;
+}
+
+.dashboard .cartouche:hover{
+	cursor: pointer;
+}
+
+.dashboard .cartouche img{
+	width: 100px;
+}
