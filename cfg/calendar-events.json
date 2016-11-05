@@ -143,7 +143,7 @@
                     "date": 22,
                     "classname": "coupe",
                     "title": "Open d'Alsace Enfant PPB Kata Elite",
-                    "location": "Lieu à définir"
+                    "location": "Chatenois"
                 }
             ]
         },
@@ -154,7 +154,7 @@
                     "date": 5,
                     "classname": "championnat",
                     "title": "Championnat Alsace Kata (minimes à séniors)/Kumite (séniors)",
-                    "location": "Lieu à définir"
+                    "location": "Cernay"
                 },
 				{
                     "date": 11,
@@ -219,7 +219,7 @@
                     "date": 26,
                     "classname": "coupe",
                     "title": "Open d'Alsace Kata/Kumité Honneur",
-                    "location": "PPB, Lieu à définir"
+                    "location": "PPB, Cernay"
                 }
             ]
         },
@@ -247,7 +247,7 @@
                     "date": 30,
                     "classname": "championnat",
                     "title": "Championnat Alsace Vétéran et Body",
-                    "location": "Lieu à définir"
+                    "location": "Ingersheim"
                 }
             ]
         },
@@ -258,13 +258,13 @@
                     "date": 6,
                     "classname": "championnat",
                     "title": "Championnat France Kumité Minimes",
-                    "location": "Lieu à définir"
+                    "location": "Alsace, Lieu à définir"
                 },
 				{
                     "date": 7,
                     "classname": "championnat",
                     "title": "Championnat France Kumité Minimes",
-                    "location": "Lieu à définir"
+                    "location": "Alsace, Lieu à définir"
                 },
                 {
                     "date": 28,
