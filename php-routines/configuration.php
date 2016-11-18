@@ -10,7 +10,7 @@
 		define( 'SITE_WEB_ADDR', 'http://localhost/'.WEB_SITE_FOLDER);
 		
 		// antho's dev conf
-		define( 'SITE_ROOT_PATH', 'D:/Program Files/BitNami/wampstack-5.4.24-0/apache2/htdocs/' . WEB_SITE_FOLDER );
+		define( 'SITE_ROOT_PATH', 'D:/Program Files/BitNami/wampstack-5.6.25-0/apache2/htdocs/' . WEB_SITE_FOLDER );
 		
 		define('MODE', 'dev');
 	}else{

@@ -1,0 +1,74 @@
+{
+    "contestName": "Open Alsace Kumite",
+    "individualResults": {
+        "BENJAMINS FEMININES -35kg": [
+            {
+                "rank": 3,
+                "lastName": "Gahr",
+                "firstName": "Sarah",
+                "category": "BENJAMINS FEMININES -35kg",
+                "contest": "Open Alsace Kumite"
+        }],
+        "BENJAMINS FEMININES -40kg":[
+			{
+                "rank": 2,
+                "lastName": "Mahjoubi",
+                "firstName": "Rania",
+                "category": "BENJAMINS FEMININES -40kg",
+                "contest": "Open Alsace Kumite"
+            }
+        ],
+		"PUPILLES FEMININES": [
+            {
+                "rank": 2,
+                "lastName": "Mahjoubi",
+                "firstName": "Majdouline",
+                "category": "PUPILLES FEMININES",
+                "contest": "Open Alsace Kumite"
+            }
+        ],
+		"POUSSINS FEMININES -35kg": [
+            {
+                "rank": 2,
+                "lastName": "Gahr",
+                "firstName": "Rania",
+                "category": "POUSSINS FEMININES -35kg",
+                "contest": "Open Alsace Kumite"
+            }],
+        "POUSSINS FEMININES -20kg": [
+			{
+                "rank": 2,
+                "lastName": "El Haouari",
+                "firstName": "Amal",
+                "category": "POUSSINS FEMININES -20kg",
+                "contest": "Open Alsace Kumite"
+            }
+        ],
+		"POUSSINS MASCULINS -25kg": [
+            {
+                "rank": 1,
+                "lastName": "El Haouari",
+                "firstName": "Sami",
+                "category": "POUSSINS MASCULINS -25kg",
+                "contest": "Open Alsace Kumite"
+            },
+			{
+                "rank": 3,
+                "lastName": "Hmae",
+                "firstName": "Alexandre",
+                "category": "POUSSINS MASCULINS -25kg",
+                "contest": "Open Alsace Kumite"
+            }
+        ],
+		"POUSSINS MASCULINS -40kg": [
+            {
+                "rank": 3,
+                "lastName": "Idrissi",
+                "firstName": "Yaniss",
+                "category": "POUSSINS MASCULINS -40kg",
+                "contest": "Open Alsace Kumite"
+            }
+        ]
+    },
+    "teamResults": {}
+}

@@ -96,13 +96,13 @@
                 {
                     "date": 26,
                     "classname": "coupe",
-                    "title": "Open Kata/Kumité",
+                    "title": "Open Départemental Kata/Kumité",
                     "location": "Benjamins, Bischheim"
                 },
                 {
                     "date": 27,
                     "classname": "coupe",
-                    "title": "Open Kata/Kumité",
+                    "title": "Open Départemental Kata/Kumité",
                     "location": "Poussins et Pupilles, Bischheim"
                 }
             ]
@@ -172,7 +172,7 @@
                     "date": 25,
                     "classname": "coupe",
                     "title": "Coupe du Bas-Rhin Kata/Kumité",
-                    "location": "Vétéran, Schiltigheim"
+                    "location": "Vétérans, Geispolsheim"
                 },
                 {
                     "date": 26,
@@ -240,7 +240,7 @@
                 {
                     "date": 15,
                     "classname": "coupe",
-                    "title": "Challenge Berger Kata/Kumité",
+                    "title": "Challenge Berger Départemental Kata/Kumité",
                     "location": "Poussins à Benjamins, Plobsheim"
                 },
                 {
@@ -258,13 +258,13 @@
                     "date": 6,
                     "classname": "championnat",
                     "title": "Championnat France Kumité Minimes",
-                    "location": "Alsace, Lieu à définir"
+                    "location": "Sélestat"
                 },
 				{
                     "date": 7,
                     "classname": "championnat",
                     "title": "Championnat France Kumité Minimes",
-                    "location": "Alsace, Lieu à définir"
+                    "location": "Sélestat"
                 },
                 {
                     "date": 28,

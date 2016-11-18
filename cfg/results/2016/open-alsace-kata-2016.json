@@ -1,0 +1,63 @@
+{
+    "contestName": "Open Alsace Kata",
+    "individualResults": {
+        "BENJAMINS FEMININES": [
+            {
+                "rank": 1,
+                "lastName": "Gahr",
+                "firstName": "Sarah",
+                "category": "BENJAMINS FEMININES",
+                "contest": "Open Alsace Kata"
+            },
+			{
+                "rank": 2,
+                "lastName": "Mahjoubi",
+                "firstName": "Rania",
+                "category": "BENJAMINS FEMININES",
+                "contest": "Open Alsace Kata"
+            }
+        ],
+		"PUPILLES FEMININES": [
+            {
+                "rank": 1,
+                "lastName": "Mahjoubi",
+                "firstName": "Majdouline",
+                "category": "PUPILLES FEMININES",
+                "contest": "Open Alsace Kata"
+            }
+        ],
+		"POUSSINS FEMININES": [
+            {
+                "rank": 2,
+                "lastName": "Gahr",
+                "firstName": "Rania",
+                "category": "POUSSINS FEMININES",
+                "contest": "Open Alsace Kata"
+            },
+			{
+                "rank": 1,
+                "lastName": "El Haouari",
+                "firstName": "Amal",
+                "category": "POUSSINS FEMININES",
+                "contest": "Open Alsace Kata"
+            }
+        ],
+		"POUSSINS MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "El Haouari",
+                "firstName": "Sami",
+                "category": "POUSSINS MASCULINS",
+                "contest": "Open Alsace Kata"
+            },
+			{
+                "rank": 2,
+                "lastName": "Hmae",
+                "firstName": "Alexandre",
+                "category": "POUSSINS MASCULINS",
+                "contest": "Open Alsace Kata"
+            }
+        ]
+    },
+    "teamResults": {}
+}
