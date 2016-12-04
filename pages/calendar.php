@@ -33,8 +33,14 @@
 			<div class="links clickable">
 				<ul data-bind="foreach: Object.keys(links)">
 					<li>
-						<!-- ko if: $parent.links[$data] -->
+						<!-- ko if: $parent.links[$data] && $data != "photos" -->
 						<a target="_blank" data-bind="attr:{'href': $parent.links[$data]}"></a>
+						<!-- /ko -->
+						
+						<!-- ko if: $parent.links[$data] && $data == "photos" -->
+						<a target="_blank" href="" data-bind="click: function(){
+							showGallery($parent.links[$data]);
+						}"></a>
 						<!-- /ko -->
 					</li>
 				</ul>

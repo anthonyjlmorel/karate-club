@@ -1,0 +1,225 @@
+{
+    "contestName": "Open Départemental Kata",
+	"gallery": "2016/open-departemental",
+    "individualResults": {
+        "PUPILLES FEMININES": [
+            {
+                "rank": 2,
+                "lastName": "POH",
+                "firstName": "LEA",
+                "category": "PUPILLES FEMININES",
+                "contest": "Open Départemental Kata"
+            },
+			{
+                "rank": 3,
+                "lastName": "BENACHIR",
+                "firstName": "KHIRA",
+                "category": "PUPILLES FEMININES",
+                "contest": "Open Départemental Kata"
+            }
+        ],
+		"POUSSINES": [
+            {
+                "rank": 1,
+                "lastName": "GAHR",
+                "firstName": "RANIA",
+                "category": "POUSSINES",
+                "contest": "Open Départemental Kata"
+            },
+			{
+                "rank": 2,
+                "lastName": "EL HAOUARI",
+                "firstName": "AMAL",
+                "category": "POUSSINES",
+                "contest": "Open Départemental Kata"
+            },
+			{
+                "rank": 3,
+                "lastName": "MAHJOUBI",
+                "firstName": "OUIANE",
+                "category": "POUSSINES",
+                "contest": "Open Départemental Kata"
+            }
+        ],
+		"POUSSINS": [
+            {
+                "rank": 1,
+                "lastName": "HMAE",
+                "firstName": "ALEXANDRE",
+                "category": "POUSSINS",
+                "contest": "Open Départemental Kata"
+            },
+			{
+                "rank": 2,
+                "lastName": "IDRISSI",
+                "firstName": "YANISS",
+                "category": "POUSSINS",
+                "contest": "Open Départemental Kata"
+            },
+			{
+                "rank": 3,
+                "lastName": "EL HAOUARI",
+                "firstName": "SAMI",
+                "category": "POUSSINS",
+                "contest": "Open Départemental Kata"
+            }
+        ],
+		"BENJAMINS FEMININES": [
+            {
+                "rank": 1,
+                "lastName": "HERRBRECHT",
+                "firstName": "LAETITIA",
+                "category": "BENJAMINS FEMININES",
+                "contest": "Open Départemental Kata"
+            },
+			{
+                "rank": 2,
+                "lastName": "GAHR",
+                "firstName": "SARAH",
+                "category": "BENJAMINS FEMININES",
+                "contest": "Open Départemental Kata"
+            },
+			{
+                "rank": 3,
+                "lastName": "BEZIOU",
+                "firstName": "EMILIE",
+                "category": "BENJAMINS FEMININES",
+                "contest": "Open Départemental Kata"
+            }
+        ]
+    },
+    "teamResults": {
+		"POUSSINS PUPILLES MIXTES":[
+			{
+				"rank": 1,
+				"isTeam": true,
+				"category": "POUSSINS PUPILLES MIXTES",
+				"contest": "Open Départemental Kata",
+				"fighters":[
+					{
+						"firstName": "DINA",
+						"lastName": "EL HAOUARI"
+					},{
+						"firstName": "ALEXANDRE",
+						"lastName": "HMAE"
+					},{
+						"firstName": "KHIRA",
+						"lastName": "BENACHIR"
+					}
+				]
+			},
+            {
+				"rank": 2,
+				"isTeam": true,
+				"category": "POUSSINS PUPILLES MIXTES",
+				"contest": "Open Départemental Kata",
+				"fighters":[
+					{
+						"firstName": "AMAL",
+						"lastName": "EL HAOUARI"
+					},{
+						"firstName": "SAMI",
+						"lastName": "EL HAOUARI"
+					},{
+						"firstName": "RANIA",
+						"lastName": "GAHR"
+					}
+				]
+			}
+		],
+		"BENJAMINES MINIMES":[
+			{
+				"rank": 1,
+				"isTeam": true,
+				"category": "BENJAMINES MINIMES",
+				"contest": "Open Départemental Kata",
+				"fighters":[
+					{
+						"firstName": "SORAYA",
+						"lastName": "KHOUATRA"
+					},{
+						"firstName": "MANON",
+						"lastName": "NAVARETTE"
+					},{
+						"firstName": "SHAIMA",
+						"lastName": "KESSAI"
+					}
+				]
+			},
+            {
+				"rank": 2,
+				"isTeam": true,
+				"category": "BENJAMINES MINIMES",
+				"contest": "Open Départemental Kata",
+				"fighters":[
+					{
+						"firstName": "FATNA",
+						"lastName": "DEMMOUCHE"
+					},{
+						"firstName": "SARAH",
+						"lastName": "GAHR"
+					},{
+						"firstName": "RANIA",
+						"lastName": "MAHJOUBI"
+					}
+				]
+			},
+            {
+				"rank": 3,
+				"isTeam": true,
+				"category": "BENJAMINES MINIMES",
+				"contest": "Open Départemental Kata",
+				"fighters":[
+					{
+						"firstName": "LAETITIA",
+						"lastName": "HERRBRECHT"
+					},{
+						"firstName": "EMILIE",
+						"lastName": "BEZIOU"
+					},{
+						"firstName": "ASSIA",
+						"lastName": "YAKBAH"
+					}
+				]
+			}
+		],
+        "BENJAMINS MINIMES":[
+			{
+				"rank": 1,
+				"isTeam": true,
+				"category": "BENJAMINS MINIMES",
+				"contest": "Open Départemental Kata",
+				"fighters":[
+					{
+						"firstName": "FATIH",
+						"lastName": "CELIK"
+					},{
+						"firstName": "DYLAN",
+						"lastName": "HERRBRECHT"
+					},{
+						"firstName": "EVAN",
+						"lastName": "LE MOINE"
+					}
+				]
+			},
+            {
+				"rank": 2,
+				"isTeam": true,
+				"category": "BENJAMINS MINIMES",
+				"contest": "Open Départemental Kata",
+				"fighters":[
+					{
+						"firstName": "LUCAS",
+						"lastName": "KAISER"
+					},{
+						"firstName": "IMRAM",
+						"lastName": "MEDHI"
+					},{
+						"firstName": "ARIF",
+						"lastName": "CELIK"
+					}
+				]
+			}
+		]
+	}
+}

@@ -29,7 +29,17 @@
 		<!-- ko if: displayedResults && displayedResults().length > 0  && displayMode() == "by-contest"-->
 		<!-- ko foreach: displayedResults -->
 		
-		<h2 data-bind="text: name"></h2>
+		<div class="result-header">
+			<h2 data-bind="text: name"></h2>
+			<!-- ko if: gallery --> 
+			<span class="glyphicon glyphicon-picture" data-bind="click: function(){
+				showGallery(gallery);
+			}"></span>
+			<!-- /ko -->
+		</div>
+		
+		
+		
 		<!-- ko if: individuals && individuals.length > 0 -->
 		<h2>En Individuel</h2>
 		<div data-bind="foreach: individuals">

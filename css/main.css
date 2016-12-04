@@ -305,6 +305,15 @@ body a:active{
 	position: relative;
 }
 
+.results .result-header{
+	display: flex;
+}
+
+.results .result-header .glyphicon {
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
 .results .sort-selectors{
 	text-align:center;
 }
@@ -397,4 +406,64 @@ body a:active{
 
 .contact a{
 	color: inherit !important;
+}
+
+.gallery {
+	display: none;
+	position: fixed;
+	background-color: rgba(34, 34, 34, 0.5);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99998;
+}
+
+.gallery .gallery-modal {
+	position:absolute;
+	z-index: 99999;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #FFF;
+	
+	width: 80%;
+	height: 80%;
+	
+	border-radius: 5px;
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.gallery section{
+	overflow-y: auto;
+	overflow-x: hidden;
+	
+	text-align: center;
+	
+	margin-bottom: 10px;
+}
+
+.gallery img{
+	cursor: pointer;
+}
+
+.gallery h2{
+	color: #222;
+}
+
+.gallery .close-modal{
+	position: absolute;
+	background-color: #222;
+	color: #fec503;
+	cursor: pointer;
+
+	padding-left: 8px;
+	padding-right: 8px;
+	
+	font-size:30px;
+	margin:5px;
+	right: 0;
+	top: 0;
 }

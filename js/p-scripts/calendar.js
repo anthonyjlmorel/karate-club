@@ -74,6 +74,6 @@ var calendarReady = function(){
 		
 		viewModel.calendarData(events);
 		
-		ko.applyBindings(viewModel);
+		ko.applyBindings(viewModel, $(".calendar")[0]);
 	});
 };

@@ -114,6 +114,12 @@
 		var pattern = "p=",
 			pageIndex = window.location.search.indexOf(pattern),
 			funcName;
+			
+			
+		// Main JS scripts
+		$(document).ready(window["mainScript"]);
+		
+		// Page-specific script
 		if(pageIndex>-1){
 			funcName = window.location
 							.search
@@ -144,6 +150,22 @@
 	}
 	?>
     
+	<div class="gallery">
+		
+		<div class="gallery-modal">
+			<header>
+				<h2 data-bind="text: title"></h2>
+				<div class="close-modal" data-bind="click: close">X</div>
+			</header>
+			<section data-bind="foreach: images">
+				
+				<img data-bind="attr:{src: $data }, click: function(){
+						window.open($data, '_blank');
+				}" width="200px" />
+				
+			</section>
+		</div>
+	</div>
 	
 </body>
 

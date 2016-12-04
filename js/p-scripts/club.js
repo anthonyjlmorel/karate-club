@@ -16,6 +16,6 @@ var clubReady = function(){
 		console.log(e);
 	});
 	
-	ko.applyBindings({images: images});
+	ko.applyBindings({images: images}, $(".club")[0]);
 	
 }; 

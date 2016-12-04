@@ -1,0 +1,146 @@
+{
+    "contestName": "Open Départemental Kumité",
+	"gallery": "2016/open-departemental",
+    "individualResults": {
+        
+        "POUSSINES -20kg": [
+            {
+                "rank": 1,
+                "lastName": "MAHJOUBI",
+                "firstName": "OUIANE",
+                "category": "POUSSINES -20kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+        "POUSSINES -25kg": [
+            {
+                "rank": 3,
+                "lastName": "EL HAOUARI",
+                "firstName": "AMAL",
+                "category": "POUSSINES -25kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+        
+        "POUSSINES -35kg": [
+            {
+                "rank": 3,
+                "lastName": "GAHR",
+                "firstName": "RANIA",
+                "category": "POUSSINES -35kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+        "POUSSINS -25kg": [
+            {
+                "rank": 2,
+                "lastName": "EL HAOUARI",
+                "firstName": "SAMI",
+                "category": "POUSSINS -25kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+        
+        "POUSSINS -30kg": [
+            {
+                "rank": 1,
+                "lastName": "HMAE",
+                "firstName": "ALEXANDRE",
+                "category": "POUSSINS -30kg",
+                "contest": "Open Départemental Kumité"
+			},
+            {
+                "rank": 2,
+                "lastName": "ANTOINE",
+                "firstName": "MATHIEU",
+                "category": "POUSSINS -30kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+        
+        "POUSSINS -40kg": [
+            {
+                "rank": 1,
+                "lastName": "IDRISSI",
+                "firstName": "YANISS",
+                "category": "POUSSINS -40kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+        
+        "POUSSINS -45kg": [
+            {
+                "rank": 1,
+                "lastName": "ELBAZ",
+                "firstName": "ILIAS",
+                "category": "POUSSINS -45kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+        
+        "PUPILLES FEMININES -25kg": [
+            {
+                "rank": 3,
+                "lastName": "BENACHIR",
+                "firstName": "KHIRA",
+                "category": "PUPILLES FEMININES -25kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+        "PUPILLES FEMININES -40kg": [
+            {
+                "rank": 2,
+                "lastName": "MAHJOUBI",
+                "firstName": "MAJDOULINE",
+                "category": "PUPILLES FEMININES -40kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+        "PUPILLES MASCULINS -25kg": [
+            {
+                "rank": 2,
+                "lastName": "DEMMOUCHE",
+                "firstName": "ABDELLAH",
+                "category": "PUPILLES MASCULINS -25kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+        "PUPILLES MASCULINS -45kg": [
+            {
+                "rank": 3,
+                "lastName": "AY",
+                "firstName": "ALI THALA",
+                "category": "PUPILLES MASCULINS -45kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+        "BENJAMINS FEMININES -35kg": [
+            {
+                "rank": 3,
+                "lastName": "DEMMOUCHE",
+                "firstName": "FATNA",
+                "category": "BENJAMINS FEMININES -35kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+		"BENJAMINS FEMININES -45kg": [
+            {
+                "rank": 1,
+                "lastName": "MAHJOUBI",
+                "firstName": "RANIA",
+                "category": "BENJAMINS FEMININES -45kg",
+                "contest": "Open Départemental Kumité"
+			}
+		],
+		"BENJAMINS FEMININES -50kg": [
+            {
+                "rank": 2,
+                "lastName": "REZKI",
+                "firstName": "INES",
+                "category": "BENJAMINS FEMININES -50kg",
+                "contest": "Open Départemental Kumité"
+			}
+		]
+    },
+    "teamResults": {}
+}

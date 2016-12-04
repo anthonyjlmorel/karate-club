@@ -27,11 +27,15 @@ var resultsReady = function(){
 		for(var i in resultsLst){
 			var contest = {
 				name: resultsLst[i].contestName,
+				gallery: null,
 				individuals: [],
 				teams: []
 			};
 			
-			
+			if(resultsLst[i].results.gallery){
+				
+				contest.gallery = resultsLst[i].results.gallery;
+			}
 			
 			for(var j in resultsLst[i].results.individualResults){
 				var cat = {
@@ -80,7 +84,7 @@ var resultsReady = function(){
 			for(var j in resultsLst[i].results.individualResults){
 				
 				resultsLst[i].results.individualResults[j].forEach(function(fighter){
-					var key = fighter.lastName.trim() + "_" + fighter.firstName.trim();
+					var key = fighter.lastName.toLowerCase().trim() + "_" + fighter.firstName.toLowerCase().trim();
 					if(!fighterMap[key]){
 						fighterMap[key] = {
 							firstName: fighter.firstName,
@@ -105,7 +109,7 @@ var resultsReady = function(){
 				resultsLst[i].results.teamResults[j].forEach(function(re){
 					
 					re.fighters.forEach(function(f){
-						var key = f.lastName.trim() + "_" + f.firstName.trim();
+						var key = f.lastName.toLowerCase().trim() + "_" + f.firstName.toLowerCase().trim();
 						if(!fighterMap[key]){
 							fighterMap[key] = {
 								firstName: f.firstName,
@@ -186,7 +190,7 @@ var resultsReady = function(){
 			displayMode(mode);
 			displayResults(selectedYear());
 		}
-	});
+	}, $(".results")[0]);
 	
 	$.ajax({
 		url:'cfg/results-list.json',

@@ -7,7 +7,7 @@ var teamReady = function(){
 		cache: false
 	}).then(function(result){
 		
-		ko.applyBindings(result);
+		ko.applyBindings(result, $(".team")[0]);
 	});
 	
 };

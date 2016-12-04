@@ -15,12 +15,12 @@
 	  }">
 		<!-- ko if: $data.indexOf('events/') > -1 --> 
 		<a target='_blank' data-bind="attr:{href: 'pages/'+$data }">
-		<img alt="Slide" data-bind="attr:{src: 'img/carousel/' + $data}" />
+		<img alt="Slide" data-bind="attr:{src: $data}" />
 		</a>
 		<!-- /ko -->
 		
 		<!-- ko if: $data.indexOf('events/') == -1 --> 
-		<img alt="Slide" data-bind="attr:{src: 'img/carousel/' + $data}" />
+		<img alt="Slide" data-bind="attr:{src: $data}" />
 		<!-- /ko -->
 	  </div>
 	  </div>

@@ -97,13 +97,23 @@
                     "date": 26,
                     "classname": "coupe",
                     "title": "Open Départemental Kata/Kumité",
-                    "location": "Benjamins, Bischheim"
+                    "location": "Benjamins, Bischheim",
+					"links":{
+						"leaflet": "",
+						"photos": "2016/open-departemental",
+						"register": ""
+					}
                 },
                 {
                     "date": 27,
                     "classname": "coupe",
                     "title": "Open Départemental Kata/Kumité",
-                    "location": "Poussins et Pupilles, Bischheim"
+                    "location": "Poussins et Pupilles, Bischheim",
+					"links":{
+						"leaflet": "",
+						"photos": "2016/open-departemental",
+						"register": ""
+					}
                 }
             ]
         },

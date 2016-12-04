@@ -23,6 +23,7 @@ var cssFiles = ["css/bootstrap.css",
 		
 var jsFiles = ["js/jquery.js",
 		"js/knockout-3.4.0.js",
+		"js/p-scripts/main-script.js",
 		"js/p-scripts/main-menu.js",
 		"js/p-scripts/club.js",
 		"js/p-scripts/calendar.js",
