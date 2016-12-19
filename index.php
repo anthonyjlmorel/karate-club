@@ -159,8 +159,8 @@
 			</header>
 			<section data-bind="foreach: images">
 				
-				<img data-bind="attr:{src: $data }, click: function(){
-						window.open($data, '_blank');
+				<img data-bind="attr:{src: $data.mini }, click: function(){
+						window.open($data.img, '_blank');
 				}" width="200px" />
 				
 			</section>

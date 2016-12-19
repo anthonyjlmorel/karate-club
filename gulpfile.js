@@ -7,7 +7,8 @@ var gulp = require("gulp"),
 	rimraf = require('rimraf'),
 	sequence = require('gulp-sequence'),
 	mergeStream = require('merge-stream'),
-    jsonminify = require('gulp-jsonminify');
+    jsonminify = require('gulp-jsonminify'),
+	imageResize = require('gulp-image-resize');
 
 var mode = 'debug';
 
@@ -93,8 +94,21 @@ gulp.task('copy-font', function(){
 });
 
 gulp.task('copy-img', function(){
-	return gulp.src(['./img/**/*'])
+	
+	// Copying Regular Imgs
+	var a = gulp.src(['./img/**/*',])
 				.pipe(gulp.dest(dist + '/img'));
+	
+	// Making Miniatures for Gallery
+	// @WARNING: to use image resize, you need to install
+	// Graphicsmagick
+	var b =  gulp.src(["./img/gallery/**"])
+				.pipe(imageResize({
+					width : 200
+				}))
+				.pipe(gulp.dest(dist + '/img/gallery-min'));
+				
+	return mergeStream(a, b);
 });
 
 gulp.task('generate-index', function(){
