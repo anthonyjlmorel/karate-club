@@ -68,7 +68,7 @@
 				{
                     "date": 6,
                     "classname": "coupe",
-                    "title": "Open de d'Alsace PPBM Kata/Kumite",
+                    "title": "Open d'Alsace PPBM Kata/Kumite",
                     "location": "Riedisheim",
 					"links":{
 						"leaflet": "pages/events/open-ppbm.pdf",
@@ -89,7 +89,7 @@
                     "location": "Minime à Sénior, Obernai",
 					"links":{
 						"leaflet": "pages/events/coupe-bas-rhin-20-novembre-2016.doc",
-						"photos": "",
+						"photos": "2016/coupe-bas-rhin-kata-kumite",
 						"register": ""
 					}
                 },
@@ -130,7 +130,12 @@
                     "date": 18,
                     "classname": "coupe",
                     "title": "Open d'Alsace Enfants PPB Kumité Elite",
-                    "location": "Sélestat"
+                    "location": "Sélestat",
+                    "links":{
+						"leaflet": "",
+						"photos": "",
+						"register": ""
+					}
                 }
             ]
         },
