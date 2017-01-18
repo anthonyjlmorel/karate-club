@@ -1,0 +1,136 @@
+{
+    "contestName": "Coupe du Bas-Rhin Kumite",
+	"gallery": "2016/coupe-bas-rhin-kata-kumite",
+    "individualResults": {
+        "MINIMES FEMININES -45kg": [
+            {
+                "rank": 3,
+                "lastName": "Navarette",
+                "firstName": "Manon",
+                "category": "MINIMES FEMININES -45kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            }
+        ],
+        "MINIMES FEMININES -50kg": [
+            {
+                "rank": 2,
+                "lastName": "Khouatra",
+                "firstName": "Soroya",
+                "category": "MINIMES FEMININES -50kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            }
+        ],
+        "MINIMES FEMININES +55kg": [
+            {
+                "rank": 1,
+                "lastName": "HMAE",
+                "firstName": "Marie",
+                "category": "MINIMES FEMININES +55kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            }
+        ],
+        "MINIMES MASCULINS -35kg": [
+            {
+                "rank": 2,
+                "lastName": "Ilil",
+                "firstName": "Darko",
+                "category": "MINIMES MASCULINS -35kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            },
+            {
+                "rank": 3,
+                "lastName": "Guet",
+                "firstName": "Maximilien",
+                "category": "MINIMES MASCULINS -35kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            }
+        ],
+        "MINIMES MASCULINS -40kg": [
+            {
+                "rank": 2,
+                "lastName": "Mehdi",
+                "firstName": "Imram",
+                "category": "MINIMES MASCULINS -40kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            }
+        ],
+        "MINIMES MASCULINS -45kg": [
+            {
+                "rank": 3,
+                "lastName": "Le Moine",
+                "firstName": "Evan",
+                "category": "MINIMES MASCULINS -45kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            }
+        ],
+        "MINIMES MASCULINS -65kg": [
+            {
+                "rank": 2,
+                "lastName": "Reginald Jeyaray",
+                "firstName": "Kevin",
+                "category": "MINIMES MASCULINS -65kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            },
+            {
+                "rank": 3,
+                "lastName": "Fritsch",
+                "firstName": "Théo",
+                "category": "MINIMES MASCULINS -65kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            }
+        ],
+        "CADETTES -47kg": [
+            {
+                "rank": 3,
+                "lastName": "Meline",
+                "firstName": "Lucile",
+                "category": "CADETTES -47kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            },
+            {
+                "rank": 3,
+                "lastName": "Celik",
+                "firstName": "Esra",
+                "category": "CADETTES -47kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            }
+        ],
+        "CADETS -52kg": [
+            {
+                "rank": 3,
+                "lastName": "Avanian",
+                "firstName": "Youri",
+                "category": "CADETS -52kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            }
+        ],
+        "JUNIORS MASCULINS +76kg": [
+            {
+                "rank": 1,
+                "lastName": "Reginald Jeyaray",
+                "firstName": "Daniel",
+                "category": "JUNIORS MASCULINS +76kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            }
+        ],
+        "SENIORS FEMININES -55kg": [
+            {
+                "rank": 1,
+                "lastName": "Jeannerod",
+                "firstName": "Laura",
+                "category": "SENIORS FEMININES -55kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            }
+        ],
+        "SENIORS MASCULINS -75kg": [
+            {
+                "rank": 3,
+                "lastName": "Nussbaum",
+                "firstName": "Didier",
+                "category": "SENIORS MASCULINS -75kg",
+                "contest": "Coupe du Bas-Rhin Kumite"
+            }
+        ]
+    },
+    "teamResults": {}
+}

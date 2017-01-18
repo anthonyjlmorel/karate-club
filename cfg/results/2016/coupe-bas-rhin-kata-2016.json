@@ -1,0 +1,59 @@
+{
+    "contestName": "Coupe du Bas-Rhin Kata",
+	"gallery": "2016/coupe-bas-rhin-kata-kumite",
+    "individualResults": {
+        "MINIMES FEMININES": [
+            {
+                "rank": 1,
+                "lastName": "HMAE",
+                "firstName": "Marie",
+                "category": "MINIMES FEMININES",
+                "contest": "Coupe du Bas-Rhin Kata"
+            }
+        ],
+        "MINIMES MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "Herrbrecht",
+                "firstName": "Yannis",
+                "category": "MINIMES MASCULINS",
+                "contest": "Coupe du Bas-Rhin Kata"
+            }
+        ],
+        "CADETTES": [
+            {
+                "rank": 3,
+                "lastName": "Baltazar",
+                "firstName": "Claudia",
+                "category": "CADETTES",
+                "contest": "Coupe du Bas-Rhin Kata"
+            },
+            {
+                "rank": 3,
+                "lastName": "Meline",
+                "firstName": "Lucie",
+                "category": "CADETTES",
+                "contest": "Coupe du Bas-Rhin Kata"
+            }
+        ],
+        "JUNIORS FEMININES": [
+            {
+                "rank": 2,
+                "lastName": "Thirion",
+                "firstName": "Laurie",
+                "category": "JUNIORS FEMININES",
+                "contest": "Coupe du Bas-Rhin Kata"
+            }
+        ],
+        "JUNIORS MASCULINS": [
+            {
+                "rank": 1,
+                "lastName": "Reginald Jeyaray",
+                "firstName": "Daniel",
+                "category": "JUNIORS MASCULINS",
+                "contest": "Coupe du Bas-Rhin Kata"
+            }
+        ]
+    },
+    "teamResults": {}
+}

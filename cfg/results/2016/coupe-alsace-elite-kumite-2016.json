@@ -1,0 +1,78 @@
+{
+    "contestName": "Coupe Alsace Elite Kumite",
+    "individualResults": {
+        "POUSSINS FEMININES -25kg": [
+            {
+                "rank": 2,
+                "lastName": "El Haouari",
+                "firstName": "Amal",
+                "category": "POUSSINS FEMININES -25kg",
+                "contest": "Coupe Alsace Elite Kumite"
+            }
+        ],
+		"POUSSINS FEMININES -40kg": [
+            {
+                "rank": 1,
+                "lastName": "Gahr",
+                "firstName": "Ranya",
+                "category": "POUSSINS FEMININES -40kg",
+                "contest": "Coupe Alsace Elite Kumite"
+            }
+        ],
+		"POUSSINS MASCULINS -30kg": [
+            {
+                "rank": 3,
+                "lastName": "Hmae",
+                "firstName": "Alexandre",
+                "category": "POUSSINS MASCULINS -30kg",
+                "contest": "Coupe Alsace Elite Kumite"
+            }
+        ],
+		"POUSSINS MASCULINS -45kg": [
+            {
+                "rank": 1,
+                "lastName": "Idrissi",
+                "firstName": "Yannis",
+                "category": "POUSSINS MASCULINS -45kg",
+                "contest": "Coupe Alsace Elite Kumite"
+            }
+        ],
+		"POUSSINS MASCULINS +45kg": [
+            {
+                "rank": 1,
+                "lastName": "Elbaz",
+                "firstName": "Ilias",
+                "category": "POUSSINS MASCULINS +45kg",
+                "contest": "Coupe Alsace Elite Kumite"
+            }
+        ],
+		"PUPILLES FEMININES -25kg": [
+            {
+                "rank": 1,
+                "lastName": "Poh",
+                "firstName": "Léa",
+                "category": "PUPILLES FEMININES -25kg",
+                "contest": "Coupe Alsace Elite Kumite"
+            }
+        ],
+		"PUPILLES FEMININES -45kg": [
+            {
+                "rank": 2,
+                "lastName": "Mahjoubi",
+                "firstName": "MAJDOULINE",
+                "category": "PUPILLES FEMININES -45kg",
+                "contest": "Coupe Alsace Elite Kumite"
+            }
+        ],
+		"BENJAMINS FEMININES -45kg": [
+            {
+                "rank": 1,
+                "lastName": "Mahjoubi",
+                "firstName": "Rania",
+                "category": "BENJAMINS FEMININES -45kg",
+                "contest": "Coupe Alsace Elite Kumite"
+            }
+        ]
+    },
+    "teamResults": {}
+}

@@ -10,7 +10,8 @@ var gulp = require("gulp"),
     jsonminify = require('gulp-jsonminify'),
 	imageResize = require('gulp-image-resize');
 
-var mode = 'debug';
+var mode = 'debug',
+	withoutImgOperations = false;
 
 var cssFiles = ["css/bootstrap.css",
 		"css/main.css",
@@ -99,16 +100,22 @@ gulp.task('copy-img', function(){
 	var a = gulp.src(['./img/**/*',])
 				.pipe(gulp.dest(dist + '/img'));
 	
-	// Making Miniatures for Gallery
-	// @WARNING: to use image resize, you need to install
-	// Graphicsmagick
-	var b =  gulp.src(["./img/gallery/**"])
-				.pipe(imageResize({
-					width : 200
-				}))
-				.pipe(gulp.dest(dist + '/img/gallery-min'));
-				
-	return mergeStream(a, b);
+	
+	if(!withoutImgOperations){
+		// Making Miniatures for Gallery
+		// @WARNING: to use image resize, you need to install
+		// Graphicsmagick
+		var b =  gulp.src(["./img/gallery/**"])
+					.pipe(imageResize({
+						width : 200
+					}))
+					.pipe(gulp.dest(dist + '/img/gallery-min'));
+					
+		return mergeStream(a, b);	
+	}
+	
+	return a;
+	
 });
 
 gulp.task('generate-index', function(){
@@ -142,6 +149,13 @@ gulp.task('generate-index', function(){
 
 gulp.task('build', function(cb){
 	
+	var seq = ['clean', ['generate-index', 'copy-img', 'copy-font', 'copy-css', 'copy-js', 'copy-php','copy-cfg'], cb];
+	
+	sequence.apply(sequence, seq);
+});
+
+gulp.task('build-fast', function(cb){
+	withoutImgOperations = true;	
 	var seq = ['clean', ['generate-index', 'copy-img', 'copy-font', 'copy-css', 'copy-js', 'copy-php','copy-cfg'], cb];
 	
 	sequence.apply(sequence, seq);
