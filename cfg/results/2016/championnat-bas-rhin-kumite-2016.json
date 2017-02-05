@@ -1,0 +1,85 @@
+{
+    "contestName": "Championnat Bas Rhin Kumite",
+    "individualResults": {
+        "MINIMES FEMININES -55kg": [
+            {
+                "rank": 2,
+                "lastName": "Ott",
+                "firstName": "Sarah",
+                "category": "MINIMES FEMININES -55kg",
+                "contest": "Championnat Bas Rhin Kumite"
+            }
+        ],
+        "MINIMES FEMININES +55kg": [
+            {
+                "rank": 1,
+                "lastName": "Hmae",
+                "firstName": "Marie",
+                "category": "MINIMES FEMININES +55kg",
+                "contest": "Championnat Bas Rhin Kumite"
+            }
+        ],
+        "MINIMES MASCULINS -40kg": [
+            {
+                "rank": 1,
+                "lastName": "Ilic",
+                "firstName": "Darko",
+                "category": "MINIMES MASCULINS -40kg",
+                "contest": "Championnat Bas Rhin Kumite"
+            },
+            {
+                "rank": 2,
+                "lastName": "Kaiser",
+                "firstName": "Lukas",
+                "category": "MINIMES MASCULINS -40kg",
+                "contest": "Championnat Bas Rhin Kumite"
+            }
+        ],
+        "MINIMES MASCULINS +65kg": [
+            {
+                "rank": 2,
+                "lastName": "FRITSCH",
+                "firstName": "THEO",
+                "category": "MINIMES MASCULINS +65",
+                "contest": "Championnat Bas Rhin Kumite"
+            }
+        ],
+        "CADETS FEMININES -47kg": [
+            {
+                "rank": 1,
+                "lastName": "BALTAZAR",
+                "firstName": "CLAUDIA",
+                "category": "CADETS FEMININES -47kg",
+                "contest": "Championnat Bas Rhin Kumite"
+            }
+        ],
+        "CADETS MASCULINS -70kg": [
+            {
+                "rank": 3,
+                "lastName": "DULAIT",
+                "firstName": "ARA",
+                "category": "CADETS MASCULINS -70kg",
+                "contest": "Championnat Bas Rhin Kumite"
+            }
+        ],
+        "JUNIORS MASCULINS +76kg": [
+            {
+                "rank": 1,
+                "lastName": "REGINALD JEYARAY",
+                "firstName": "DANIEL",
+                "category": "JUNIORS MASCULINS +76kg",
+                "contest": "Championnat Bas Rhin Kumite"
+            }
+        ],
+        "SENIORS MASCULINS -75kg": [
+            {
+                "rank": 3,
+                "lastName": "NUSSBAUM",
+                "firstName": "DIDIER",
+                "category": "SENIORS MASCULINS -75kg",
+                "contest": "Championnat Bas Rhin Kumite"
+            }
+        ]
+    },
+    "teamResults": {}
+}
