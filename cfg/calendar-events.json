@@ -212,12 +212,6 @@
                     "title": "Inter régions Kumité",
                     "location": "Pup/Benj/Min/Cad/Jun/Sén, Pont à Mousson"
                 },
-                {
-                    "date": 15,
-                    "classname": "coupe",
-                    "title": "Challenge Berger Kata/Kumité",
-                    "location": "Poussins à Benjamins, Plobsheim"
-                },
 				{
                     "date": 18,
                     "classname": "championnat",
@@ -280,6 +274,12 @@
                     "classname": "championnat",
                     "title": "Championnat France Kumité Minimes",
                     "location": "Sélestat"
+                },
+                {
+                    "date": 14,
+                    "classname": "coupe",
+                    "title": "Challenge Berger Kata/Kumité",
+                    "location": "Poussins à Benjamins, Plobsheim"
                 },
                 {
                     "date": 28,

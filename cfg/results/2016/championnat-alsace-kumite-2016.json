@@ -1,0 +1,60 @@
+{
+    "contestName": "Championnat d'Alsace Kumité",
+    "individualResults": {
+        "MINIMES FEMININES +55kg": [
+            {
+                "rank": 1,
+                "lastName": "HMAE",
+                "firstName": "MARIE",
+                "category": "MINIMES FEMININES +55kg",
+                "contest": "Championnat d'Alsace Kumité"
+            }
+        ],
+        "MINIMES MASCULINS -40kg": [
+            {
+                "rank": 5,
+                "lastName": "ILIC",
+                "firstName": "DARKO",
+                "category": "MINIMES MASCULINS -40kg",
+                "contest": "Championnat d'Alsace Kumité"
+            }
+        ],
+        "MINIMES MASCULINS -45kg": [
+            {
+                "rank": 3,
+                "lastName": "MEHDI",
+                "firstName": "IMRAM",
+                "category": "MINIMES MASCULINS -45kg",
+                "contest": "Championnat d'Alsace Kumité"
+            }
+        ],
+        "MINIMES MASCULINS +65kg": [
+            {
+                "rank": 2,
+                "lastName": "FRITSCH",
+                "firstName": "THEO",
+                "category": "MINIMES MASCULINS +65kg",
+                "contest": "Championnat d'Alsace Kumité"
+            }
+        ],
+        "CADETS MASCULINS -70kg": [
+            {
+                "rank": 3,
+                "lastName": "DULAIT",
+                "firstName": "ARA",
+                "category": "MINIMES MASCULINS -70kg",
+                "contest": "Championnat d'Alsace Kumité"
+            }
+        ],
+        "JUNIORS MASCULINS +76kg": [
+            {
+                "rank": 1,
+                "lastName": "REGINALD JEYARAY",
+                "firstName": "DANIEL",
+                "category": "JUNIORS MASCULINS +76kg",
+                "contest": "Championnat d'Alsace Kumité"
+            }
+        ]
+    },
+    "teamResults": {}
+}

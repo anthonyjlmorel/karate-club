@@ -1,0 +1,49 @@
+{
+    "contestName": "Championnat d'Alsace Kata",
+    "individualResults": {
+        "MINIMES FEMININES": [
+            {
+                "rank": 2,
+                "lastName": "HMAE",
+                "firstName": "MARIE",
+                "category": "MINIMES FEMININES",
+                "contest": "Championnat d'Alsace Kata"
+            },
+            {
+                "rank": 3,
+                "lastName": "LIENHARD",
+                "firstName": "SARAH",
+                "category": "MINIMES FEMININES",
+                "contest": "Championnat d'Alsace Kata"
+            }
+        ],
+        "CADETS FEMININES": [
+            {
+                "rank": 5,
+                "lastName": "MELINE",
+                "firstName": "LUCILE",
+                "category": "CADETS FEMININES",
+                "contest": "Championnat d'Alsace Kata"
+            }
+        ],
+        "JUNIORS MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "REGINALD JEYARAY",
+                "firstName": "DANIEL",
+                "category": "JUNIORS MASCULINS",
+                "contest": "Championnat d'Alsace Kata"
+            }
+        ],
+        "SENIORS FEMININES": [
+            {
+                "rank": 2,
+                "lastName": "SAULDOIS",
+                "firstName": "LAURA",
+                "category": "SENIORS FEMININES",
+                "contest": "Championnat d'Alsace Kata"
+            }
+        ]
+    },
+    "teamResults": {}
+}

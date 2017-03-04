@@ -169,5 +169,5 @@ gulp.task('build-release', function(cb){
 });
 
 gulp.task('watch', function(){
-	gulp.watch(['./**/*', '!./node_modules/**'], ['build']);
+	gulp.watch(['./**/*', '!./node_modules/**'], ['build-fast']);
 });

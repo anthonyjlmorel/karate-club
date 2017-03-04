@@ -1,0 +1,24 @@
+{
+    "contestName": "Open Alsace Elite Kata",
+    "individualResults": {
+        "POUSSINS FEMININES": [
+            {
+                "rank": 2,
+                "lastName": "EL HAOUARI",
+                "firstName": "AMAL",
+                "category": "POUSSINS FEMININES",
+                "contest": "Open Alsace Elite Kata"
+            }
+        ],
+        "POUSSINS MASCULINS": [
+            {
+                "rank": 2,
+                "lastName": "HMAE",
+                "firstName": "ALEXANDRE",
+                "category": "POUSSINS MASCULINS",
+                "contest": "Open Alsace Elite Kata"
+            }
+        ]
+    },
+    "teamResults": {}
+}

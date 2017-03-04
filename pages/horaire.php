@@ -18,11 +18,12 @@
 			</td>
 		</tr>
 		<tr>
+			<td>20h15 à 21h45</td>
 			<td>
 				Cours de Krav Maga
 				Tous niveaux
 			</td>
-			<td>20h15 à 21h45</td>
+			
 		</tr>
 		<tr>
 			<td colspan="2">
@@ -95,6 +96,13 @@
 			<td>20H15 à 21H45</td>
 			<td>
 				Adultes (14 ans +)
+			</td>
+		</tr>
+		<tr>
+			<td>20h15 à 21h45</td>
+			<td>
+				Cours de Krav Maga
+				Tous niveaux
 			</td>
 		</tr>
 	</tbody>
