@@ -1,0 +1,24 @@
+{
+    "contestName": "Championnat Grand Est Kumite",
+    "individualResults": {
+        "PUPILLES FEMININES -25kg": [
+            {
+                "rank": 2,
+                "lastName": "POH",
+                "firstName": "Léa",
+                "category": "PUPILLES FEMININES -25kg",
+                "contest": "Open Grand Est Kumite"
+            }
+        ],
+        "MINIMES FEMININES +55kg": [
+            {
+                "rank": 3,
+                "lastName": "HMAE",
+                "firstName": "Marie",
+                "category": "MINIMES FEMININES +55kg",
+                "contest": "Open Grand Est Kumite"
+            }
+        ]
+    },
+    "teamResults": {}
+}

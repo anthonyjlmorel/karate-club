@@ -1,0 +1,33 @@
+{
+    "contestName": "Coupe Honneur Kumite",
+    "individualResults": {
+        "PUPILLES MASCULINS -25kg": [
+            {
+                "rank": 3,
+                "lastName": "DEMMOUCHE",
+                "firstName": "ABDELLAH",
+                "category": "PUPILLES MASCULINS -25kg",
+                "contest": "Coupe Honneur Kumite"
+            }
+        ],
+        "BENJAMINS FEMININES -35kg": [
+            {
+                "rank": 3,
+                "lastName": "DEMMOUCHE",
+                "firstName": "FATNA",
+                "category": "BENJAMINS FEMININES -35kg",
+                "contest": "Coupe Honneur Kumite"
+            }
+        ],
+        "BENJAMINS FEMININES -40kg": [
+            {
+                "rank": 2,
+                "lastName": "GAHR",
+                "firstName": "SARAH",
+                "category": "BENJAMINS FEMININES -40kg",
+                "contest": "Coupe Honneur Kumite"
+            }
+        ]
+    },
+    "teamResults": {}
+}

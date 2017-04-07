@@ -236,6 +236,28 @@
             "month": 4,
             "events": [
                 {
+                    "date": 8,
+                    "classname": "stage",
+                    "title": "Stage Sport Santé",
+                    "location": "Strasbourg",
+					"links":{
+						"leaflet": "",
+						"photos": "",
+						"register": "pages/events/stage-sport-sante.pdf"
+					}
+                },
+                {
+                    "date": 8,
+                    "classname": "formation",
+                    "title": "Stage Karaté Sénior",
+                    "location": "Strasbourg",
+					"links":{
+						"leaflet": "",
+						"photos": "",
+						"register": "pages/events/stage-senior.pdf"
+					}
+                },
+                {
                     "date": 14,
                     "classname": "formation",
                     "title": "Formation AFA",

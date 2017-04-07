@@ -1,0 +1,24 @@
+{
+    "contestName": "Coupe du Bas-Rhin Vétérans Kata",
+    "individualResults": {
+        "VETERANS 1 MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "HMAE",
+                "firstName": "Yannick",
+                "category": "VETERANS 1 MASCULINS",
+                "contest": "Coupe du Bas-Rhin Vétérans Kata"
+            }
+        ],
+		"VETERANS 2 MASCULINS": [
+            {
+                "rank": 2,
+                "lastName": "JUNG",
+                "firstName": "JEAN LOUIS",
+                "category": "VETERANS 2 MASCULINS",
+                "contest": "Coupe du Bas-Rhin Vétérans Kata"
+            }
+        ]
+    },
+    "teamResults": {}
+}

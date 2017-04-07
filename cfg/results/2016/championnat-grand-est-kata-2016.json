@@ -1,0 +1,33 @@
+{
+    "contestName": "Championnat Grand Est Kata",
+    "individualResults": {
+        "MINIMES FEMININES": [
+            {
+                "rank": 3,
+                "lastName": "HMAE",
+                "firstName": "Marie",
+                "category": "MINIMES FEMININES",
+                "contest": "Championnat Grand Est Kata"
+            }
+        ],
+        "SENIORS FEMININES": [
+            {
+                "rank": 3,
+                "lastName": "SAULDOIS",
+                "firstName": "Laura",
+                "category": "SENIORS FEMININES",
+                "contest": "Championnat Grand Est Kata"
+            }
+        ],
+        "BENJAMINS FEMININES": [
+            {
+                "rank": 7,
+                "lastName": "GAHR",
+                "firstName": "Sarah",
+                "category": "BENJAMINS FEMININES",
+                "contest": "Championnat Grand Est Kata"
+            }
+        ]
+    },
+    "teamResults": {}
+}
