@@ -297,6 +297,28 @@
                     "title": "Championnat France Kumité Minimes",
                     "location": "Sélestat"
                 },
+				{
+                    "date": 12,
+                    "classname": "championnat",
+                    "title": "Stage Karaté Défense avec Sensei Boucabeille",
+                    "location": "Gymnase Leclerc, Schiltigheim",
+					"links":{
+						"leaflet": "",
+						"photos": "",
+						"register": "pages/events/stage-boucabeille.jpg"
+					}
+                },
+				{
+                    "date": 13,
+                    "classname": "championnat",
+                    "title": "Stage Karaté Défense avec Sensei Boucabeille",
+                    "location": "Gymnase Leclerc, Schiltigheim",
+					"links":{
+						"leaflet": "",
+						"photos": "",
+						"register": "pages/events/stage-boucabeille.jpg"
+					}
+                },
                 {
                     "date": 14,
                     "classname": "coupe",

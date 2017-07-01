@@ -53,7 +53,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Karaté Club Schiltigheim">
+    <meta name="description" content="Club de Karaté et de Krav Maga à Schiltigheim">
+	<meta name="robots" content="index,follow">
     <meta name="author" content="Anthony Morel">
 
     <title>Karat&eacute; Club L&eacute;o Lagrange</title>
