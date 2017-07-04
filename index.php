@@ -53,7 +53,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Club de Karaté et de Krav Maga à Schiltigheim">
+    <meta name="Description" content="Club de Karaté et de Krav Maga à Schiltigheim">
+	<meta name="Keywords" content="arts martiaux, schiltigheim, bischheim, leo lagrange, école de karate, karate, shotokan, entrainement, karate-do, sport, krav maga, self defense">
+
 	<meta name="robots" content="index,follow">
     <meta name="author" content="Anthony Morel">
 
