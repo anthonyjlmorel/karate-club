@@ -1,5 +1,5 @@
 {
-    "contestName": "Coupe Honneur Kumite",
+    "contestName": "Coupe Honneur Kumite Alsace",
     "individualResults": {
         "PUPILLES MASCULINS -25kg": [
             {
@@ -7,7 +7,7 @@
                 "lastName": "DEMMOUCHE",
                 "firstName": "ABDELLAH",
                 "category": "PUPILLES MASCULINS -25kg",
-                "contest": "Coupe Honneur Kumite"
+                "contest": "Coupe Honneur Kumite Alsace"
             }
         ],
         "BENJAMINS FEMININES -35kg": [
@@ -16,7 +16,7 @@
                 "lastName": "DEMMOUCHE",
                 "firstName": "FATNA",
                 "category": "BENJAMINS FEMININES -35kg",
-                "contest": "Coupe Honneur Kumite"
+                "contest": "Coupe Honneur Kumite Alsace"
             }
         ],
         "BENJAMINS FEMININES -40kg": [
@@ -25,7 +25,7 @@
                 "lastName": "GAHR",
                 "firstName": "SARAH",
                 "category": "BENJAMINS FEMININES -40kg",
-                "contest": "Coupe Honneur Kumite"
+                "contest": "Coupe Honneur Kumite Alsace"
             }
         ]
     },

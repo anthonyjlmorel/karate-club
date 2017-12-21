@@ -15,7 +15,7 @@
             {
                 "rank": 2,
                 "lastName": "Khouatra",
-                "firstName": "Soroya",
+                "firstName": "Soraya",
                 "category": "MINIMES FEMININES -50kg",
                 "contest": "Coupe du Bas-Rhin Kumite"
             }
@@ -32,7 +32,7 @@
         "MINIMES MASCULINS -35kg": [
             {
                 "rank": 2,
-                "lastName": "Ilil",
+                "lastName": "Ilic",
                 "firstName": "Darko",
                 "category": "MINIMES MASCULINS -35kg",
                 "contest": "Coupe du Bas-Rhin Kumite"
@@ -66,7 +66,7 @@
         "MINIMES MASCULINS -65kg": [
             {
                 "rank": 2,
-                "lastName": "Reginald Jeyaray",
+                "lastName": "REGINALD JEYARAY",
                 "firstName": "Kevin",
                 "category": "MINIMES MASCULINS -65kg",
                 "contest": "Coupe du Bas-Rhin Kumite"
@@ -74,7 +74,7 @@
             {
                 "rank": 3,
                 "lastName": "Fritsch",
-                "firstName": "Théo",
+                "firstName": "Theo",
                 "category": "MINIMES MASCULINS -65kg",
                 "contest": "Coupe du Bas-Rhin Kumite"
             }
@@ -98,7 +98,7 @@
         "CADETS -52kg": [
             {
                 "rank": 3,
-                "lastName": "Avanian",
+                "lastName": "Avanyan",
                 "firstName": "Youri",
                 "category": "CADETS -52kg",
                 "contest": "Coupe du Bas-Rhin Kumite"
@@ -107,7 +107,7 @@
         "JUNIORS MASCULINS +76kg": [
             {
                 "rank": 1,
-                "lastName": "Reginald Jeyaray",
+                "lastName": "REGINALD JEYARAY",
                 "firstName": "Daniel",
                 "category": "JUNIORS MASCULINS +76kg",
                 "contest": "Coupe du Bas-Rhin Kumite"

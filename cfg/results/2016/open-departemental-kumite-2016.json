@@ -24,7 +24,7 @@
         
         "POUSSINES -35kg": [
             {
-                "rank": 3,
+                "rank": 1,
                 "lastName": "GAHR",
                 "firstName": "RANIA",
                 "category": "POUSSINES -35kg",
@@ -62,7 +62,7 @@
             {
                 "rank": 1,
                 "lastName": "IDRISSI",
-                "firstName": "YANISS",
+                "firstName": "YANIS",
                 "category": "POUSSINS -40kg",
                 "contest": "Open Départemental Kumité"
 			}
@@ -98,7 +98,7 @@
 		],
         "PUPILLES MASCULINS -25kg": [
             {
-                "rank": 2,
+                "rank": 3,
                 "lastName": "DEMMOUCHE",
                 "firstName": "ABDELLAH",
                 "category": "PUPILLES MASCULINS -25kg",

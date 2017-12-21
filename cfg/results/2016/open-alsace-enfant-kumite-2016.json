@@ -2,11 +2,19 @@
     "contestName": "Open Alsace Enfant Kumite",
     "individualResults": {
 		"POUSSINS FEMININES -25kg": [
+        {
+            "rank": 2,
+            "lastName": "El Haouari",
+            "firstName": "Amal",
+            "category": "POUSSINS FEMININES -25kg",
+            "contest": "Open Alsace Enfant Kumite"
+        }],
+        "POUSSINS FEMININES -40kg": [
             {
-                "rank": 2,
-                "lastName": "El Haouari",
-                "firstName": "Amal",
-                "category": "POUSSINS FEMININES -25kg",
+                "rank": 1,
+                "lastName": "Gahr",
+                "firstName": "Rania",
+                "category": "POUSSINS FEMININES -40kg",
                 "contest": "Open Alsace Enfant Kumite"
             }],
         "PUPILLES FEMININES -25kg": [
@@ -38,7 +46,7 @@
             {
                 "rank": 1,
                 "lastName": "Idrissi",
-                "firstName": "Yaniss",
+                "firstName": "Yanis",
                 "category": "POUSSINS MASCULINS -45kg",
                 "contest": "Open Alsace Enfant Kumite"
             }

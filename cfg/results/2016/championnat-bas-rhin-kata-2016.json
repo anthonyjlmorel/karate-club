@@ -1,0 +1,95 @@
+{
+    "contestName": "Championnat Bas Rhin Kata",
+    "individualResults": {
+        "MINIMES FEMININES": [
+            {
+                "rank": 1,
+                "lastName": "HMAE",
+                "firstName": "Marie",
+                "category": "MINIMES FEMININES",
+                "contest": "Championnat Bas Rhin Kata"
+            },
+            {
+                "rank": 3,
+                "lastName": "LIENHARD",
+                "firstName": "Sarah",
+                "category": "MINIMES FEMININES",
+                "contest": "Championnat Bas Rhin Kata"
+            }
+        ],
+        "MINIMES MASCULINS": [
+            {
+                "rank": 2,
+                "lastName": "Le Moine",
+                "firstName": "Evan",
+                "category": "MINIMES MASCULINS",
+                "contest": "Championnat Bas Rhin Kata"
+            },
+            {
+                "rank": 3,
+                "lastName": "ILIC",
+                "firstName": "DARKO",
+                "category": "MINIMES MASCULINS",
+                "contest": "Championnat Bas Rhin Kata"
+            },
+            {
+                "rank": 3,
+                "lastName": "HERRBRECHT",
+                "firstName": "YANIS",
+                "category": "MINIMES MASCULINS",
+                "contest": "Championnat Bas Rhin Kata"
+            }
+        ],
+        "CADETS FEMININES": [
+            {
+                "rank": 2,
+                "lastName": "BALTAZAR",
+                "firstName": "Claudia",
+                "category": "CADETS FEMININES",
+                "contest": "Championnat Bas Rhin Kata"
+            },
+            {
+                "rank": 3,
+                "lastName": "Celik",
+                "firstName": "Esra",
+                "category": "CADETS FEMININES",
+                "contest": "Championnat Bas Rhin Kata"
+            }
+        ],
+        "CADETS MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "Avanyan",
+                "firstName": "Youri",
+                "category": "CADETS MASCULINS",
+                "contest": "Championnat Bas Rhin Kata"
+            },
+            {
+                "rank": 3,
+                "lastName": "Dulait",
+                "firstName": "Ara",
+                "category": "CADETS MASCULINS",
+                "contest": "Championnat Bas Rhin Kata"
+            }
+        ],
+        "JUNIORS MASCULINS": [
+            {
+                "rank": 1,
+                "lastName": "REGINALD JEYARAY",
+                "firstName": "Daniel",
+                "category": "JUNIORS MASCULINS",
+                "contest": "Championnat Bas Rhin Kata"
+            }
+        ],
+        "SENIORS FEMININES": [
+            {
+                "rank": 1,
+                "lastName": "Sauldois",
+                "firstName": "Laura",
+                "category": "SENIORS FEMININES",
+                "contest": "Championnat Bas Rhin Kata"
+            }
+        ]
+    },
+    "teamResults": {}
+}

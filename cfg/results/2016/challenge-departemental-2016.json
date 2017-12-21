@@ -63,7 +63,7 @@
         ],
         "POUSSINS FILLES POULE 2": [
             {
-                "rank": 2,
+                "rank": 1,
                 "lastName": "EL HAOUARI",
                 "firstName": "Amal",
                 "category": "POUSSINS FILLES POULE 2",
@@ -73,7 +73,7 @@
         "POUSSINS FILLES POULE 3": [
             {
                 "rank": 3,
-                "lastName": "GARH",
+                "lastName": "GAHR",
                 "firstName": "Rania",
                 "category": "POUSSINS FILLES POULE 3",
                 "contest": "CHALLENGE DEPARTEMENTAL"

@@ -1,61 +1,55 @@
 {
-    "year": 2016,
+    "year": 2017,
     "data": [
         {
             "month": 10,
             "events": [
                 {
-                    "date": 2,
+                    "date": 1,
                     "classname": "stage",
-                    "title": "Stage d'arbitrage",
+                    "title": "Stage d'arbitrage de ligue + coach",
                     "location": "Geispolsheim",
 					"links":{
-						"leaflet": "pages/events/stage-arbitrage.pdf",
+						"leaflet": "",
 						"photos": "",
 						"register": ""
 					}
                 },
-				{
-                    "date": 2,
+                {
+                    "date": 7,
                     "classname": "stage",
-                    "title": "Regroupement Haut Niveau",
+                    "title": "Stage Raphael Agayev",
+                    "location": "Selestat",
+					"links":{
+						"leaflet": "",
+						"photos": "",
+						"register": ""
+					}
+                },
+                {
+                    "date": 22,
+                    "classname": "coupe",
+                    "title": "Coupe d'Alsace Kata & Kumité, cadets à séniors",
+                    "location": "Geispolsheim",
+					"links":{
+						"leaflet": "",
+						"photos": "",
+						"register": ""
+					}
+                },
+                {
+                    "date": 28,
+                    "classname": "stage",
+                    "title": "Stage d'harmonisation juges des grades",
                     "location": "Geispolsheim"
                 },
                 {
-                    "date": 8,
+                    "date": 29,
                     "classname": "stage",
-                    "title": "Stage d'harmonisation juges des grades",
-                    "location": "Rixheim",
+                    "title": "Stage expert fédéral (stage à point)",
+                    "location": "Geispolsheim",
 					"links":{
-						"leaflet": "pages/events/stage-chouraki.pdf",
-						"photos": "",
-						"register": ""
-					}
-                },
-                {
-                    "date": 9,
-                    "classname": "stage",
-                    "title": "Stage Expert Fédéral (stage à points)",
-                    "location": "Rixheim",
-					"links":{
-						"leaflet": "pages/events/stage-points-chouraki.pdf",
-						"photos": "",
-						"register": ""
-					}
-                },
-                {
-                    "date": 15,
-                    "classname": "stage",
-                    "title": "Séminaire de ligue",
-                    "location": "Sélestat"
-                },
-                {
-                    "date": 16,
-                    "classname": "coupe",
-                    "title": "Coupe d'Alsace Kata/Kumité",
-                    "location": "Cadet à Sénior, Localisation à définir",
-					"links":{
-						"leaflet": "pages/events/coupe-alsace-octobre.pdf",
+						"leaflet": "",
 						"photos": "",
 						"register": ""
 					}
@@ -66,12 +60,29 @@
             "month": 11,
             "events": [
 				{
-                    "date": 6,
+                    "date": 5,
                     "classname": "coupe",
-                    "title": "Open d'Alsace PPBM Kata/Kumite",
+                    "title": "Open dde ligue Kata & Kumité Poussins à Minimes",
                     "location": "Riedisheim",
 					"links":{
-						"leaflet": "pages/events/open-ppbm.pdf",
+						"leaflet": "",
+						"photos": "",
+						"register": ""
+					}
+                },
+                {
+                    "date": 10,
+                    "classname": "formation",
+                    "title": "Assemblée Générale",
+                    "location": "Geispolsheim"
+                },
+                {
+                    "date": 19,
+                    "classname": "coupe",
+                    "title": "Coupe du Bas-Rhin",
+                    "location": "A définir",
+					"links":{
+						"leaflet": "",
 						"photos": "",
 						"register": ""
 					}
@@ -79,39 +90,66 @@
                 {
                     "date": 18,
                     "classname": "formation",
-                    "title": "Assemblée Générale",
-                    "location": "Plobsheim"
+                    "title": "Ecole jeunes arbitres",
+                    "location": "A définir",
+					"links":{
+						"leaflet": "",
+						"photos": "",
+						"register": ""
+					}
                 },
                 {
-                    "date": 20,
+                    "date": 18,
                     "classname": "coupe",
-                    "title": "Coupe du Bas-Rhin Kata/Kumité",
-                    "location": "Minime à Sénior, Obernai",
+                    "title": "Coupe de France Kumité Séniors Individuel",
+                    "location": "Lille",
 					"links":{
-						"leaflet": "pages/events/coupe-bas-rhin-20-novembre-2016.doc",
-						"photos": "2016/coupe-bas-rhin-kata-kumite",
+						"leaflet": "",
+						"photos": "",
+						"register": ""
+					}
+                },
+                {
+                    "date": 19,
+                    "classname": "coupe",
+                    "title": "Coupe de France Kumité Séniors Equipes",
+                    "location": "Lille",
+					"links":{
+						"leaflet": "",
+						"photos": "",
+						"register": ""
+					}
+                },
+                {
+                    "date": 25,
+                    "classname": "coupe",
+                    "title": "Coupe de France Kata Minimes à Séniors Individuel/Equipes",
+                    "location": "Lille",
+					"links":{
+						"leaflet": "",
+						"photos": "",
+						"register": ""
+					}
+                },
+                {
+                    "date": 25,
+                    "classname": "coupe",
+                    "title": "Open du Bas-Rhin Kata & Kumité Benjamins",
+                    "location": "Bischeim",
+					"links":{
+						"leaflet": "",
+						"photos": "",
 						"register": ""
 					}
                 },
                 {
                     "date": 26,
                     "classname": "coupe",
-                    "title": "Open Départemental Kata/Kumité",
-                    "location": "Benjamins, Bischheim",
+                    "title": "Open du Bas-Rhin Kata & Kumité Poussins à Pupilles",
+                    "location": "Bischeim",
 					"links":{
 						"leaflet": "",
-						"photos": "2016/open-departemental",
-						"register": ""
-					}
-                },
-                {
-                    "date": 27,
-                    "classname": "coupe",
-                    "title": "Open Départemental Kata/Kumité",
-                    "location": "Poussins et Pupilles, Bischheim",
-					"links":{
-						"leaflet": "",
-						"photos": "2016/open-departemental",
+						"photos": "",
 						"register": ""
 					}
                 }
@@ -121,16 +159,48 @@
             "month": 12,
             "events": [
                 {
-                    "date": 4,
+                    "date": 2,
+                    "classname": "coupe",
+                    "title": "Coupe de France Kumité Minimes",
+                    "location": "Paris"
+                },{
+                    "date": 3,
+                    "classname": "coupe",
+                    "title": "Coupe de France Kumité Minimes",
+                    "location": "Paris"
+                },{
+                    "date": 3,
                     "classname": "formation",
-                    "title": "Passage de Grade 1er et 2ieme Dan",
+                    "title": "Passage de Grades 1er et 2ieme Dan",
                     "location": "Geispolsheim"
                 },
 				{
-                    "date": 18,
+                    "date": 2,
                     "classname": "coupe",
-                    "title": "Open d'Alsace Enfants PPB Kumité Elite",
-                    "location": "Sélestat",
+                    "title": "Coupe de France Kumité Cadets-Juniors Individuel",
+                    "location": "Amiens",
+                    "links":{
+						"leaflet": "",
+						"photos": "",
+						"register": ""
+					}
+                },
+				{
+                    "date": 2,
+                    "classname": "coupe",
+                    "title": "Coupe de France Kumité Cadets-Juniors Equipes",
+                    "location": "Amiens",
+                    "links":{
+						"leaflet": "",
+						"photos": "",
+						"register": ""
+					}
+                },
+				{
+                    "date": 17,
+                    "classname": "coupe",
+                    "title": "Open d'Alsace Kumité Elite Poussins à Benjamins",
+                    "location": "A définir",
                     "links":{
 						"leaflet": "",
 						"photos": "",
@@ -143,22 +213,40 @@
             "month": 1,
             "events": [
 				{
-                    "date": 15,
+                    "date": 13,
                     "classname": "championnat",
-                    "title": "Championnat du Bas-Rhin Kata/Kumité",
-                    "location": "Minimes à Séniors, Schiltigheim"
+                    "title": "Open de France Kumité Cadets à Juniors",
+                    "location": "Amiens"
+                },
+                {
+                    "date": 14,
+                    "classname": "championnat",
+                    "title": "Open de France Kumité Espoirs",
+                    "location": "Amiens"
+                },
+                {
+                    "date": 14,
+                    "classname": "championnat",
+                    "title": "Open de France Kata Espoirs",
+                    "location": "Amiens"
+                },
+                {
+                    "date": 14,
+                    "classname": "championnat",
+                    "title": "Championnat du Bas-Rhin Kata/Kumité Minimes à Séniors",
+                    "location": "Plobsheim"
+                },
+                {
+                    "date": 20,
+                    "classname": "formation",
+                    "title": "Passage de Grade 3ieme Dan",
+                    "location": "A définir"
                 },
                 {
                     "date": 21,
-                    "classname": "formation",
-                    "title": "Passage de Grade 3ieme Dan + DA",
-                    "location": "Lingolsheim"
-                },
-                {
-                    "date": 22,
                     "classname": "coupe",
-                    "title": "Open d'Alsace Enfant PPB Kata Elite",
-                    "location": "Chatenois"
+                    "title": "Open Kata Elit Poussins à Benjamins",
+                    "location": "Obernai"
                 }
             ]
         },
@@ -166,34 +254,52 @@
             "month": 2,
             "events": [
                 {
-                    "date": 5,
-                    "classname": "championnat",
-                    "title": "Championnat Alsace Kata (minimes à séniors)/Kumite (séniors)",
-                    "location": "Cernay"
-                },
-				{
-                    "date": 11,
+                    "date": 3,
                     "classname": "formation",
-                    "title": "Passage de Grade 4ieme Dan",
-                    "location": "BURNHAUPT"
+                    "title": "Ecole Jeunes Arbitres",
+                    "location": "A définir"
                 },
 				{
-                    "date": 19,
+                    "date": 4,
                     "classname": "championnat",
-                    "title": "Championnat d'Alsace Kumité",
-                    "location": "Minimes, Cadets, Juniors, OBERNAI"
+                    "title": "Championnat Alsace Combats Minimes à Juniors",
+                    "location": "A définir"
+                },
+				{
+                    "date": 10,
+                    "classname": "coupe",
+                    "title": "Coupe de France Wado-Ryu",
+                    "location": "Schiltigheim"
+                },
+                {
+                    "date": 10,
+                    "classname": "formation",
+                    "title": "Passage de grades 4ieme Dan",
+                    "location": "A définir"
+                },
+                {
+                    "date": 11,
+                    "classname": "coupe",
+                    "title": "Open honneur Kata/Kumité",
+                    "location": "Obernai"
+                },
+                {
+                    "date": 11,
+                    "classname": "championnat",
+                    "title": "Championnat Alsace Kata Minimes à Séniors",
+                    "location": "Obernai"
+                },
+                {
+                    "date": 18,
+                    "classname": "formation",
+                    "title": "Passage de Grade 1er Dan",
+                    "location": "Geispolsheim"
                 },
                 {
                     "date": 25,
-                    "classname": "coupe",
-                    "title": "Coupe du Bas-Rhin Kata/Kumité",
-                    "location": "Vétérans, Geispolsheim"
-                },
-                {
-                    "date": 26,
-                    "classname": "formation",
-                    "title": "Passage de Grade 1ieme Dan",
-                    "location": "Geispolsheim"
+                    "classname": "championnat",
+                    "title": "Championnat Alsace Kumité Seniors",
+                    "location": "A définir"
                 }
             ]
         },
@@ -201,34 +307,58 @@
             "month": 3,
             "events": [
                 {
+                    "date": 3,
+                    "classname": "coupe",
+                    "title": "Coupe du Bas-Rhin Vétérans, Minimes à Séniors",
+                    "location": "Geispolsheim"
+                },
+				{
+                    "date": 3,
+                    "classname": "coupe",
+                    "title": "Open Inter Régions Kumité Pupilles à Benjamins",
+                    "location": "Pont à Mousson"
+                },
+				{
                     "date": 4,
                     "classname": "championnat",
-                    "title": "Inter régions Kumité",
-                    "location": "Pup/Benj/Min/Cad/Jun/Sén, Pont à Mousson"
+                    "title": "Inter régions Kumité Minimes à Séniors",
+                    "location": "Pont à Mousson"
                 },
 				{
-                    "date": 5,
-                    "classname": "championnat",
-                    "title": "Inter régions Kumité",
-                    "location": "Pup/Benj/Min/Cad/Jun/Sén, Pont à Mousson"
-                },
-				{
-                    "date": 18,
-                    "classname": "championnat",
-                    "title": "Inter régions Kata",
-                    "location": "Pup/Benj/Min/Cad/Jun/Sén, Pont à Mousson"
-                },
-				{
-                    "date": 19,
-                    "classname": "championnat",
-                    "title": "Inter régions Kata",
-                    "location": "Pup/Benj/Min/Cad/Jun/Sén, Pont à Mousson"
+                    "date": 10,
+                    "classname": "formation",
+                    "title": "Stage Hervé Delage",
+                    "location": "Schiltigheim"
                 },
                 {
-                    "date": 26,
+                    "date": 17,
+                    "classname": "championnat",
+                    "title": "Inter Régions Kata, Pupilles à Benjamins",
+                    "location": "Pont à Mousson"
+                },
+                {
+                    "date": 18,
+                    "classname": "championnat",
+                    "title": "Inter Régions Kata, Minimes à Séniors",
+                    "location": "Pont à Mousson"
+                },
+                {
+                    "date": 25,
+                    "classname": "formation",
+                    "title": "Stage Lupo",
+                    "location": "A Définir"
+                },
+                {
+                    "date": 25,
                     "classname": "coupe",
-                    "title": "Open d'Alsace Kata/Kumité Honneur",
-                    "location": "PPB, Cernay"
+                    "title": "Challenge Berger",
+                    "location": "A Définir"
+                },
+                {
+                    "date": 30,
+                    "classname": "formation",
+                    "title": "AFA",
+                    "location": "Plobsheim"
                 }
             ]
         },
@@ -236,48 +366,78 @@
             "month": 4,
             "events": [
                 {
-                    "date": 8,
-                    "classname": "stage",
-                    "title": "Stage Sport Santé",
-                    "location": "Strasbourg",
+                    "date": 7,
+                    "classname": "championnat",
+                    "title": "Championnat de France Kata Minimes à Séniors Individuel",
+                    "location": "Lille",
 					"links":{
 						"leaflet": "",
 						"photos": "",
-						"register": "pages/events/stage-sport-sante.pdf"
+						"register": ""
 					}
                 },
                 {
                     "date": 8,
-                    "classname": "formation",
-                    "title": "Stage Karaté Sénior",
-                    "location": "Strasbourg",
+                    "classname": "championnat",
+                    "title": "Championnat de France Kata Minimes à Séniors par Equipes",
+                    "location": "Lille",
 					"links":{
 						"leaflet": "",
 						"photos": "",
-						"register": "pages/events/stage-senior.pdf"
+						"register": ""
 					}
                 },
                 {
                     "date": 14,
-                    "classname": "formation",
-                    "title": "Formation AFA",
-                    "location": "Plobsheim",
+                    "classname": "championnat",
+                    "title": "Championnat de France Kumité Séniors Individuel",
+                    "location": "Paris",
 					"links":{
 						"leaflet": "",
 						"photos": "",
-						"register": "pages/events/formation-afa.pdf"
+						"register": ""
 					}
                 },
                 {
                     "date": 15,
-                    "classname": "coupe",
-                    "title": "Challenge Berger Départemental Kata/Kumité",
-                    "location": "Poussins à Benjamins, Plobsheim"
+                    "classname": "championnat",
+                    "title": "Championnat de France Kumité par Equipes",
+                    "location": "Paris"
                 },
                 {
-                    "date": 30,
+                    "date": 15,
+                    "classname": "coupe",
+                    "title": "Open Département Enfants",
+                    "location": "Bouxwiller"
+                },
+                {
+                    "date": 21,
+                    "classname": "coupe",
+                    "title": "Coupe de France Kata Pupilles à Benjamins",
+                    "location": "Paris"
+                },
+                {
+                    "date": 22,
                     "classname": "championnat",
-                    "title": "Championnat Alsace Vétéran et Body",
+                    "title": "Championnat de France Kumité Espoirs Individuel et par Equipes",
+                    "location": "Paris"
+                },
+                {
+                    "date": 28,
+                    "classname": "championnat",
+                    "title": "Championnat de France Kumité Cadets Individuel",
+                    "location": "A définir"
+                },
+                {
+                    "date": 29,
+                    "classname": "championnat",
+                    "title": "Championnat d'Alsace Kata & Kumité Vétérans",
+                    "location": "Ingersheim"
+                },
+                {
+                    "date": 29,
+                    "classname": "championnat",
+                    "title": "Championnat d'Alsace Body",
                     "location": "Ingersheim"
                 }
             ]
@@ -286,50 +446,74 @@
             "month": 5,
             "events": [
                 {
+                    "date": 5,
+                    "classname": "championnat",
+                    "title": "Championnat France Kumité Minimes",
+                    "location": "Paris"
+                },
+				{
                     "date": 6,
                     "classname": "championnat",
                     "title": "Championnat France Kumité Minimes",
-                    "location": "Sélestat"
-                },
-				{
-                    "date": 7,
-                    "classname": "championnat",
-                    "title": "Championnat France Kumité Minimes",
-                    "location": "Sélestat"
+                    "location": "Paris"
                 },
 				{
                     "date": 12,
                     "classname": "championnat",
-                    "title": "Stage Karaté Défense avec Sensei Boucabeille",
-                    "location": "Gymnase Leclerc, Schiltigheim",
-					"links":{
-						"leaflet": "",
-						"photos": "",
-						"register": "pages/events/stage-boucabeille.jpg"
-					}
+                    "title": "Championnat France Kumité Juniors Individuel",
+                    "location": "Paris"
                 },
 				{
                     "date": 13,
                     "classname": "championnat",
-                    "title": "Stage Karaté Défense avec Sensei Boucabeille",
-                    "location": "Gymnase Leclerc, Schiltigheim",
+                    "title": "Championnat France Kumité Juniors par Equipes",
+                    "location": "Paris"
+                },
+				{
+                    "date": 13,
+                    "classname": "coupe",
+                    "title": "Coupe intersport Benjamins à Minimes",
+                    "location": "Sélestat",
 					"links":{
 						"leaflet": "",
 						"photos": "",
-						"register": "pages/events/stage-boucabeille.jpg"
+						"register": ""
+					}
+                },
+				{
+                    "date": 19,
+                    "classname": "coupe",
+                    "title": "Coupe de France Kumité Pupilles",
+                    "location": "Paris",
+					"links":{
+						"leaflet": "",
+						"photos": "",
+						"register": ""
 					}
                 },
                 {
-                    "date": 14,
+                    "date": 20,
                     "classname": "coupe",
-                    "title": "Challenge Berger Kata/Kumité",
-                    "location": "Poussins à Benjamins, Plobsheim"
+                    "title": "Coupe de France Kumité Pupilles",
+                    "location": "Paris"
                 },
                 {
-                    "date": 28,
+                    "date": 26,
+                    "classname": "coupe",
+                    "title": "Coupe de France Kumité Benjamins",
+                    "location": "Arnas"
+                },
+                {
+                    "date": 27,
+                    "classname": "coupe",
+                    "title": "Coupe de France Kumité Benjamins",
+                    "location": "Arnas"
+                },
+                {
+                    "date": 27,
                     "classname": "formation",
-                    "title": "Passage de Grade 1er/2ieme Dan",
-                    "location": "Geispolsheim"
+                    "title": "Passage de Grades 1er et 2ieme Dan",
+                    "location": "Gespolsheim"
                 }
             ]
         },
@@ -337,22 +521,40 @@
             "month": 6,
             "events": [
 				{
-                    "date": 3,
+                    "date": 2,
                     "classname": "formation",
-                    "title": "Passage de Grade 3ieme Dan et DA",
+                    "title": "Passage de Grade 3ieme Dan",
                     "location": "BURNHAUPT"
                 },
                 {
-                    "date": 4,
-                    "classname": "coupe",
-                    "title": "Open Départemental Enfant",
-                    "location": "Poussins à Benjamins, Bouxwiller"
+                    "date": 9,
+                    "classname": "championnat",
+                    "title": "Championnat de France Kumité Vétérans",
+                    "location": "Paris"
                 },
 				{
-                    "date": 17,
+                    "date": 10,
+                    "classname": "championnat",
+                    "title": "Championnat de France Kata Vétérans",
+                    "location": "Paris"
+                },
+				{
+                    "date": 16,
                     "classname": "formation",
                     "title": "Passage de Grade 4ieme Dan",
-                    "location": "BURNHAUPT"
+                    "location": "Burnhaupt"
+                },
+				{
+                    "date": 23,
+                    "classname": "coupe",
+                    "title": "Coupe de France Corporations Kumité",
+                    "location": "Paris"
+                },
+				{
+                    "date": 24,
+                    "classname": "coupe",
+                    "title": "Coupe de France Corporations Kata",
+                    "location": "Paris"
                 }
             ]
         }
