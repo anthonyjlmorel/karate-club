@@ -467,3 +467,17 @@ body a:active{
 	right: 0;
 	top: 0;
 }
+
+@media print{
+	.years-selection, .main-header {
+		display: none;
+	}
+
+	.selected-results{
+		padding-left: 0!important;
+	}
+
+	.container.page{
+	    width: 100%;
+	}
+}
