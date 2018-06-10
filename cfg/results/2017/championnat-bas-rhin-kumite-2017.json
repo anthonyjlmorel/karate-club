@@ -1,0 +1,124 @@
+{
+    "contestName": "CHAMPIONNAT BAS RHIN KUMITE",
+    "nbr": 7,
+    "individualResults": {
+        "MINIMES MASCULINS -45kg" : [
+            {
+                "rank": 3,
+                "lastName": "GUET",
+                "firstName": "MAXIMILIEN",
+                "category": "MINIMES MASCULINS -45kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+			}
+        ],
+        "MINIMES FEMININES -35kg" : [
+            {
+                "rank": 3,
+                "lastName": "HERRBRECHT",
+                "firstName": "LAETITIA",
+                "category": "MINIMES FEMININES -35kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+			}
+        ],
+        "MINIMES FEMININES -50kg" : [
+            {
+                "rank": 3,
+                "lastName": "NAVARETTE",
+                "firstName": "Manon",
+                "category": "MINIMES FEMININES -50kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+			}
+        ],
+        "MINIMES FEMININES -55kg" : [
+            {
+                "rank": 3,
+                "lastName": "GUINCETRE",
+                "firstName": "Maeva",
+                "category": "MINIMES FEMININES -55kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+			}
+        ],
+        "CADET MASCULINS -52kg" : [
+            {
+                "rank": 3,
+                "lastName": "ILIC",
+                "firstName": "Darko",
+                "category": "CADET MASCULINS -52kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+			}
+        ],
+        "CADET MASCULINS -57kg" : [
+            {
+                "rank": 2,
+                "lastName": "AVANYAN",
+                "firstName": "Youri",
+                "category": "CADET MASCULINS -57kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+            },
+            {
+                "rank": 3,
+                "lastName": "HIMMI",
+                "firstName": "Khalil",
+                "category": "CADET MASCULINS -57kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+			}
+        ],
+        "CADET MASCULINS -70kg" : [
+            {
+                "rank": 1,
+                "lastName": "FRITSCH",
+                "firstName": "Theo",
+                "category": "CADET MASCULINS -70kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+            }
+        ],
+        "CADET FEMININES -47kg" : [
+            {
+                "rank": 3,
+                "lastName": "LIENHARD",
+                "firstName": "Sarah",
+                "category": "CADET FEMININES -47kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+            }
+        ],
+        "CADET FEMININES +54kg" : [
+            {
+                "rank": 1,
+                "lastName": "HMAE",
+                "firstName": "Marie",
+                "category": "CADET FEMININES +54kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+            }
+        ],
+        "JUNIOR MASCULINS -68kg" : [
+            {
+                "rank": 3,
+                "lastName": "SAID L'HADJ",
+                "firstName": "Mehdi",
+                "category": "JUNIOR MASCULINS -68kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+            }
+        ],
+        "JUNIOR FEMININES +59kg" : [
+            {
+                "rank": 2,
+                "lastName": "SOUFI SEPHORA",
+                "firstName": "Sarah",
+                "category": "JUNIOR FEMININES +59kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+            }
+        ],
+        "SENIOR FEMININES -55kg" : [
+            {
+                "rank": 1,
+                "lastName": "JEANNEROD",
+                "firstName": "Laura",
+                "category": "SENIOR FEMININES -55kg",
+                "contest": "CHAMPIONNAT BAS RHIN KUMITE"
+            }
+        ]
+    },
+    "teamResults": {
+        
+    }
+}

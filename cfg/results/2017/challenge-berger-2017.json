@@ -1,0 +1,282 @@
+{
+    "contestName": "CHALLENGE BERGER",
+    
+    "individualResults": {
+        "BENJAMINS FEMININES POULE 1": [
+            {
+                "rank": 1,
+                "lastName": "MAHJOUBI",
+                "firstName": "RANIA",
+                "category": "BENJAMINS FEMININES POULE 1",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 2,
+                "lastName": "MAHJOUBI",
+                "firstName": "MAJOULINE",
+                "category": "BENJAMINS FEMININES POULE 1",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 3,
+                "lastName": "REGINALD",
+                "firstName": "FLORA",
+                "category": "BENJAMINS FEMININES POULE 1",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "BENJAMINS FEMININES POULE 2": [
+            {
+                "rank": 1,
+                "lastName": "GAHR",
+                "firstName": "SARAH",
+                "category": "BENJAMINS FEMININES POULE 2",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 2,
+                "lastName": "POH",
+                "firstName": "Léa",
+                "category": "BENJAMINS FEMININES POULE 2",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 3,
+                "lastName": "DEMMOUCHE",
+                "firstName": "FATNA",
+                "category": "BENJAMINS FEMININES POULE 2",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 3,
+                "lastName": "EL GHILANI",
+                "firstName": "YASMINE",
+                "category": "BENJAMINS FEMININES POULE 2",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "BENJAMINS MASCULINS POULE 1": [
+            {
+                "rank": 1,
+                "lastName": "BOUSBIA LAHROUR",
+                "firstName": "ISSAM",
+                "category": "BENJAMINS MASCULINS POULE 1",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 3,
+                "lastName": "GALEN",
+                "firstName": "PIERRE",
+                "category": "BENJAMINS MASCULINS POULE 1",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "BENJAMINS MASCULINS POULE 2": [
+            {
+                "rank": 1,
+                "lastName": "CAMARA",
+                "firstName": "JONAS",
+                "category": "BENJAMINS MASCULINS POULE 2",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 3,
+                "lastName": "GUT",
+                "firstName": "VALENTIN",
+                "category": "BENJAMINS MASCULINS POULE 2",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "POUSSINS FEMININES POULE 1": [
+            {
+                "rank": 1,
+                "lastName": "PRUM HARMAND",
+                "firstName": "SACHA",
+                "category": "POUSSINS FEMININES POULE 1",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 2,
+                "lastName": "FREITAS",
+                "firstName": "LOUANE",
+                "category": "POUSSINS FEMININES POULE 2",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 3,
+                "lastName": "GAHR",
+                "firstName": "NADIA",
+                "category": "POUSSINS FEMININES POULE 2",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "POUSSINS FEMININES POULE 2": [
+            {
+                "rank": 3,
+                "lastName": "MAHJOUBI",
+                "firstName": "OUIAME",
+                "category": "POUSSINS FEMININES POULE 2",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 2,
+                "lastName": "LAGHMOUCHE",
+                "firstName": "MARWA",
+                "category": "POUSSINS FEMININES POULE 2",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "POUSSINS MASCULINS POULE 1": [
+            {
+                "rank": 2,
+                "lastName": "WOLFF",
+                "firstName": "NATHAN",
+                "category": "POUSSINS MASCULINS POULE 1",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 1,
+                "lastName": "MEZENER",
+                "firstName": "AMINE",
+                "category": "POUSSINS MASCULINS POULE 1",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 3,
+                "lastName": "POTAY",
+                "firstName": "EVAN",
+                "category": "POUSSINS MASCULINS POULE 1",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "POUSSINS MASCULINS POULE 2": [
+            {
+                "rank": 2,
+                "lastName": "BOUSBIA LAHROUR",
+                "firstName": "SAMI",
+                "category": "POUSSINS MASCULINS POULE 2",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 1,
+                "lastName": "FREITAS",
+                "firstName": "KYLLIAN",
+                "category": "POUSSINS MASCULINS POULE 2",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "POUSSINS MASCULINS POULE 3": [
+            {
+                "rank": 2,
+                "lastName": "GALEN",
+                "firstName": "MATHIS",
+                "category": "POUSSINS MASCULINS POULE 3",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "POUSSINS MASCULINS POULE 5": [
+            {
+                "rank": 3,
+                "lastName": "BOUSBIA LAHROUR",
+                "firstName": "RIDA",
+                "category": "POUSSINS MASCULINS POULE 5",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "PUPILLES FEMININES POULE 1": [
+            {
+                "rank": 2,
+                "lastName": "ERCIYES",
+                "firstName": "HATICE",
+                "category": "PUPILLES FEMININES POULE 1",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 1,
+                "lastName": "CAMARA",
+                "firstName": "ANISSA",
+                "category": "PUPILLES FEMININES POULE 1",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "PUPILLES FEMININES POULE 2": [
+            {
+                "rank": 3,
+                "lastName": "BENACHIR",
+                "firstName": "KAWTAR",
+                "category": "PUPILLES FEMININES POULE 2",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 1,
+                "lastName": "EL HAOUARI",
+                "firstName": "AMAL",
+                "category": "PUPILLES FEMININES POULE 2",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 2,
+                "lastName": "BENACHIR",
+                "firstName": "KHIRA",
+                "category": "PUPILLES FEMININES POULE 2",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "PUPILLES FEMININES POULE 3": [
+            {
+                "rank": 2,
+                "lastName": "GAHR",
+                "firstName": "RANIA",
+                "category": "PUPILLES FEMININES POULE 3",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "PUPILLES MASCULINS POULE 1": [
+            {
+                "rank": 3,
+                "lastName": "SIAB",
+                "firstName": "AMAR",
+                "category": "PUPILLES MASCULINS POULE 1",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 2,
+                "lastName": "DEMMOUCHE",
+                "firstName": "RABAT",
+                "category": "PUPILLES MASCULINS POULE 1",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 1,
+                "lastName": "YEGIN",
+                "firstName": "METHAN",
+                "category": "PUPILLES MASCULINS POULE 1",
+                "contest": "CHALLENGE BERGER"
+            }
+        ],
+        "PUPILLES MASCULINS POULE 2": [
+            {
+                "rank": 3,
+                "lastName": "HMAE",
+                "firstName": "ALEXANDRE",
+                "category": "PUPILLES MASCULINS POULE 2",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 2,
+                "lastName": "EL HAOUARI",
+                "firstName": "SAMI",
+                "category": "PUPILLES MASCULINS POULE 2",
+                "contest": "CHALLENGE BERGER"
+            },
+            {
+                "rank": 3,
+                "lastName": "DEMMOUCHE",
+                "firstName": "ABDALLAH",
+                "category": "PUPILLES MASCULINS POULE 2",
+                "contest": "CHALLENGE BERGER"
+            }
+        ]
+    },
+    "teamResults": {}
+}

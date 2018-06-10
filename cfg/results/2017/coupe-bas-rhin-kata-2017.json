@@ -1,0 +1,235 @@
+{
+    "contestName": "COUPE DU BAS-RHIN KATA",
+    "nbr": 7,
+    "individualResults": {
+        "POUSSINS FEMININES": [
+            {
+                "rank": 1,
+                "lastName": "MAHJOUBI",
+                "firstName": "OUIAME",
+                "category": "POUSSINS FEMINIMES",
+                "contest": "COUPE DU BAS-RHIN KATA"
+            },
+            {
+                "rank": 2,
+                "lastName": "PRUM HARMAND",
+                "firstName": "SACHA",
+                "category": "POUSSINS FEMINIMES",
+                "contest": "COUPE DU BAS-RHIN KATA"
+            }
+        ],
+        "POUSSINS MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "FREITAS",
+                "firstName": "KYLLIAN",
+                "category": "POUSSINS MASCULINS",
+                "contest": "COUPE DU BAS-RHIN KATA"
+            }
+        ],
+        "PUPILLES MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "DSIURDSI",
+                "firstName": "ROMAIN",
+                "category": "PUPILLES MASCULINS",
+                "contest": "COUPE DU BAS-RHIN KATA"
+            },
+            {
+                "rank": 3,
+                "lastName": "HMAE",
+                "firstName": "ALEXANDRE",
+                "category": "PUPILLES MASCULINS",
+                "contest": "COUPE DU BAS-RHIN KATA"
+            }
+        ],
+        "BENJAMINS FEMININES": [
+            {
+                "rank": 3,
+                "lastName": "GAHR",
+                "firstName": "Sarah",
+                "category": "BENJAMINS MASCULINS",
+                "contest": "COUPE DU BAS-RHIN KATA"
+            }
+        ],
+        "BENJAMINS MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "CELIK",
+                "firstName": "Arif",
+                "category": "BENJAMINS MASCULINS",
+                "contest": "COUPE DU BAS-RHIN KATA"
+            }
+        ]
+    },
+    "teamResults": {
+        "POUSSINS PUPILLES":[
+			{
+				"rank": 1,
+				"isTeam": true,
+				"category": "POUSSINS PUPILLES",
+				"contest": "COUPE DU BAS-RHIN KATA",
+				"fighters":[
+					{
+						"firstName": "Alexandre",
+						"lastName": "HMAE"
+					},{
+						"firstName": "Sami",
+						"lastName": "EL HAOUR"
+					},{
+						"firstName": "Amal",
+						"lastName": "EL HAOUARI"
+					}
+				]
+			},
+			{
+				"rank": 2,
+				"isTeam": true,
+				"category": "POUSSINS PUPILLES",
+				"contest": "COUPE DU BAS-RHIN KATA",
+				"fighters":[
+					{
+						"firstName": "KYLLIAN",
+						"lastName": "FREITAS"
+					},{
+						"firstName": "OUIAME",
+						"lastName": "MAHJOUBI"
+					},{
+						"firstName": "SACHA",
+						"lastName": "PRUM HARMAND"
+					}
+				]
+            },
+			{
+				"rank": 3,
+				"isTeam": true,
+				"category": "POUSSINS PUPILLES",
+				"contest": "COUPE DU BAS-RHIN KATA",
+				"fighters":[
+					{
+						"firstName": "ABDOULLAH",
+						"lastName": "CHAOUKI"
+					},{
+						"firstName": "KHIRA",
+						"lastName": "BENACHIR"
+					},{
+						"firstName": "KAWTAR",
+						"lastName": "BENACHIR"
+					}
+				]
+            },
+			{
+				"rank": 3,
+				"isTeam": true,
+				"category": "POUSSINS PUPILLES",
+				"contest": "COUPE DU BAS-RHIN KATA",
+				"fighters":[
+					{
+						"firstName": "INES",
+						"lastName": "BOCQUEL"
+					},{
+						"firstName": "CAMILLE",
+						"lastName": "OHLMANN"
+					},{
+						"firstName": "DINA",
+						"lastName": "EL HAOUARI"
+					}
+				]
+            }
+        ],
+        "BENJAMINS MINIMES FEMININES":[
+			{
+				"rank": 1,
+				"isTeam": true,
+				"category": "BENJAMINS MINIMES FEMININES",
+				"contest": "COUPE DU BAS-RHIN KATA",
+				"fighters":[
+					{
+						"firstName": "Shaima",
+						"lastName": "Kessai"
+					},{
+						"firstName": "Soraya",
+						"lastName": "Khouatra"
+					},{
+						"firstName": "Manon",
+						"lastName": "NAVARETTE"
+					}
+				]
+            },
+            {
+				"rank": 2,
+				"isTeam": true,
+				"category": "BENJAMINS MINIMES FEMININES",
+				"contest": "COUPE DU BAS-RHIN KATA",
+				"fighters":[
+					{
+						"firstName": "Majouline",
+						"lastName": "Mahjoubi"
+					},{
+						"firstName": "Rania",
+						"lastName": "Mahjoubi"
+					},{
+						"firstName": "Sarah",
+						"lastName": "Gahr"
+					}
+				]
+            },
+            {
+				"rank": 3,
+				"isTeam": true,
+				"category": "BENJAMINS MINIMES FEMININES",
+				"contest": "COUPE DU BAS-RHIN KATA",
+				"fighters":[
+					{
+						"firstName": "Laetitia",
+						"lastName": "Herrbrecht"
+					},{
+						"firstName": "Emilie",
+						"lastName": "Beziou"
+					},{
+						"firstName": "Assia",
+						"lastName": "Yakbah"
+					}
+				]
+            },
+            {
+				"rank": 3,
+				"isTeam": true,
+				"category": "BENJAMINS MINIMES FEMININES",
+				"contest": "COUPE DU BAS-RHIN KATA",
+				"fighters":[
+					{
+						"firstName": "Léa",
+						"lastName": "Poh"
+					},{
+						"firstName": "Fatna",
+						"lastName": "Demmouche"
+					},{
+						"firstName": "Anais",
+						"lastName": "Beziou"
+					}
+				]
+            }
+        ],
+        "BENJAMINS MINIMES MASCULINS":[
+			{
+				"rank": 1,
+				"isTeam": true,
+				"category": "BENJAMINS MINIMES MASCULINS",
+				"contest": "COUPE DU BAS-RHIN KATA",
+				"fighters":[
+					{
+						"firstName": "Hugo",
+						"lastName": "Dsiurdsi"
+					},{
+						"firstName": "Pierre",
+						"lastName": "Caro"
+					},{
+						"firstName": "Ismael",
+						"lastName": "Yakbah"
+					}
+				]
+            }
+        ]
+    }
+}

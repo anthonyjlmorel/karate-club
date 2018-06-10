@@ -1,0 +1,83 @@
+{
+    "contestName": "COUPE ALSACE KUMITE ELITE",
+    "nbr": 7,
+    "individualResults": {
+        
+        "POUSSINS FEMININES -20kg": [
+            {
+                "rank": 1,
+                "lastName": "PRUM HARMAND",
+                "firstName": "SACHA",
+                "category": "POUSSINS FEMININES -20kg",
+                "contest": "COUPE ALSACE KUMITE ELITE"
+			}
+        ],
+        "POUSSINS FEMININES -25kg": [
+            {
+                "rank": 3,
+                "lastName": "MAHJOUBI",
+                "firstName": "OUIAME",
+                "category": "POUSSINS FEMININES -25kg",
+                "contest": "COUPE ALSACE KUMITE ELITE"
+			}
+        ],
+
+        "POUSSINS MASCULINS -20kg": [
+            {
+                "rank": 3,
+                "lastName": "BOUZERDA",
+                "firstName": "AMIR",
+                "category": "POUSSINS MASCULINS -20kg",
+                "contest": "COUPE ALSACE KUMITE ELITE"
+			}
+        ],
+        "POUSSINS MASCULINS -40kg": [
+            {
+                "rank": 2,
+                "lastName": "BOUSBIA LAHROUR",
+                "firstName": "Rida",
+                "category": "POUSSINS MASCULINS -40kg",
+                "contest": "COUPE ALSACE KUMITE ELITE"
+			}
+        ],
+        "PUPILLES FEMININES -25kg": [
+            {
+                "rank": 3,
+                "lastName": "EL HAOUARI",
+                "firstName": "Amal",
+                "category": "PUPILLES FEMININES -25kg",
+                "contest": "COUPE ALSACE KUMITE ELITE"
+			}
+        ],
+        "PUPILLES FEMININES -35kg": [
+            {
+                "rank": 3,
+                "lastName": "EL HAOUARI",
+                "firstName": "Dina",
+                "category": "PUPILLES FEMININES -35kg",
+                "contest": "COUPE ALSACE KUMITE ELITE"
+			}
+        ],
+        "PUPILLES MASCULINS +50kg": [
+            {
+                "rank": 2,
+                "lastName": "AY",
+                "firstName": "ALITALHA",
+                "category": "PUPILLES MASCULINS +50kg",
+                "contest": "COUPE ALSACE KUMITE ELITE"
+			}
+        ],
+        "BENJAMINS FEMININES -30kg": [
+            {
+                "rank": 2,
+                "lastName": "POH",
+                "firstName": "Léa",
+                "category": "BENJAMINS FEMININES -30kg",
+                "contest": "COUPE ALSACE KUMITE ELITE"
+			}
+        ]
+    },
+    "teamResults": {
+        
+    }
+}

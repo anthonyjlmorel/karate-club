@@ -59,6 +59,25 @@
 			"22": "2016/challenge-berger-2016.json",
 			"23": "2016/coupe-alsace-veteran-kata-2016.json",
 			"24": "2016/challenge-departemental-2016.json"
+		},
+		"2017":{
+			"1": "2017/coupe-bas-rhin-kata-2017.json",
+			"2": "2017/coupe-bas-rhin-kumite-2017.json",
+			"3": "2017/coupe-france-wado-kumite-2017.json",
+			"4": "2017/coupe-alsace-kata-2017.json",
+			"5": "2017/coupe-alsace-kumite-2017.json",
+			"6": "2017/coupe-alsace-kumite-elite-2017.json",
+			"7": "2017/coupe-alsace-kata-elite-2017.json",
+			"8": "2017/championnat-alsace-kumite-2017.json",
+			"9": "2017/championnat-alsace-kata-2017.json",
+			"10": "2017/championnat-bas-rhin-kata-2017.json",
+			"11": "2017/championnat-bas-rhin-kumite-2017.json",
+			"12": "2017/championnat-alsace-kata-2017.json",
+			"13": "2017/championnat-alsace-kumite-2017.json",
+			"14": "2017/coupe-alsace-honneur-kumite-2017.json",
+			"15": "2017/coupe-alsace-honneur-kata-2017.json",
+			"16": "2017/challenge-departemental-2017.json",
+			"17": "2017/challenge-berger-2017.json"
 		}
 	} 
 }

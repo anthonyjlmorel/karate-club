@@ -1,0 +1,18 @@
+{
+    "contestName": "CHAMPIONNAT GRAND EST KATA",
+    "nbr": 7,
+    "individualResults": {
+        "CADET FEMININES" : [
+            {
+                "rank": 3,
+                "lastName": "HMAE",
+                "firstName": "Marie",
+                "category": "CADET FEMININES",
+                "contest": "CHAMPIONNAT GRAND EST KATA"
+			}
+        ]
+    },
+    "teamResults": {
+        
+    }
+}

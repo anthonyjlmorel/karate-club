@@ -1,0 +1,36 @@
+{
+    "contestName": "Coupe de France Wado",
+    "nbr": 7,
+    "individualResults": {
+        "MINIMES FEMININES +55kg": [
+            {
+                "rank": 1,
+                "lastName": "GUINCETRE",
+                "firstName": "MAEVA",
+                "category": "MINIMES FEMININES +55kg",
+                "contest": "Coupe de France Wado"
+			}
+        ],
+        "SENIORS FEMININES -55kg": [
+            {
+                "rank": 1,
+                "lastName": "JEANNEROD",
+                "firstName": "LAURA",
+                "category": "SENIORS FEMININES -55kg",
+                "contest": "Coupe de France Wado"
+			}
+		],
+        "JUNIORS MASCULINS +76kg": [
+            {
+                "rank": 1,
+                "lastName": "REGINALD",
+                "firstName": "DANIEL",
+                "category": "JUNIORS MASCULINS +76kg",
+                "contest": "Coupe de France Wado"
+			}
+		]
+    },
+    "teamResults": {
+        
+    }
+}

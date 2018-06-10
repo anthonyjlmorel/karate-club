@@ -1,0 +1,52 @@
+{
+    "contestName": "COUPE ALSACE KUMITE",
+    "nbr": 7,
+    "individualResults": {
+        "CADETS FEMININES +54kg": [
+            {
+                "rank": 2,
+                "lastName": "HMAE",
+                "firstName": "Marie",
+                "category": "CADETS FEMININES +54kg",
+                "contest": "COUPE ALSACE KUMITE"
+			}
+        ],
+        "CADETS MASCULINS -52kg": [
+            {
+                "rank": 3,
+                "lastName": "ILIC",
+                "firstName": "Darko",
+                "category": "CADETS MASCULINS -52kg",
+                "contest": "COUPE ALSACE KUMITE"
+			}
+		],
+        "CADETS MASCULINS +70kg": [
+            {
+                "rank": 1,
+                "lastName": "FRITSCH",
+                "firstName": "Theo",
+                "category": "CADETS MASCULINS +70kg",
+                "contest": "COUPE ALSACE KUMITE"
+            },
+            {
+                "rank": 2,
+                "lastName": "REGINALD",
+                "firstName": "Kevin",
+                "category": "CADETS MASCULINS +70kg",
+                "contest": "COUPE ALSACE KUMITE"
+			}
+        ],
+        "JUNIORS MASCULINS +76kg": [
+            {
+                "rank": 3,
+                "lastName": "REGINALD",
+                "firstName": "DANIEL",
+                "category": "JUNIORS MASCULINS +76kg",
+                "contest": "COUPE ALSACE KUMITE"
+			}
+		]
+    },
+    "teamResults": {
+        
+    }
+}

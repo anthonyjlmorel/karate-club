@@ -1,0 +1,36 @@
+{
+    "contestName": "CHAMPIONNAT GRAND-EST KUMITE",
+    "nbr": 7,
+    "individualResults": {
+        "MINIMES MASCULINS -45kg" : [
+            {
+                "rank": 5,
+                "lastName": "GUET",
+                "firstName": "MAXIMILIEN",
+                "category": "MINIMES MASCULINS -45kg",
+                "contest": "CHAMPIONNAT GRAND-EST KUMITE"
+			}
+        ],
+        "BENJAMINS MASCULINS -45kg" : [
+            {
+                "rank": 5,
+                "lastName": "CAMARA",
+                "firstName": "JONAS",
+                "category": "BENJAMINS MASCULINS -45kg",
+                "contest": "CHAMPIONNAT GRAND-EST KUMITE"
+			}
+        ],
+        "CADETS MASCULINS +70kg" : [
+            {
+                "rank": 3,
+                "lastName": "FRITSCH",
+                "firstName": "THEO",
+                "category": "CADETS MASCULINS +70kg",
+                "contest": "CHAMPIONNAT GRAND-EST KUMITE"
+			}
+        ]
+    },
+    "teamResults": {
+        
+    }
+}

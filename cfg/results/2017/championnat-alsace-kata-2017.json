@@ -1,0 +1,18 @@
+{
+    "contestName": "CHAMPIONNAT ALSACE KATA",
+    "nbr": 7,
+    "individualResults": {
+        "CADET FEMININES" : [
+            {
+                "rank": 2,
+                "lastName": "HMAE",
+                "firstName": "Marie",
+                "category": "CADET FEMININES",
+                "contest": "CHAMPIONNAT ALSACE KATA"
+			}
+        ]
+    },
+    "teamResults": {
+        
+    }
+}

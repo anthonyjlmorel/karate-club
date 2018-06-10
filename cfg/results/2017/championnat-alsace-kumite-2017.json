@@ -1,0 +1,36 @@
+{
+    "contestName": "CHAMPIONNAT ALSACE KUMITE",
+    "nbr": 7,
+    "individualResults": {
+        "MINIMES FEMININES +55kg" : [
+            {
+                "rank": 2,
+                "lastName": "GUINCETRE",
+                "firstName": "Maeva",
+                "category": "MINIMES FEMININES +55kg",
+                "contest": "COUPE ALSACE KUMITE"
+			}
+        ],
+        "CADET FEMININES +54kg" : [
+            {
+                "rank": 2,
+                "lastName": "HMAE",
+                "firstName": "Marie",
+                "category": "CADET FEMININES +54kg",
+                "contest": "COUPE ALSACE KUMITE"
+			}
+        ],
+        "CADET MASCULINS +70kg" : [
+            {
+                "rank": 1,
+                "lastName": "FRITSCH",
+                "firstName": "Theo",
+                "category": "CADET MASCULINS +70kg",
+                "contest": "COUPE ALSACE KUMITE"
+			}
+        ]
+    },
+    "teamResults": {
+        
+    }
+}

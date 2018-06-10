@@ -1,0 +1,58 @@
+{
+    "contestName": "COUPE ALSACE KATA ELITE",
+    "nbr": 7,
+    "individualResults": {
+        
+        "POUSSINS MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "FREITAS",
+                "firstName": "KYLLIAN",
+                "category": "POUSSINS MASCULINS",
+                "contest": "COUPE ALSACE KATA ELITE"
+			}
+        ]
+    },
+    "teamResults": {
+        "POUSSINS":[
+			{
+				"rank": 3,
+				"isTeam": true,
+				"category": "POUSSINS",
+				"contest": "COUPE ALSACE KATA ELITE",
+				"fighters":[
+					{
+						"firstName": "KYLLIAN",
+						"lastName": "FREITAS"
+					},{
+						"firstName": "OUIAME",
+						"lastName": "MAHJOUBI"
+					},{
+						"firstName": "SACHA",
+						"lastName": "PRUM HARMAND"
+					}
+				]
+            }
+        ],
+        "BENJAMINS MINIMES":[
+			{
+				"rank": 2,
+				"isTeam": true,
+				"category": "BENJAMINS MINIMES",
+				"contest": "COUPE ALSACE KATA ELITE",
+				"fighters":[
+					{
+						"firstName": "SARAH",
+						"lastName": "GAHR"
+					},{
+						"firstName": "RANIA",
+						"lastName": "MAHJOUBI"
+					},{
+						"firstName": "MAJOULINE",
+						"lastName": "MAHJOUBI"
+					}
+				]
+            }
+        ]
+    }
+}

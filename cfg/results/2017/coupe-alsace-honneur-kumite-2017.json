@@ -1,0 +1,52 @@
+{
+    "contestName": "COUPE ALSACE HONNEUR KUMITE",
+    "nbr": 7,
+    "individualResults": {
+        "PUPILLES FEMININES -25kg" : [
+            {
+                "rank": 1,
+                "lastName": "EL HAOUARI",
+                "firstName": "Amal",
+                "category": "PUPILLES FEMININES -25kg",
+                "contest": "COUPE ALSACE HONNEUR"
+			}
+        ],
+        "PUPILLES FEMININES -35kg" : [
+            {
+                "rank": 1,
+                "lastName": "EL HAOUARI",
+                "firstName": "Dina",
+                "category": "PUPILLES FEMININES -35kg",
+                "contest": "COUPE ALSACE HONNEUR"
+			}
+        ],
+        "BENJAMINS FEMININES -45kg" : [
+            {
+                "rank": 1,
+                "lastName": "MAHJOUBI",
+                "firstName": "Majouline",
+                "category": "BENJAMINS FEMININES -45kg",
+                "contest": "COUPE ALSACE HONNEUR"
+            },
+            {
+                "rank": 2,
+                "lastName": "GAHR",
+                "firstName": "Sarah",
+                "category": "BENJAMINS FEMININES -45kg",
+                "contest": "COUPE ALSACE HONNEUR"
+			}
+        ],
+        "BENJAMINS MASCULINS -45kg" : [
+            {
+                "rank": 3,
+                "lastName": "CAMARA",
+                "firstName": "Jonas",
+                "category": "BENJAMINS MASCULINS -45kg",
+                "contest": "COUPE ALSACE HONNEUR"
+			}
+        ]
+    },
+    "teamResults": {
+        
+    }
+}

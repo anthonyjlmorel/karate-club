@@ -1,0 +1,122 @@
+{
+    "contestName": "COUPE DU BAS-RHIN KUMITE",
+    "nbr": 7,
+    "individualResults": {
+        "POUSSINS MASCULINS -20kg": [
+            {
+                "rank": 3,
+                "lastName": "BOUZERDA",
+                "firstName": "AMIR",
+                "category": "POUSSINS MASCULINS -20kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+			},
+			{
+                "rank": 3,
+                "lastName": "BOUSBIA LAHROUR",
+                "firstName": "SAMI",
+                "category": "POUSSINS MASCULINS -20kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+            }
+		],
+		"POUSSINS MASCULINS -40kg": [
+            {
+                "rank": 1,
+                "lastName": "BOUSBIA LAHROUR",
+                "firstName": "RIDA",
+                "category": "POUSSINS MASCULINS -20kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+			}
+        ],
+		"POUSSINS FEMININES -20kg": [
+            {
+                "rank": 1,
+                "lastName": "PRUM HARMAND",
+                "firstName": "SACHA",
+                "category": "POUSSINS FEMININES -20kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+			}
+        ],
+		"PUPILLES MASCULINS -50kg": [
+            {
+                "rank": 2,
+                "lastName": "AY",
+                "firstName": "ALITALHA",
+                "category": "PUPILLES MASCULINS -50kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+			}
+        ],
+		"PUPILLES FEMININES -25kg": [
+            {
+                "rank": 1,
+                "lastName": "EL HAOUARI",
+                "firstName": "AMAL",
+                "category": "PUPILLES FEMININES -25kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+			}
+        ],
+		"PUPILLES FEMININES -30kg": [
+            {
+                "rank": 3,
+                "lastName": "EL HAOUARI",
+                "firstName": "Dina",
+                "category": "PUPILLES FEMININES -30kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+			}
+        ],
+		"PUPILLES FEMININES -35kg": [
+            {
+                "rank": 3,
+                "lastName": "OUTASS",
+                "firstName": "Rania",
+                "category": "PUPILLES FEMININES -35kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+			}
+        ],
+		"BENJAMINS MASCULINS -45kg": [
+            {
+                "rank": 3,
+                "lastName": "CAMARA",
+                "firstName": "Jonas",
+                "category": "BENJAMINS MASCULINS -45kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+			}
+        ],
+		"BENJAMINS FEMININES -30kg": [
+            {
+                "rank": 2,
+                "lastName": "POH",
+                "firstName": "Léa",
+                "category": "BENJAMINS FEMININES -30kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+            },
+            {
+                "rank": 3,
+                "lastName": "El Ghilani",
+                "firstName": "Yasmine",
+                "category": "BENJAMINS FEMININES -30kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+			}
+        ],
+		"BENJAMINS FEMININES -45kg": [
+            {
+                "rank": 3,
+                "lastName": "MAHJOUBI",
+                "firstName": "Majouline",
+                "category": "BENJAMINS FEMININES -45kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+            }
+        ],
+		"BENJAMINS FEMININES -50kg": [
+            {
+                "rank": 1,
+                "lastName": "MAHJOUBI",
+                "firstName": "Rania",
+                "category": "BENJAMINS FEMININES -50kg",
+                "contest": "COUPE DU BAS-RHIN KUMITE"
+            }
+        ]
+    },
+    "teamResults": {
+        
+    }
+}

@@ -1,0 +1,314 @@
+{
+    "contestName": "CHALLENGE DEPARTEMENTAL",
+    
+    "individualResults": {
+        "BABY FEMININES POULE A": [
+            {
+                "rank": 3,
+                "lastName": "FREITAS",
+                "firstName": "LOUANE",
+                "category": "BABY FEMININES POULE A",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "BABY FEMININES POULE B": [
+            {
+                "rank": 2,
+                "lastName": "GAHR",
+                "firstName": "Nadia",
+                "category": "BABY FEMININES POULE B",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "BABY MASCULINS POULE A": [
+            {
+                "rank": 3,
+                "lastName": "WOLFF",
+                "firstName": "NATHAN",
+                "category": "BABY MASCULINS POULE A",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "BABY MASCULINS POULE B": [
+            {
+                "rank": 3,
+                "lastName": "MEZENER",
+                "firstName": "AMINE",
+                "category": "BABY MASCULINS POULE B",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "BENJAMINS MASCULINS POULE B": [
+            {
+                "rank": 3,
+                "lastName": "CELIK",
+                "firstName": "ARIF",
+                "category": "BENJAMINS MASCULINS POULE B",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "BENJAMINS MASCULINS POULE C": [
+            {
+                "rank": 2,
+                "lastName": "GALEN",
+                "firstName": "PIERRE IWAB",
+                "category": "BENJAMINS MASCULINS POULE C",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "BENJAMINS MASCULINS POULE D": [
+            {
+                "rank": 3,
+                "lastName": "BOUSBIA LAHROUR",
+                "firstName": "ISSAM",
+                "category": "BENJAMINS MASCULINS POULE D",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "BENJAMINS MASCULINS POULE E": [
+            {
+                "rank": 2,
+                "lastName": "GUT",
+                "firstName": "VALENTIN",
+                "category": "BENJAMINS MASCULINS POULE E",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "BENJAMINS MASCULINS POULE F": [
+            {
+                "rank": 2,
+                "lastName": "CAMARA",
+                "firstName": "JONAS",
+                "category": "BENJAMINS MASCULINS POULE F",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "BENJAMINS MASCULINS POULE G": [
+            {
+                "rank": 1,
+                "lastName": "BAKLAN",
+                "firstName": "ARDA",
+                "category": "BENJAMINS MASCULINS POULE G",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "BENJAMINS FEMININES POULE A": [
+            {
+                "rank": 1,
+                "lastName": "POH",
+                "firstName": "Léa",
+                "category": "BENJAMINS FEMININES POULE A",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "BENJAMINS FEMININES POULE C": [
+            {
+                "rank": 1,
+                "lastName": "GAHR",
+                "firstName": "Sarah",
+                "category": "BENJAMINS FEMININES POULE C",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            },
+            {
+                "rank": 2,
+                "lastName": "MOURI",
+                "firstName": "MARIA",
+                "category": "BENJAMINS FEMININES POULE C",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "BENJAMINS FEMININES POULE E": [
+            {
+                "rank": 2,
+                "lastName": "MAHJOUBI",
+                "firstName": "RANIA",
+                "category": "BENJAMINS FEMININES POULE E",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "MINIMES FEMININES POULE B": [
+            {
+                "rank": 3,
+                "lastName": "GUINCETRE",
+                "firstName": "MAEVA",
+                "category": "MINIMES FEMININES POULE B",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "MINIMES MASCULINS POULE B": [
+            {
+                "rank": 1,
+                "lastName": "GUET",
+                "firstName": "MAXIMILIEN",
+                "category": "MINIMES MASCULINS POULE B",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "MINIMES MASCULINS POULE C": [
+            {
+                "rank": 2,
+                "lastName": "CELIK",
+                "firstName": "FATIH",
+                "category": "MINIMES MASCULINS POULE C",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "POUSSINS FEMININES POULE B": [
+            {
+                "rank": 3,
+                "lastName": "PRUM HARMAND",
+                "firstName": "SACHA",
+                "category": "POUSSINS FEMININES POULE B",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "POUSSINS FEMININES POULE D": [
+            {
+                "rank": 3,
+                "lastName": "MAHJOUBI",
+                "firstName": "OUIAME",
+                "category": "POUSSINS FEMININES POULE D",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "POUSSINS FEMININES POULE E": [
+            {
+                "rank": 2,
+                "lastName": "LAGMOUCH",
+                "firstName": "MARWA",
+                "category": "POUSSINS FEMININES POULE E",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "POUSSINS MASCULINS POULE A": [
+            {
+                "rank": 2,
+                "lastName": "BOUSBIA LAHROUR",
+                "firstName": "SAMI",
+                "category": "POUSSINS MASCULINS POULE A",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "POUSSINS MASCULINS POULE B": [
+            {
+                "rank": 3,
+                "lastName": "FREITAS",
+                "firstName": "KYLLIAN",
+                "category": "POUSSINS MASCULINS POULE B",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "POUSSINS MASCULINS POULE K": [
+            {
+                "rank": 1,
+                "lastName": "GALEN",
+                "firstName": "MATHIS",
+                "category": "POUSSINS MASCULINS POULE K",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            },
+            {
+                "rank": 2,
+                "lastName": "BOUSBIA LAHROUR",
+                "firstName": "RIDA",
+                "category": "POUSSINS MASCULINS POULE K",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "PUPILLES FEMININES POULE A": [
+            {
+                "rank": 1,
+                "lastName": "BENACHIR",
+                "firstName": "KHIRA",
+                "category": "PUPILLES FEMININES POULE A",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            },
+            {
+                "rank": 3,
+                "lastName": "CAMARA",
+                "firstName": "ANISSA",
+                "category": "PUPILLES FEMININES POULE A",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "PUPILLES FEMININES POULE B": [
+            {
+                "rank": 1,
+                "lastName": "BENACHIR",
+                "firstName": "KAWTAR",
+                "category": "PUPILLES FEMININES POULE B",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "PUPILLES FEMININES POULE C": [
+            {
+                "rank": 1,
+                "lastName": "EL HAOUARI",
+                "firstName": "AMAL",
+                "category": "PUPILLES FEMININES POULE C",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "PUPILLES FEMININES POULE D": [
+            {
+                "rank": 1,
+                "lastName": "EL HAOUARI",
+                "firstName": "DINA",
+                "category": "PUPILLES FEMININES POULE D",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "PUPILLES FEMININES POULE E": [
+            {
+                "rank": 1,
+                "lastName": "ERCIYES",
+                "firstName": "HATICE",
+                "category": "PUPILLES FEMININES POULE E",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            },
+            {
+                "rank": 2,
+                "lastName": "BULBUL MELEK",
+                "firstName": "SEVIL",
+                "category": "PUPILLES FEMININES POULE E",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "PUPILLES FEMININES POULE H": [
+            {
+                "rank": 2,
+                "lastName": "GAHR",
+                "firstName": "RANIA",
+                "category": "PUPILLES FEMININES POULE H",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "PUPILLES MASCULINS POULE C": [
+            {
+                "rank": 3,
+                "lastName": "EL HAOUARI",
+                "firstName": "SAMI",
+                "category": "PUPILLES MASCULINS POULE C",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "PUPILLES MASCULINS POULE F": [
+            {
+                "rank": 1,
+                "lastName": "HMAE",
+                "firstName": "ALEXANDRE",
+                "category": "PUPILLES MASCULINS POULE F",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ],
+        "PUPILLES MASCULINS POULE G": [
+            {
+                "rank": 1,
+                "lastName": "BAKLAN",
+                "firstName": "TOLGA",
+                "category": "PUPILLES MASCULINS POULE G",
+                "contest": "CHALLENGE DEPARTEMENTAL"
+            }
+        ]
+    },
+    "teamResults": {}
+}

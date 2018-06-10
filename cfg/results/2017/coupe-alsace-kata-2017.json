@@ -1,0 +1,34 @@
+{
+    "contestName": "COUPE ALSACE KATA",
+    "nbr": 7,
+    "individualResults": {
+        "CADETS FEMININES": [
+            {
+                "rank": 1,
+                "lastName": "HMAE",
+                "firstName": "Marie",
+                "category": "CADETS FEMINIMES",
+                "contest": "COUPE ALSACE KATA"
+            }
+		],
+		"CADETS MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "FRITSCH",
+                "firstName": "Theo",
+                "category": "CADETS MASCULINS",
+                "contest": "COUPE ALSACE KATA"
+			},
+			{
+                "rank": 3,
+                "lastName": "ILIC",
+                "firstName": "DARKO",
+                "category": "CADETS MASCULINS",
+                "contest": "COUPE ALSACE KATA"
+            }
+        ]
+    },
+    "teamResults": {
+        
+    }
+}

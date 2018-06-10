@@ -1,0 +1,34 @@
+{
+    "contestName": "COUPE ALSACE HONNEUR KATA",
+    "nbr": 7,
+    "individualResults": {
+        "PUPILLES MASCULINS" : [
+            {
+                "rank": 3,
+                "lastName": "HMAE",
+                "firstName": "Alexandre",
+                "category": "PUPILLES MASCULINS",
+                "contest": "COUPE ALSACE HONNEUR KATA"
+			}
+        ],
+        "BENJAMINS FEMININES" : [
+            {
+                "rank": 2,
+                "lastName": "GAHR",
+                "firstName": "Sarah",
+                "category": "BENJAMINS FEMININES",
+                "contest": "COUPE ALSACE HONNEUR KATA"
+            },
+            {
+                "rank": 3,
+                "lastName": "MAHJOUBI",
+                "firstName": "MAJOULINE",
+                "category": "BENJAMINS FEMININES",
+                "contest": "COUPE ALSACE HONNEUR KATA"
+			}
+        ]
+    },
+    "teamResults": {
+        
+    }
+}

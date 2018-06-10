@@ -1,0 +1,94 @@
+{
+    "contestName": "CHAMPIONNAT DU BAS-RHIN KATA",
+    "nbr": 7,
+    "individualResults": {
+        "MINIMES FEMININES": [
+            {
+                "rank": 3,
+                "lastName": "HERRBRECHT",
+                "firstName": "Laetitia",
+                "category": "POUSSINS FEMINIMES",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KATA"
+            }
+		],
+		"MINIMES MASCULINS": [
+            {
+                "rank": 3,
+                "lastName": "DSIURDSI",
+                "firstName": "Hugo",
+                "category": "MINIMES FEMINIMES",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KATA"
+            }
+        ],
+		"CADET FEMININES": [
+            {
+                "rank": 1,
+                "lastName": "HMAE",
+                "firstName": "Marie",
+                "category": "CADET FEMININES",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KATA"
+			},
+			{
+                "rank": 2,
+                "lastName": "BALTAZAR",
+                "firstName": "Claudia",
+                "category": "CADET FEMININES",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KATA"
+            }
+        ],
+		"CADET MASCULINS": [
+            {
+                "rank": 2,
+                "lastName": "ILIC",
+                "firstName": "Darko",
+                "category": "CADET MASCULINS",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KATA"
+			},
+			{
+                "rank": 3,
+                "lastName": "HIMMI",
+                "firstName": "KHALIL",
+                "category": "CADET MASCULINS",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KATA"
+            },
+			{
+                "rank": 3,
+                "lastName": "FRITSCH",
+                "firstName": "Theo",
+                "category": "CADET MASCULINS",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KATA"
+            }
+        ],
+		"JUNIOR FEMININES": [
+            {
+                "rank": 3,
+                "lastName": "SOUFI SEPHORA",
+                "firstName": "Sarah",
+                "category": "JUNIOR FEMINIMES",
+                "contest": "CHAMPIONNAT DU BAS-RHIN KATA"
+            }
+        ]
+    },
+    "teamResults": {
+        "CADETS JUNIORS":[
+			{
+				"rank": 1,
+				"isTeam": true,
+				"category": "CADETS JUNIORS",
+				"contest": "CHAMPIONNAT DU BAS-RHIN KATA",
+				"fighters":[
+					{
+						"firstName": "CLAUDIA",
+						"lastName": "BALTAZAR"
+					},{
+						"firstName": "SARAH",
+						"lastName": "LIENHARD"
+					},{
+						"firstName": "MARIE",
+						"lastName": "HMAE"
+					}
+				]
+            }
+        ]
+    }
+}
