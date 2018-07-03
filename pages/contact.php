@@ -27,14 +27,15 @@
 			<p class="text-muted">jacquyk at free.fr</p>
 		</div>
 		<div class="col-md-4">
-			<a target="_blank" href="<?php echo CLUB_ADDR; ?>">
+			
 			<span class="fa-stack fa-4x">
 				<i class="fa fa-circle fa-stack-2x text-primary"></i>
 				<i class="fa fa-location-arrow fa-stack-1x fa-inverse"></i>
 			</span>
-			</a>
+			
 			<h4 class="service-heading">En Venant</h4>
-			<p class="text-muted">Gymnase Leclerc à Schiltigheim</p>
+			<a target="_blank" href="<?php echo CLUB_ADDR_LECLERC; ?>"><p class="text-muted">Gymnase Leclerc à Schiltigheim</p></a>
+			<a target="_blank" href="<?php echo CLUB_ADDR_QUARTZ; ?>"><p class="text-muted">Dojo Quartz à Schiltigheim</p></a>
 		</div>
 		<div class="col-md-4">
 			<a href="tel:+330388834313">

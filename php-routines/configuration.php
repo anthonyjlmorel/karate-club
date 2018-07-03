@@ -25,4 +25,5 @@
 	
 	define('IMGS_ADDR',SITE_WEB_ADDR.'/img');
 	
-	define('CLUB_ADDR', "https://www.google.fr/maps/place/Gymnase+Leclerc/@48.6126229,7.7274584,15z/data=!4m2!3m1!1s0x0:0x51778061577ac8b0?sa=X&ved=0ahUKEwjnxsLoh8PKAhUCuBoKHdWPCrUQ_BIIfjAK");
+	define('CLUB_ADDR_LECLERC', "https://www.google.fr/maps/place/Gymnase+Leclerc/@48.6126229,7.7274584,15z/data=!4m2!3m1!1s0x0:0x51778061577ac8b0?sa=X&ved=0ahUKEwjnxsLoh8PKAhUCuBoKHdWPCrUQ_BIIfjAK");
+	define('CLUB_ADDR_QUARTZ', "https://www.google.fr/maps/place/Rue+Perle,+67300+Schiltigheim/@48.6012175,7.7435923,17.68z/data=!4m5!3m4!1s0x4796c86a27c47bd9:0xf2551dd20938fe78!8m2!3d48.6013157!4d7.7459528");
